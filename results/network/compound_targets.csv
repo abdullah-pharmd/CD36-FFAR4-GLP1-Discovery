@@ -1,0 +1,253 @@
+Compound,Target_Symbol
+TUG-891,FFAR4
+TUG-891,FFAR1
+TUG-891,PPARG
+Oleic acid,FFAR4
+Oleic acid,CD36
+Oleic acid,PPARA
+Oleic acid,PPARG
+Oleic acid,PPARD
+Oleic acid,FABP1
+Oleic acid,FABP4
+Oleic acid,SLC27A1
+Sulfo-N-succinimidyl oleate (SSO),CD36
+Sulfo-N-succinimidyl oleate (SSO),FABP4
+Sulfo-N-succinimidyl oleate (SSO),CPT1A
+Nitro-oleic acid (NO2-OA),CD36
+Nitro-oleic acid (NO2-OA),PPARG
+Nitro-oleic acid (NO2-OA),KEAP1
+Nitro-oleic acid (NO2-OA),NFE2L2
+Nitro-oleic acid (NO2-OA),NFKB1
+Nitro-oleic acid (NO2-OA),PTGS2
+Oleanolic acid,CD36
+Oleanolic acid,FFAR4
+Oleanolic acid,PPARA
+Oleanolic acid,PPARG
+Oleanolic acid,PRKAA1
+Oleanolic acid,AKT1
+Oleanolic acid,SIRT1
+Oleanolic acid,PTPN1
+Oleanolic acid,MAPK1
+Oleanolic acid,IL6
+Oleanolic acid,TNF
+Oleanolic acid,CASP3
+Oleanolic acid,EGFR
+Ursolic acid,CD36
+Ursolic acid,FFAR4
+Ursolic acid,PPARG
+Ursolic acid,PRKAA1
+Ursolic acid,FOXO1
+Ursolic acid,AKT1
+Ursolic acid,MTOR
+Ursolic acid,STAT3
+Ursolic acid,IL1B
+Ursolic acid,MAPK3
+Ursolic acid,BCL2
+Ursolic acid,ACSL4
+Corosolic acid,CD36
+Corosolic acid,FFAR4
+Corosolic acid,SLC2A4
+Corosolic acid,PTPN1
+Corosolic acid,PPARG
+Corosolic acid,AKT1
+Corosolic acid,PRKAA1
+Corosolic acid,MAPK8
+Corosolic acid,INSR
+Corosolic acid,PIK3CA
+Maslinic acid,CD36
+Maslinic acid,FFAR4
+Maslinic acid,PPARG
+Maslinic acid,NFKB1
+Maslinic acid,IL6
+Maslinic acid,TNF
+Maslinic acid,CASP3
+Maslinic acid,NOS2
+Maslinic acid,AKT1
+Maslinic acid,PRKAA1
+Betulinic acid,CD36
+Betulinic acid,FFAR4
+Betulinic acid,PRKAA1
+Betulinic acid,PPARG
+Betulinic acid,TOP1
+Betulinic acid,BCL2
+Betulinic acid,TP53
+Betulinic acid,AKT1
+Betulinic acid,NFKB1
+Asiatic acid,CD36
+Asiatic acid,FFAR4
+Asiatic acid,TGFB1
+Asiatic acid,SMAD3
+Asiatic acid,PPARG
+Asiatic acid,IL1B
+Asiatic acid,TNF
+Asiatic acid,AKT1
+Asiatic acid,COL1A1
+Asiatic acid,CASP3
+Glycyrrhetinic acid,CD36
+Glycyrrhetinic acid,FFAR4
+Glycyrrhetinic acid,HSD11B1
+Glycyrrhetinic acid,HSD11B2
+Glycyrrhetinic acid,NR3C1
+Glycyrrhetinic acid,PPARG
+Glycyrrhetinic acid,HMGB1
+Glycyrrhetinic acid,NFKB1
+Glycyrrhetinic acid,AKT1
+Gymnemic acid I,CD36
+Gymnemic acid I,FFAR4
+Gymnemic acid I,TAS1R2
+Gymnemic acid I,TAS1R3
+Gymnemic acid I,GCG
+Gymnemic acid I,GLP1R
+Gymnemic acid I,DPP4
+Gymnemic acid I,SLC2A2
+Gymnemic acid I,INS
+Gymnemagenin,CD36
+Gymnemagenin,FFAR4
+Gymnemagenin,PPARG
+Gymnemagenin,PRKAA1
+Gymnemagenin,AKT1
+Gymnemagenin,INS
+Gymnemagenin,INSR
+Gymnemagenin,SLC2A4
+Spilanthol,CD36
+Spilanthol,FFAR4
+Spilanthol,TRPV1
+Spilanthol,TRPA1
+Spilanthol,KCNK3
+Spilanthol,CNR2
+Spilanthol,PTGS2
+Spilanthol,NOS2
+Pellitorine,CD36
+Pellitorine,FFAR4
+Pellitorine,TRPV1
+Pellitorine,TRPA1
+Pellitorine,SLC6A4
+Pellitorine,PTGS1
+Pellitorine,PTGS2
+Pellitorine,CNR2
+Hydroxy-alpha-sanshool,CD36
+Hydroxy-alpha-sanshool,FFAR4
+Hydroxy-alpha-sanshool,KCNK3
+Hydroxy-alpha-sanshool,KCNK9
+Hydroxy-alpha-sanshool,TRPV1
+Hydroxy-alpha-sanshool,TRPA1
+Hydroxy-alpha-sanshool,SCN9A
+Piperine,CD36
+Piperine,FFAR4
+Piperine,TRPV1
+Piperine,TRPA1
+Piperine,CYP3A4
+Piperine,ABCB1
+Piperine,PPARG
+Piperine,PRKAA1
+Piperine,UCP1
+Capsaicin,CD36
+Capsaicin,FFAR4
+Capsaicin,TRPV1
+Capsaicin,GLP1R
+Capsaicin,PRKAA1
+Capsaicin,UCP1
+Capsaicin,PPARG
+Capsaicin,ADIPOQ
+Capsaicin,CALCA
+6-Gingerol,CD36
+6-Gingerol,FFAR4
+6-Gingerol,TRPV1
+6-Gingerol,PTGS2
+6-Gingerol,TNF
+6-Gingerol,IL6
+6-Gingerol,AKT1
+6-Gingerol,PRKAA1
+6-Gingerol,GLP1R
+6-Shogaol,CD36
+6-Shogaol,FFAR4
+6-Shogaol,PPARG
+6-Shogaol,NFKB1
+6-Shogaol,NFE2L2
+6-Shogaol,HMOX1
+6-Shogaol,PRKAA1
+6-Shogaol,PTGS2
+Curcumin,CD36
+Curcumin,FFAR4
+Curcumin,PPARG
+Curcumin,NFE2L2
+Curcumin,HMOX1
+Curcumin,AKT1
+Curcumin,TNF
+Curcumin,IL6
+Curcumin,STAT3
+Curcumin,PRKAA1
+Curcumin,DPP4
+Curcumin,ACSL4
+Berberine,CD36
+Berberine,FFAR4
+Berberine,PRKAA1
+Berberine,LDLR
+Berberine,PCSK9
+Berberine,DPP4
+Berberine,GLP1R
+Berberine,AKT1
+Berberine,MTOR
+Berberine,PPARA
+Chlorogenic acid,CD36
+Chlorogenic acid,FFAR4
+Chlorogenic acid,G6PC
+Chlorogenic acid,SLC2A2
+Chlorogenic acid,PPARG
+Chlorogenic acid,GLP1R
+Chlorogenic acid,PRKAA1
+Chlorogenic acid,AKT1
+Chlorogenic acid,TNF
+Quercetin,CD36
+Quercetin,FFAR4
+Quercetin,FFAR1
+Quercetin,DPP4
+Quercetin,AKT1
+Quercetin,PIK3CA
+Quercetin,TNF
+Quercetin,IL6
+Quercetin,PPARG
+Quercetin,SIRT1
+Quercetin,PRKAA1
+Resveratrol,CD36
+Resveratrol,FFAR4
+Resveratrol,SIRT1
+Resveratrol,PRKAA1
+Resveratrol,PPARGC1A
+Resveratrol,FOXO1
+Resveratrol,NFKB1
+Resveratrol,AKT1
+Resveratrol,MTOR
+Resveratrol,UCP1
+Naringenin,CD36
+Naringenin,FFAR4
+Naringenin,PPARA
+Naringenin,PPARG
+Naringenin,CYP1A2
+Naringenin,AKT1
+Naringenin,IL6
+Naringenin,STAT3
+Punicalagin,CD36
+Punicalagin,FFAR4
+Punicalagin,NFE2L2
+Punicalagin,TNF
+Punicalagin,IL1B
+Punicalagin,CASP3
+Punicalagin,NOS3
+Punicalagin,PPARG
+Fraxin,CD36
+Fraxin,FFAR4
+Fraxin,BCL2
+Fraxin,BAX
+Fraxin,SOD2
+Fraxin,CAT
+Fraxin,GPX1
+Fraxin,AKT1
+Phloretin,CD36
+Phloretin,FFAR4
+Phloretin,SLC2A2
+Phloretin,PPARG
+Phloretin,AKT1
+Phloretin,MAPK1
+Phloretin,GLP1R
+Phloretin,DPP4

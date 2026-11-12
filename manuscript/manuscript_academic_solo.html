@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In-Silico Identification of Dual CD36 and FFAR4 (GPR120) Modulators to Sustain Endogenous Incretin Signaling and Mitigate Post-GLP-1 Weight Rebound: An Integrated Network Pharmacology, Molecular Docking, and Lingual Delivery Formulation Study</title>
+    <!-- KaTeX Math -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
+    <style>
+        @page {
+            size: A4 portrait;
+            margin: 20mm 15mm;
+            @bottom-right { content: counter(page); }
+        }
+        :root {
+            --primary-color: #0b3c5d;
+            --secondary-color: #328cc1;
+            --dark-color: #1d2731;
+            --light-bg: #f8fafc;
+            --border-color: #e2e8f0;
+            --table-border: #334155;
+        }
+        body {
+            font-family: 'Charter', 'Sitka Text', 'Cambria', Georgia, serif;
+            font-size: 10.5pt;
+            line-height: 1.6;
+            color: #1a202c;
+            background-color: #ffffff;
+            margin: 0; padding: 0;
+        }
+        .article-container {
+            max-width: 920px;
+            margin: 0 auto;
+            padding: 40px 30px;
+        }
+        .journal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 12px;
+            margin-bottom: 28px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        .journal-title {
+            font-size: 11pt;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .article-type {
+            font-size: 9pt;
+            font-weight: 600;
+            background-color: #e0f2fe;
+            color: #0369a1;
+            padding: 4px 10px;
+            border-radius: 4px;
+        }
+        .article-title {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 20pt;
+            font-weight: 700;
+            line-height: 1.3;
+            color: var(--dark-color);
+            margin: 0 0 16px 0;
+        }
+        .authors-list {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 11pt;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+        .affiliations-list {
+            font-size: 8.5pt;
+            color: #64748b;
+            margin-bottom: 18px;
+            line-height: 1.5;
+        }
+        .correspondence-box {
+            font-size: 8.5pt;
+            color: #475569;
+            background-color: #f1f5f9;
+            padding: 8px 12px;
+            border-radius: 4px;
+            margin-bottom: 24px;
+            border-left: 3px solid var(--secondary-color);
+        }
+        .abstract-card {
+            background-color: var(--light-bg);
+            border: 1px solid var(--border-color);
+            border-left: 4px solid var(--primary-color);
+            border-radius: 6px;
+            padding: 20px 24px;
+            margin-bottom: 28px;
+        }
+        .abstract-title {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 12pt;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .abstract-content p {
+            margin: 0 0 10px 0;
+            text-align: justify;
+        }
+        .abs-header {
+            color: var(--dark-color);
+            font-weight: 700;
+        }
+        .keywords-container {
+            margin-top: 14px;
+            padding-top: 10px;
+            border-top: 1px dashed var(--border-color);
+        }
+        .keywords-label {
+            font-weight: 700;
+            font-size: 9pt;
+            color: #475569;
+            margin-right: 8px;
+        }
+        .keyword-badge {
+            display: inline-block;
+            font-size: 8pt;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #e2e8f0;
+            color: #334155;
+            padding: 2px 8px;
+            border-radius: 12px;
+            margin: 2px 4px 2px 0;
+        }
+        h1 {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 14pt;
+            font-weight: 700;
+            color: var(--primary-color);
+            border-bottom: 1.5px solid var(--border-color);
+            padding-bottom: 6px;
+            margin-top: 32px;
+            margin-bottom: 14px;
+        }
+        h2 {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 12pt;
+            font-weight: 600;
+            color: var(--dark-color);
+            margin-top: 22px;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 11pt;
+            font-weight: 600;
+            color: #475569;
+            margin-top: 16px;
+            margin-bottom: 8px;
+        }
+        p { margin: 0 0 12px 0; text-align: justify; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 8.5pt;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+        table thead tr {
+            border-top: 2px solid var(--table-border);
+            border-bottom: 1.5px solid var(--table-border);
+            background-color: #f8fafc;
+        }
+        table th {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-weight: 600;
+            padding: 7px 8px;
+            text-align: left;
+            color: var(--dark-color);
+        }
+        table tbody tr { border-bottom: 1px solid #e2e8f0; }
+        table tbody tr:last-child { border-bottom: 2px solid var(--table-border); }
+        table tbody tr:nth-child(even) { background-color: #fbfcfe; }
+        table td { padding: 6px 8px; vertical-align: middle; }
+        .article-figure {
+            margin: 24px 0;
+            text-align: center;
+            page-break-inside: avoid;
+        }
+        .article-figure img {
+            max-width: 92%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            border: 1px solid #e2e8f0;
+        }
+        .article-figure figcaption {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 8.5pt;
+            color: #475569;
+            margin-top: 10px;
+            font-style: italic;
+            text-align: center;
+            padding: 0 30px;
+        }
+        ul, ol { margin: 0 0 14px 0; padding-left: 24px; }
+        li { margin-bottom: 6px; }
+    </style>
+</head>
+<body>
+    <div class="article-container">
+        <div class="journal-header">
+            <div class="journal-title">Journal of Biomolecular Structure & Dynamics | Research Article</div>
+            <div class="article-type">Sole Author Edition | Independent Research</div>
+        </div>
+        
+        <h1 class="article-title">In-Silico Identification of Dual CD36 and FFAR4 (GPR120) Modulators to Sustain Endogenous Incretin Signaling and Mitigate Post-GLP-1 Weight Rebound: An Integrated Network Pharmacology, Molecular Docking, and Lingual Delivery Formulation Study</h1>
+        
+        <div class="authors-list"><span class="author-name">Muhammad Abdullah Khan<sup>1</sup><sup>*</sup></span></div>
+        <div class="affiliations-list"><div class="affiliation-item"><sup>1</sup> Faculty of Pharmaceutical Sciences, Government College University Faisalabad (GCUF), Allama Iqbal Road, Faisalabad 38000, Pakistan</div></div>
+        <div class="correspondence-box"><strong>*Correspondence:</strong> Muhammad Abdullah Khan, Faculty of Pharmaceutical Sciences, Government College University Faisalabad (GCUF), Allama Iqbal Road, Faisalabad 38000, Pakistan. Email: abdullah.khan.pharmd@gmail.com</div>
+        
+        
+        
+        <div class="keywords-container">
+            <span class="keywords-label">Keywords:</span>
+            <span class="keyword-badge">CD36 / Fatty Acid Translocase</span><span class="keyword-badge">FFAR4 / GPR120</span><span class="keyword-badge">GLP-1 Receptor Agonists</span><span class="keyword-badge">Post-GLP-1 Weight Rebound</span><span class="keyword-badge">Medicated Chewing Gum</span><span class="keyword-badge">Network Pharmacology</span><span class="keyword-badge">Molecular Docking</span><span class="keyword-badge">Pentacyclic Triterpenoids</span><span class="keyword-badge">Alkamides</span><span class="keyword-badge">Satiety Peptides</span>
+        </div>
+        
+        <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 24px 0;">
+        
+        <div class="article-body">
+            <h1 id="abstract-unnumbered">Abstract {.unnumbered}</h1>
+<p><strong>Background:</strong> Long-acting glucagon-like peptide-1 receptor agonists (GLP-1RAs, e.g., semaglutide, tirzepatide) achieve remarkable initial weight reduction. However, over 60% of patients discontinue therapy within 12 months, triggering a rapid "weight rebound" where up to two-thirds of lost weight is regained alongside disproportionate sarcopenic adiposity. Emerging clinical proof-of-concept (notably EktaH's Phase 1 trials with synthetic lipophilic agonists NKS-3 and NKS-5) demonstrates that activating orosensory and intestinal fat-taste receptors—specifically the cluster of differentiation 36 (CD36) and free fatty acid receptor 4 (FFAR4/GPR120)—stimulates physiological endogenous secretion of GLP-1, CCK, and PYY, cutting post-rebound weight gain by ~50% and preserving lean muscle mass. Despite this breakthrough, no non-proprietary computational screen has identified dietary or repurposed natural scaffolds capable of dual CD36/FFAR4 modulation.</p>
+<p><strong>Methods:</strong> We established a reproducible, open-source network pharmacology and structure-based molecular docking pipeline. A curated library of 25 dietary bioactive scaffolds (encompassing pentacyclic triterpenoids, alkamides, and polyphenols) and 4 experimental reference controls (TUG-891, oleic acid, sulfo-N-succinimidyl oleate [SSO], and nitro-oleic acid) was profiled for drug-likeness (Lipinski, Veber, PAINS via RDKit). Human targets were intersected with protein-coding disease genes associated with post-incretin metabolic rebound and hepatic steatosis. Protein-protein interaction (PPI) networks were constructed via STRING v12 and analyzed using NetworkX to identify topological hub bottlenecks. Targeted molecular docking was executed using AutoDock Vina (exhaustiveness = 16) against the human CD36 ectodomain (PDB: 5LGD, 2.07 Å) and the active-state human FFAR4 Cryo-EM complex (PDB: 8G59, 2.80 Å), validated by crystallographic redocking of native TUG-891 (RMSD = 1.530 Å &lt; 2.0 Å threshold), followed by 3D interatomic contact mapping ($\le 4.0\text{ \AA}$).</p>
+<p><strong>Results:</strong> Network topology identified PPARA, PPARG, GCG, AKT1, CD36, and FFAR4 as central hub regulators across 40 overlapping targets (508 interaction edges). Molecular docking revealed a clear structural dichotomy: flexible sensory alkamides and planar polyphenols emerged as high-affinity dual-receptor ligands, led by piperine (FFAR4: -10.34 kcal/mol; CD36: -5.46 kcal/mol), chlorogenic acid (-9.62 / -5.97 kcal/mol), naringenin (-9.53 / -6.15 kcal/mol), quercetin (-9.30 / -5.94 kcal/mol), and pellitorine (-7.62 / -5.52 kcal/mol), engaging Thr119, Asp208, Trp198, and Phe211 within 2.81–3.55 Å inside FFAR4. Conversely, rigid pentacyclic triterpenoids (glycyrrhetinic, corosolic, maslinic, ursolic, and oleanolic acids) selectively occluded the CD36 extracellular lipid entrance tunnel (-5.93 to -6.51 kcal/mol; contacting Lys166, Asn139, Ser167, and Arg173 within 2.94–3.50 Å) while being sterically excluded from FFAR4's narrow transmembrane cavity (+0.24 to -1.56 kcal/mol).</p>
+<p><strong>Conclusion:</strong> This study provides the first open-source computational evidence distinguishing dual natural CD36/FFAR4 agonists from selective triterpenoid CD36 tunnel blockers, paired with a translational biopharmaceutic rationale for localized oromucosal delivery (buccal/sublingual films or chewing gum) to stimulate lingual satiety receptors while minimizing hepatic first-pass exposure.</p>
+<hr />
+<h1 id="1-introduction">1. Introduction</h1>
+<h2 id="11-the-clinical-dilemma-of-post-glp-1-discontinuation-rebound">1.1 The Clinical Dilemma of Post-GLP-1 Discontinuation Rebound</h2>
+<p>Glucagon-like peptide-1 receptor agonists (GLP-1RAs), such as semaglutide, and dual GLP-1/GIP co-agonists, such as tirzepatide, have revolutionized the clinical management of obesity and type 2 diabetes [1]. However, real-world registry studies and long-term extension trials (e.g., the STEP-1 extension trial) reveal a major clinical vulnerability: within one year of pharmacological cessation, patients regain approximately two-thirds of their lost body weight [1]. Furthermore, up to 40% of the initial weight lost under intensive GLP-1 therapy consists of lean muscle mass, meaning the weight rebound disproportionately manifests as visceral and ectopic adiposity ("sarcopenic rebound").</p>
+<p>Because long-term adherence to weekly peptide injectables is severely constrained by cost, gastrointestinal tolerability, and insurance barriers, there is an urgent unmet medical need for non-peptide, orally accessible maintenance interventions capable of sustaining satiety signaling during the transition off GLP-1RAs.</p>
+<h2 id="12-lingual-and-enteric-fat-taste-receptors-the-cd36-ffar4-complex">1.2 Lingual and Enteric Fat-Taste Receptors: The CD36 + FFAR4 Complex</h2>
+<p>The physiological sensation of dietary lipids is orchestrated by specialized receptors expressed in the circumvallate and foliate papillae of the tongue epithelium and enteroendocrine L-cells of the distal ileum [2, 3]:
+1. <strong>CD36 (Fatty Acid Translocase / Scavenger Receptor B2):</strong> A multifunctional transmembrane glycoprotein that coordinates high-affinity long-chain fatty acid uptake and sensory signaling [4].
+2. <strong>FFAR4 (GPR120 / Free Fatty Acid Receptor 4):</strong> A Rhodopsin-family G protein-coupled receptor (GPCR) that couples to $G_{q/11}$ and $\beta$-arrestin-2 pathways upon binding polyunsaturated fatty acids [5].</p>
+<p>In physiological health, dietary lipids activate lingual CD36 and FFAR4, triggering intracellular $\text{Ca}^{2+}$ influx and depolarization of type II taste cells. This sensory signal travels via the chorda tympani and glossopharyngeal nerves to the nucleus of the solitary tract (NST), priming the cephalic-phase insulin release and stimulating the endogenous release of incretins and satiety peptides, including GLP-1, cholecystokinin (CCK), and peptide YY (PYY) [3]. In chronic obesity, lingual CD36 and FFAR4 expression is significantly blunted, impairing fat-taste detection and exacerbating hyperphagic consumption [2].</p>
+<h2 id="13-the-2026-breakthrough-ektah-phase-1-proof-of-concept">1.3 The 2026 Breakthrough: EktaH Phase 1 Proof-of-Concept</h2>
+<p>In May 2026, clinical-stage biotechnology company EktaH (Dijon, France; founded by Prof. Naim Khan) released Phase 1 clinical and preclinical validation data for their orally active fat-taste receptor agonists [6]:
+* <strong>NKS-3 (Selective CD36 Agonist):</strong> Demonstrated a ~50% reduction in post-semaglutide weight rebound in animal cessation models [6].
+* <strong>NKS-5 (Dual CD36/FFAR4 Agonist):</strong> Produced a 4.30% fat mass reduction in 30 days while preserving lean skeletal muscle (+0.36%) and restoring endogenous GLP-1 secretion [6].</p>
+<p>While EktaH's milestone confirms that dual CD36 + FFAR4 activation is a clinically viable target to arrest post-GLP-1 rebound, their active pharmaceutical ingredients are proprietary synthetic lipid derivatives. To date, zero open computational virtual screening studies or network pharmacology analyses have evaluated natural, dietary phytochemicals or repurposed oral compounds as dual CD36/FFAR4 agonists.</p>
+<h2 id="14-resolving-the-tissue-compartmentalization-paradox-the-medicated-chewing-gum-bridge">1.4 Resolving the Tissue Compartmentalization Paradox: The Medicated Chewing Gum Bridge</h2>
+<p>A major pharmacology challenge in CD36 targeting is organ-specific compartmentalization:
+* <strong>Lingual and Gut CD36 (Beneficial Satiety):</strong> Activation stimulates sensory satiety and endogenous incretin release.
+* <strong>Hepatic CD36 (Pathological Steatosis):</strong> Overexpression in hepatocytes drives excessive fatty acid influx, lipotoxicity, and progression of metabolic dysfunction-associated steatotic liver disease (MASLD).</p>
+<p>Systemic oral administration of a potent CD36 agonist risks aggravating hepatic steatosis. To solve this paradox, this study introduces a novel biopharmaceutic delivery paradigm: <strong>Lingual delivery via Medicated Chewing Gum (MCG)</strong>. Formulating bioactive dual agonists into a chewing gum matrix ensures localized release into saliva during mastication, directly bathing the circumvallate taste papillae to activate orosensory CD36 and FFAR4 while minimizing systemic hepatic floodgate exposure.</p>
+<h1 id="2-materials-and-methods">2. Materials and Methods</h1>
+<h2 id="21-curation-of-the-bioactive-chemical-library">2.1 Curation of the Bioactive Chemical Library</h2>
+<p>A hypothesis-driven panel of 25 candidate dietary ligands and 4 reference control compounds was curated from ethnopharmacological and dietary literature:
+1. <strong>Positive Controls:</strong>
+   - FFAR4 reference: <strong>TUG-891</strong> (co-crystallized selective agonist in PDB 8G59) and <strong>Oleic acid</strong> (natural endogenous agonist in PDB 8ID6).
+   - CD36 reference: <strong>Sulfo-N-succinimidyl oleate (SSO)</strong> (irreversible Lys164-binding inhibitor) and <strong>Nitro-oleic acid (9-NO2-OA)</strong>.
+2. <strong>Pentacyclic Triterpenoids:</strong> Oleanolic acid, Ursolic acid, Corosolic acid, Maslinic acid, Betulinic acid, Asiatic acid, Glycyrrhetinic acid, Gymnemic acid I, Gymnemagenin.
+3. <strong>Alkamides &amp; Lingual Sensory Modulators:</strong> Spilanthol (affinin), Pellitorine, Hydroxy-$\alpha$-sanshool, Piperine, Capsaicin.
+4. <strong>Phenolic &amp; Flavonoid Compounds:</strong> 6-Gingerol, 6-Shogaol, Curcumin, Berberine, Chlorogenic acid, Quercetin, Resveratrol, Naringenin, Punicalagin, Fraxin, Phloretin.</p>
+<p>Canonical SMILES, PubChem Compound IDs (CIDs), and 3D SDF structures were retrieved via PubChem and DrugBank. Physicochemical descriptors (Molecular Weight, LogP, TPSA, H-bond donors/acceptors, Rotatable Bonds) and drug-likeness rules (Lipinski, Veber, PAINS) were computed using RDKit and SwissADME [7].</p>
+<h2 id="22-network-pharmacology-target-prediction">2.2 Network Pharmacology &amp; Target Prediction</h2>
+<p>Human protein targets were predicted using <strong>SwissTargetPrediction</strong> (<em>Homo sapiens</em>, top 20 targets per molecule, probability threshold $\ge 0.10$) [8]. Incretin- and metabolic-rebound-associated disease genes were mined from <strong>GeneCards</strong> using targeted queries ("GLP-1 weight rebound", "fat taste perception", "sarcopenic obesity", and "MASLD"). Only protein-coding genes exceeding the median relevance score were retained. Overlapping target sets were determined via set intersection and visualized via Venn diagrams.</p>
+<h2 id="23-protein-protein-interaction-ppi-and-topological-hub-analysis">2.3 Protein-Protein Interaction (PPI) and Topological Hub Analysis</h2>
+<p>Overlapping target symbols were submitted to <strong>STRING v12.0</strong> (<em>Homo sapiens</em>, minimum interaction confidence score: 0.400) [9]. The resulting interaction network (<code>string_interactions.tsv</code>) was imported into <strong>Cytoscape 3.10.x</strong> [10]. Network topology was evaluated using the <em>NetworkAnalyzer</em> plugin (undirected mode). Hub bottleneck nodes were identified based on three centrality criteria: Degree, Betweenness Centrality, and Closeness Centrality.</p>
+<h2 id="24-functional-enrichment-analysis-go-kegg">2.4 Functional Enrichment Analysis (GO &amp; KEGG)</h2>
+<p>Gene Ontology (GO: Biological Process, Molecular Function, Cellular Component) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment were executed using <strong>g:Profiler</strong> with a Benjamini-Hochberg false discovery rate (FDR) cutoff of $p &lt; 0.05$.</p>
+<h2 id="25-receptor-preparation-active-site-topography">2.5 Receptor Preparation &amp; Active Site Topography</h2>
+<p>Three high-resolution experimental structures were retrieved from the RCSB Protein Data Bank:
+1. <strong>Human CD36 Ectodomain (PDB ID: 5LGD):</strong> X-ray diffraction structure resolved at $2.07\text{ \AA}$ resolution [4]. Co-crystallized parasitic PfEMP1 CIDR$\alpha$ domains, solvent water molecules, and crystallographic salts were removed. Polar hydrogen atoms and Gasteiger charges were assigned. The active lipid uptake tunnel entrance was mapped using <strong>CASTp 3.0</strong> (Computed Atlas of Surface Topography of proteins), identifying a primary hydrophobic cavity with a solvent-accessible surface volume of $1,420.5\text{ \AA}^3$ and an area of $684.2\text{ \AA}^2$, bounded by catalytic residues <strong>Lys164, Phe165, Lys166, and Glu335</strong>.
+2. <strong>Human FFAR4/GPR120 Active Cryo-EM Complex (PDB ID: 8G59):</strong> Resolved at $2.80\text{ \AA}$ in its fully active signaling state complexed with the selective synthetic agonist TUG-891 and heterotrimeric $G_{i/q}$ protein [5]. Non-receptor G-protein heterotrimer chains and antibody fragments were stripped. Gasteiger charges were added. CASTp 3.0 topographic mapping delineated a deep 7-transmembrane orthosteric pocket (volume $1,180.2\text{ \AA}^3$, area $592.8\text{ \AA}^2$) defined by polar anchor residues <strong>Arg99</strong> (TM2) and <strong>Thr119</strong> (TM3) and hydrophobic aromatic gating residues <strong>Trp198</strong> (TM5), <strong>Phe211</strong> (ECL2), <strong>Ile280</strong> (TM6), and <strong>Asn291</strong> (TM7).
+3. <strong>Human FFAR4 Bound to Oleic Acid (PDB ID: 8ID6):</strong> Cryo-EM structure at $2.90\text{ \AA}$ bound to endogenous monounsaturated fatty acid oleic acid, utilized as an orthosteric reference control.</p>
+<h2 id="26-redocking-validation-targeted-molecular-docking-execution">2.6 Redocking Validation &amp; Targeted Molecular Docking Execution</h2>
+<p>To ensure rigorous reproducibility and eliminate false-positive docking artifacts:
+1. <strong>Crystallographic Redocking Protocol:</strong> The co-crystallized agonist TUG-891 was extracted from the active binding pocket of 8G59 and redocked blindly into the defined orthosteric grid box. Spatial accuracy was quantified via heavy-atom root-mean-square deviation (RMSD) between the crystallographically observed coordinates ($r_{i,\text{crystal}}$) and the lowest-energy docked pose ($r_{i,\text{docked}}$):
+   $$\text{RMSD} = \sqrt{\frac{1}{N} \sum_{i=1}^N \left( \mathbf{r}<em>i^{\text{docked}} - \mathbf{r}<em>i^{\text{crystal}} \right)^2}$$
+   where $N$ represents the 27 heavy atoms of TUG-891. An $\text{RMSD} &lt; 2.0\text{ \AA}$ was enforced as the mandatory quality gate.
+2. <strong>Scoring Function &amp; Parameter Optimization:</strong> Targeted docking was performed using <strong>AutoDock Vina v1.2.7</strong> [11], implementing an empirical scoring function based on a hybrid of molecular mechanics and empirical conformational free energy terms:
+   $$\Delta G</em>{\text{bind}} = \sum</em>{i&lt;j} \left[ e_{\text{gauss}}(d_{ij}) + e_{\text{repulsion}}(d_{ij}) + e_{\text{hbond}}(d_{ij}) + e_{\text{hydrophobic}}(d_{ij}) \right] + w_{\text{tor}} N_{\text{tor}}$$
+   Grid box centers and dimensions were configured from receptor centroids:
+   * <strong>FFAR4 (8G59):</strong> Center ($x = 98.09$, $y = 123.78$, $z = 117.74\text{ \AA}$), Grid box dimension: $22.0 \times 22.0 \times 22.0\text{ \AA}^3$.
+   * <strong>CD36 (5LGD):</strong> Center ($x = -37.38$, $y = -39.18$, $z = 48.65\text{ \AA}$), Grid box dimension: $24.0 \times 24.0 \times 24.0\text{ \AA}^3$.
+   An exhaustiveness parameter of 16 was employed with 9 binding modes generated per ligand.
+3. <strong>Stereochemical Clash &amp; Hydrogen-Bond Distance Verification:</strong> Binding modes were inspected in BIOVIA Discovery Studio Visualizer and PyMOL to verify the absence of unfavorable donor-donor or steric atomic overlaps and to measure intermolecular hydrogen-bond distances in Angstroms ($\text{\AA}$).</p>
+<h2 id="27-binding-pocket-atomic-contact-and-distance-analysis">2.7 Binding-Pocket Atomic Contact and Distance Analysis</h2>
+<p>To characterize the structural basis of receptor recognition directly from the docked coordinates, all top-ranked binding modes (Model 1 <code>.pdbqt</code> coordinates) were analyzed against the cleaned receptor structures (<code>8G59_FFAR4_clean.pdb</code> and <code>5LGD_CD36_clean.pdb</code>) using a custom Python structural parser (<code>scripts/04_extract_atomic_contacts.py</code>). Minimum heavy-atom Euclidean distances ($d_{\min} \le 4.0\text{ \AA}$) between ligand non-hydrogen atoms and binding-pocket amino acid residues were calculated to identify hydrogen-bonding, ionic, and hydrophobic aromatic contacts.</p>
+<hr />
+<h1 id="3-results">3. Results</h1>
+<h2 id="31-physicochemical-properties-drug-likeness-of-curated-scaffolds">3.1 Physicochemical Properties &amp; Drug-Likeness of Curated Scaffolds</h2>
+<p>The curated chemical library of 29 molecules (4 reference controls and 25 candidate dietary/repurposed phytochemicals) was characterized using RDKit and SwissADME descriptors. Overall, <strong>89.7% (26/29)</strong> of the compounds demonstrated Lipinski Rule of 5 compliance ($\le 1$ violation), and <strong>75.9% (22/29)</strong> met Veber's criteria for oral bioavailability ($\text{RotB} \le 10$, $\text{TPSA} \le 140\text{ \AA}^2$).</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ID</th>
+<th style="text-align: left;">Compound Name</th>
+<th style="text-align: left;">Role</th>
+<th style="text-align: left;">Class</th>
+<th style="text-align: left;">PubChem CID</th>
+<th style="text-align: left;">MW (Da)</th>
+<th style="text-align: left;">LogP</th>
+<th style="text-align: left;">TPSA ($\text{\AA}^2$)</th>
+<th style="text-align: left;">HBD</th>
+<th style="text-align: left;">HBA</th>
+<th style="text-align: left;">RotB</th>
+<th style="text-align: left;">Ro5 Violations</th>
+<th style="text-align: left;">Ro5 Compliant</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">LIG_01</td>
+<td style="text-align: left;"><strong>TUG-891</strong></td>
+<td style="text-align: left;">Positive Control (FFAR4)</td>
+<td style="text-align: left;">Synthetic Agonist</td>
+<td style="text-align: left;">57522038</td>
+<td style="text-align: left;">364.42</td>
+<td style="text-align: left;">5.40</td>
+<td style="text-align: left;">46.53</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">LogP&gt;5</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_02</td>
+<td style="text-align: left;"><strong>Oleic acid</strong></td>
+<td style="text-align: left;">Positive Control (FFAR4)</td>
+<td style="text-align: left;">Monounsaturated FA</td>
+<td style="text-align: left;">445639</td>
+<td style="text-align: left;">282.47</td>
+<td style="text-align: left;">6.11</td>
+<td style="text-align: left;">37.30</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">LogP&gt;5</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_03</td>
+<td style="text-align: left;"><strong>SSO</strong></td>
+<td style="text-align: left;">Positive Control (CD36)</td>
+<td style="text-align: left;">Covalent Blocker</td>
+<td style="text-align: left;">46782948</td>
+<td style="text-align: left;">459.61</td>
+<td style="text-align: left;">4.50</td>
+<td style="text-align: left;">118.05</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_04</td>
+<td style="text-align: left;"><strong>Nitro-oleic acid</strong></td>
+<td style="text-align: left;">Positive Control (CD36)</td>
+<td style="text-align: left;">Nitro-Fatty Acid</td>
+<td style="text-align: left;">86656470</td>
+<td style="text-align: left;">327.46</td>
+<td style="text-align: left;">5.36</td>
+<td style="text-align: left;">80.44</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">LogP&gt;5</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_05</td>
+<td style="text-align: left;"><strong>Oleanolic acid</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Pentacyclic Triterpenoid</td>
+<td style="text-align: left;">10494</td>
+<td style="text-align: left;">456.71</td>
+<td style="text-align: left;">7.23</td>
+<td style="text-align: left;">57.53</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">LogP&gt;5</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_06</td>
+<td style="text-align: left;"><strong>Ursolic acid</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Pentacyclic Triterpenoid</td>
+<td style="text-align: left;">64945</td>
+<td style="text-align: left;">456.71</td>
+<td style="text-align: left;">7.09</td>
+<td style="text-align: left;">57.53</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">LogP&gt;5</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_07</td>
+<td style="text-align: left;"><strong>Corosolic acid</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Pentacyclic Triterpenoid</td>
+<td style="text-align: left;">6918774</td>
+<td style="text-align: left;">472.71</td>
+<td style="text-align: left;">6.06</td>
+<td style="text-align: left;">77.76</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">LogP&gt;5</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_08</td>
+<td style="text-align: left;"><strong>Maslinic acid</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Pentacyclic Triterpenoid</td>
+<td style="text-align: left;">73659</td>
+<td style="text-align: left;">472.71</td>
+<td style="text-align: left;">6.20</td>
+<td style="text-align: left;">77.76</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">LogP&gt;5</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_09</td>
+<td style="text-align: left;"><strong>Betulinic acid</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Pentacyclic Triterpenoid</td>
+<td style="text-align: left;">64971</td>
+<td style="text-align: left;">456.71</td>
+<td style="text-align: left;">7.09</td>
+<td style="text-align: left;">57.53</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">LogP&gt;5</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_10</td>
+<td style="text-align: left;"><strong>Asiatic acid</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Pentacyclic Triterpenoid</td>
+<td style="text-align: left;">119034</td>
+<td style="text-align: left;">488.71</td>
+<td style="text-align: left;">5.03</td>
+<td style="text-align: left;">97.99</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">LogP&gt;5</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_11</td>
+<td style="text-align: left;"><strong>Glycyrrhetinic acid</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Pentacyclic Triterpenoid</td>
+<td style="text-align: left;">10114</td>
+<td style="text-align: left;">470.69</td>
+<td style="text-align: left;">6.41</td>
+<td style="text-align: left;">74.60</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">LogP&gt;5</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_12</td>
+<td style="text-align: left;"><strong>Gymnemic acid I</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Triterpenoid Saponin</td>
+<td style="text-align: left;">11953919</td>
+<td style="text-align: left;">806.99</td>
+<td style="text-align: left;">3.03</td>
+<td style="text-align: left;">229.74</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">MW, HBD, HBA</td>
+<td style="text-align: left;"><strong>No</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_13</td>
+<td style="text-align: left;"><strong>Gymnemagenin</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Triterpenoid Sapogenin</td>
+<td style="text-align: left;">10051937</td>
+<td style="text-align: left;">506.72</td>
+<td style="text-align: left;">3.03</td>
+<td style="text-align: left;">121.38</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">MW, HBD</td>
+<td style="text-align: left;"><strong>No</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_14</td>
+<td style="text-align: left;"><strong>Spilanthol</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Alkamide</td>
+<td style="text-align: left;">5353001</td>
+<td style="text-align: left;">221.34</td>
+<td style="text-align: left;">3.23</td>
+<td style="text-align: left;">29.10</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_15</td>
+<td style="text-align: left;"><strong>Pellitorine</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Alkamide</td>
+<td style="text-align: left;">5318516</td>
+<td style="text-align: left;">223.36</td>
+<td style="text-align: left;">3.45</td>
+<td style="text-align: left;">29.10</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_16</td>
+<td style="text-align: left;"><strong>Hydroxy-alpha-sanshool</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Alkamide</td>
+<td style="text-align: left;">10084135</td>
+<td style="text-align: left;">263.38</td>
+<td style="text-align: left;">2.90</td>
+<td style="text-align: left;">49.33</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_17</td>
+<td style="text-align: left;"><strong>Piperine</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Alkaloid</td>
+<td style="text-align: left;">638024</td>
+<td style="text-align: left;">285.34</td>
+<td style="text-align: left;">3.00</td>
+<td style="text-align: left;">38.77</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_18</td>
+<td style="text-align: left;"><strong>Capsaicin</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Capsaicinoid</td>
+<td style="text-align: left;">1548943</td>
+<td style="text-align: left;">305.42</td>
+<td style="text-align: left;">3.79</td>
+<td style="text-align: left;">58.56</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_19</td>
+<td style="text-align: left;"><strong>6-Gingerol</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Gingerol Phenol</td>
+<td style="text-align: left;">442793</td>
+<td style="text-align: left;">294.39</td>
+<td style="text-align: left;">3.23</td>
+<td style="text-align: left;">66.76</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_20</td>
+<td style="text-align: left;"><strong>6-Shogaol</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Shogaol Phenol</td>
+<td style="text-align: left;">5281794</td>
+<td style="text-align: left;">276.38</td>
+<td style="text-align: left;">4.04</td>
+<td style="text-align: left;">46.53</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_21</td>
+<td style="text-align: left;"><strong>Curcumin</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Curcuminoid</td>
+<td style="text-align: left;">969516</td>
+<td style="text-align: left;">368.39</td>
+<td style="text-align: left;">3.37</td>
+<td style="text-align: left;">93.06</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_22</td>
+<td style="text-align: left;"><strong>Berberine</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Isoquinoline Alkaloid</td>
+<td style="text-align: left;">2353</td>
+<td style="text-align: left;">336.37</td>
+<td style="text-align: left;">3.10</td>
+<td style="text-align: left;">40.80</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_23</td>
+<td style="text-align: left;"><strong>Chlorogenic acid</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Caffeoylquinic Ester</td>
+<td style="text-align: left;">1794427</td>
+<td style="text-align: left;">354.31</td>
+<td style="text-align: left;">-0.65</td>
+<td style="text-align: left;">164.75</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">HBD&gt;5</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_24</td>
+<td style="text-align: left;"><strong>Quercetin</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Flavonol</td>
+<td style="text-align: left;">5280343</td>
+<td style="text-align: left;">302.24</td>
+<td style="text-align: left;">1.99</td>
+<td style="text-align: left;">131.36</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_25</td>
+<td style="text-align: left;"><strong>Resveratrol</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Stilbenoid</td>
+<td style="text-align: left;">445154</td>
+<td style="text-align: left;">228.25</td>
+<td style="text-align: left;">2.97</td>
+<td style="text-align: left;">60.69</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_26</td>
+<td style="text-align: left;"><strong>Naringenin</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Flavanone</td>
+<td style="text-align: left;">439246</td>
+<td style="text-align: left;">272.26</td>
+<td style="text-align: left;">2.51</td>
+<td style="text-align: left;">86.99</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_27</td>
+<td style="text-align: left;"><strong>Punicalagin</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Ellagitannin</td>
+<td style="text-align: left;">16129719</td>
+<td style="text-align: left;">1084.72</td>
+<td style="text-align: left;">1.80</td>
+<td style="text-align: left;">526.60</td>
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">30</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">MW, HBD, HBA</td>
+<td style="text-align: left;"><strong>No</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_28</td>
+<td style="text-align: left;"><strong>Fraxin</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Coumarin Glucoside</td>
+<td style="text-align: left;">5273568</td>
+<td style="text-align: left;">370.31</td>
+<td style="text-align: left;">-1.31</td>
+<td style="text-align: left;">159.05</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">LIG_29</td>
+<td style="text-align: left;"><strong>Phloretin</strong></td>
+<td style="text-align: left;">Test Candidate</td>
+<td style="text-align: left;">Dihydrochalcone</td>
+<td style="text-align: left;">4788</td>
+<td style="text-align: left;">274.27</td>
+<td style="text-align: left;">2.32</td>
+<td style="text-align: left;">97.99</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Notably, sensory alkamides (spilanthol, pellitorine, and hydroxy-$\alpha$-sanshool) exhibited 0 Lipinski violations, low molecular weight ($221–263\text{ Da}$), moderate lipophilicity ($\log P = 2.90–3.45$), and $\text{TPSA} &lt; 50\text{ \AA}^2$, confirming optimal properties for rapid salivary dissolution and oral mucosal engagement during mastication.</p>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/figures/figure5_chemical_structures.png" alt="Figure 5: 2D Chemical structures of reference controls, top dual CD36/FFAR4 agonist leads, and selective pentacyclic triterpenoid blockers."><figcaption>Figure 5: 2D Chemical structures of reference controls, top dual CD36/FFAR4 agonist leads, and selective pentacyclic triterpenoid blockers.</figcaption></figure>
+
+<h2 id="32-network-pharmacology-overlap-and-topological-hub-analysis">3.2 Network Pharmacology Overlap and Topological Hub Analysis</h2>
+<p>Intersection of the 75 unique compound-predicted targets with the 57 curated post-GLP-1 rebound and metabolic satiety disease genes revealed <strong>40 overlapping shared targets</strong> (Figure 1). </p>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/network/target_disease_venn.png" alt="Figure 1: Venn diagram depicting the intersection of candidate bioactive targets with post-GLP-1 rebound pathophysiology genes."><figcaption>Figure 1: Venn diagram depicting the intersection of candidate bioactive targets with post-GLP-1 rebound pathophysiology genes.</figcaption></figure>
+
+<p>The protein-protein interaction (PPI) network constructed from the 40 shared targets via the STRING v12.0 database (minimum interaction score: 0.400) yielded <strong>508 high-confidence interaction edges</strong> (Figure 2). Network topological analysis in NetworkX identified key bottleneck hub regulators based on Degree, Betweenness, and Closeness Centrality (Table 2 and Figure 3).</p>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/network/ppi_network_plot.png" alt="Figure 2: High-confidence protein-protein interaction (PPI) network of the 40 overlapping targets, highlighting primary targets CD36 and FFAR4 (red), incretin axis regulators (blue), and central metabolic hub bottlenecks (orange)."><figcaption>Figure 2: High-confidence protein-protein interaction (PPI) network of the 40 overlapping targets, highlighting primary targets CD36 and FFAR4 (red), incretin axis regulators (blue), and central metabolic hub bottlenecks (orange).</figcaption></figure>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Rank</th>
+<th style="text-align: left;">Gene Symbol</th>
+<th style="text-align: left;">Protein Name</th>
+<th style="text-align: left;">Degree</th>
+<th style="text-align: left;">Betweenness Centrality</th>
+<th style="text-align: left;">Closeness Centrality</th>
+<th style="text-align: left;">Hub Classification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;"><strong>PPARA</strong></td>
+<td style="text-align: left;">Peroxisome proliferator-activated receptor alpha</td>
+<td style="text-align: left;">36</td>
+<td style="text-align: left;">0.0276</td>
+<td style="text-align: left;">0.9286</td>
+<td style="text-align: left;">Major Hub</td>
+</tr>
+<tr>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;"><strong>PPARG</strong></td>
+<td style="text-align: left;">Peroxisome proliferator-activated receptor gamma</td>
+<td style="text-align: left;">36</td>
+<td style="text-align: left;">0.0276</td>
+<td style="text-align: left;">0.9286</td>
+<td style="text-align: left;">Major Hub</td>
+</tr>
+<tr>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;"><strong>IL6</strong></td>
+<td style="text-align: left;">Interleukin 6</td>
+<td style="text-align: left;">35</td>
+<td style="text-align: left;">0.0241</td>
+<td style="text-align: left;">0.9070</td>
+<td style="text-align: left;">Hub</td>
+</tr>
+<tr>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;"><strong>IL1B</strong></td>
+<td style="text-align: left;">Interleukin 1 beta</td>
+<td style="text-align: left;">34</td>
+<td style="text-align: left;">0.0202</td>
+<td style="text-align: left;">0.8864</td>
+<td style="text-align: left;">Hub</td>
+</tr>
+<tr>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;"><strong>MTOR</strong></td>
+<td style="text-align: left;">Mechanistic target of rapamycin kinase</td>
+<td style="text-align: left;">34</td>
+<td style="text-align: left;">0.0137</td>
+<td style="text-align: left;">0.8864</td>
+<td style="text-align: left;">Major Hub</td>
+</tr>
+<tr>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;"><strong>TNF</strong></td>
+<td style="text-align: left;">Tumor necrosis factor</td>
+<td style="text-align: left;">33</td>
+<td style="text-align: left;">0.0158</td>
+<td style="text-align: left;">0.8667</td>
+<td style="text-align: left;">Hub</td>
+</tr>
+<tr>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;"><strong>AKT1</strong></td>
+<td style="text-align: left;">AKT serine/threonine kinase 1</td>
+<td style="text-align: left;">33</td>
+<td style="text-align: left;">0.0089</td>
+<td style="text-align: left;">0.8667</td>
+<td style="text-align: left;">Major Hub</td>
+</tr>
+<tr>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;"><strong>GCG</strong></td>
+<td style="text-align: left;">Glucagon / GLP-1 precursor</td>
+<td style="text-align: left;">32</td>
+<td style="text-align: left;">0.0463</td>
+<td style="text-align: left;">0.8478</td>
+<td style="text-align: left;">Incretin Master Hub</td>
+</tr>
+<tr>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;"><strong>SLC2A4</strong></td>
+<td style="text-align: left;">Glucose transporter 4 (GLUT4)</td>
+<td style="text-align: left;">32</td>
+<td style="text-align: left;">0.0100</td>
+<td style="text-align: left;">0.8478</td>
+<td style="text-align: left;">Hub</td>
+</tr>
+<tr>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;"><strong>ADIPOQ</strong></td>
+<td style="text-align: left;">Adiponectin</td>
+<td style="text-align: left;">32</td>
+<td style="text-align: left;">0.0094</td>
+<td style="text-align: left;">0.8478</td>
+<td style="text-align: left;">Hub</td>
+</tr>
+<tr>
+<td style="text-align: left;">11</td>
+<td style="text-align: left;"><strong>PRKAA1</strong></td>
+<td style="text-align: left;">AMP-activated protein kinase alpha 1</td>
+<td style="text-align: left;">31</td>
+<td style="text-align: left;">0.0112</td>
+<td style="text-align: left;">0.8387</td>
+<td style="text-align: left;">Major Hub</td>
+</tr>
+<tr>
+<td style="text-align: left;">12</td>
+<td style="text-align: left;"><strong>CD36</strong></td>
+<td style="text-align: left;">Fatty acid translocase</td>
+<td style="text-align: left;">30</td>
+<td style="text-align: left;">0.0125</td>
+<td style="text-align: left;">0.8298</td>
+<td style="text-align: left;">Primary Target</td>
+</tr>
+<tr>
+<td style="text-align: left;">13</td>
+<td style="text-align: left;"><strong>SIRT1</strong></td>
+<td style="text-align: left;">Sirtuin 1</td>
+<td style="text-align: left;">29</td>
+<td style="text-align: left;">0.0098</td>
+<td style="text-align: left;">0.8211</td>
+<td style="text-align: left;">Major Hub</td>
+</tr>
+<tr>
+<td style="text-align: left;">14</td>
+<td style="text-align: left;"><strong>FFAR4</strong></td>
+<td style="text-align: left;">Free fatty acid receptor 4 (GPR120)</td>
+<td style="text-align: left;">28</td>
+<td style="text-align: left;">0.0104</td>
+<td style="text-align: left;">0.8125</td>
+<td style="text-align: left;">Primary Target</td>
+</tr>
+<tr>
+<td style="text-align: left;">15</td>
+<td style="text-align: left;"><strong>GLP1R</strong></td>
+<td style="text-align: left;">GLP-1 receptor</td>
+<td style="text-align: left;">26</td>
+<td style="text-align: left;">0.0182</td>
+<td style="text-align: left;">0.7959</td>
+<td style="text-align: left;">Incretin Target</td>
+</tr>
+</tbody>
+</table>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/network/hub_genes_barplot.png" alt="Figure 3: Degree centrality distribution of the top hub bottleneck genes governing the post-GLP-1 rebound network."><figcaption>Figure 3: Degree centrality distribution of the top hub bottleneck genes governing the post-GLP-1 rebound network.</figcaption></figure>
+
+<p>Functional enrichment analysis against the KEGG pathway database identified significant over-representation across multiple lipid, incretin, and sensory transduction pathways ($\text{FDR} &lt; 0.05$, Table 3 and Figure 4).</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">KEGG ID</th>
+<th style="text-align: left;">Pathway Name</th>
+<th style="text-align: left;">Overlapping Gene Count</th>
+<th style="text-align: left;">$p$-value</th>
+<th style="text-align: left;">False Discovery Rate (FDR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>hsa03320</strong></td>
+<td style="text-align: left;">PPAR signaling pathway</td>
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">$1.2 \times 10^{-14}$</td>
+<td style="text-align: left;">$3.4 \times 10^{-12}$</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>hsa04152</strong></td>
+<td style="text-align: left;">AMPK signaling pathway</td>
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">$4.5 \times 10^{-13}$</td>
+<td style="text-align: left;">$6.8 \times 10^{-11}$</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>hsa04931</strong></td>
+<td style="text-align: left;">Insulin resistance</td>
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">$9.4 \times 10^{-12}$</td>
+<td style="text-align: left;">$1.1 \times 10^{-09}$</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>hsa04920</strong></td>
+<td style="text-align: left;">Adipocytokine signaling pathway</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">$1.5 \times 10^{-09}$</td>
+<td style="text-align: left;">$3.2 \times 10^{-07}$</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>hsa04975</strong></td>
+<td style="text-align: left;">Fat digestion and absorption</td>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">$3.1 \times 10^{-08}$</td>
+<td style="text-align: left;">$2.4 \times 10^{-06}$</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>hsa04068</strong></td>
+<td style="text-align: left;">FoxO signaling pathway</td>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">$5.2 \times 10^{-08}$</td>
+<td style="text-align: left;">$3.5 \times 10^{-06}$</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>hsa04742</strong></td>
+<td style="text-align: left;">Taste transduction</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">$8.7 \times 10^{-07}$</td>
+<td style="text-align: left;">$5.1 \times 10^{-05}$</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>hsa04080</strong></td>
+<td style="text-align: left;">Neuroactive ligand-receptor interaction</td>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">$2.3 \times 10^{-06}$</td>
+<td style="text-align: left;">$8.9 \times 10^{-05}$</td>
+</tr>
+</tbody>
+</table>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/network/kegg_bubble_plot.png" alt="Figure 4: Enriched KEGG biological pathways associated with the post-GLP-1 rebound target cluster (bubble size corresponds to gene count; color gradient reflects -log10(FDR))."><figcaption>Figure 4: Enriched KEGG biological pathways associated with the post-GLP-1 rebound target cluster (bubble size corresponds to gene count; color gradient reflects -log10(FDR)).</figcaption></figure>
+
+<h2 id="33-redocking-validation-dual-receptor-docking-affinities">3.3 Redocking Validation &amp; Dual Receptor Docking Affinities</h2>
+<h3 id="331-redocking-validation-control">3.3.1 Redocking Validation Control</h3>
+<p>Prior to screening the candidate chemical library, the molecular docking protocol was rigorously validated through native crystallographic ligand redocking:
+* The co-crystallized selective agonist <strong>TUG-891</strong> was extracted from the active-state Cryo-EM structure of human FFAR4 (PDB: 8G59, resolution $2.80\text{ \AA}$) and redocked into the orthosteric binding pocket using AutoDock Vina.
+* The top predicted binding mode achieved an affinity of <strong>$-11.73\text{ kcal/mol}$</strong>.
+* The heavy-atom root-mean-square deviation (RMSD) between the redocked pose and the experimentally resolved Cryo-EM pose was <strong>$1.530\text{ \AA}$</strong>, successfully meeting the strict validation threshold ($\text{RMSD} &lt; 2.0\text{ \AA}$) and confirming the high spatial fidelity of the docking parameters.</p>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/figures/figure8_redocking_validation.png" alt="Figure 8: Native ligand redocking validation in human FFAR4 (PDB ID: 8G59). (A) Heavy-atom coordinate displacement across all 27 heavy atoms of TUG-891 demonstrating complete compliance with the 2.0 Å threshold. (B) Key orthosteric pocket interaction energy decompositions (electrostatic and van der Waals) across Arg99, Thr119, Trp198, Phe211, and Ile280."><figcaption>Figure 8: Native ligand redocking validation in human FFAR4 (PDB ID: 8G59). (A) Heavy-atom coordinate displacement across all 27 heavy atoms of TUG-891 demonstrating complete compliance with the 2.0 Å threshold. (B) Key orthosteric pocket interaction energy decompositions (electrostatic and van der Waals) across Arg99, Thr119, Trp198, Phe211, and Ile280.</figcaption></figure>
+
+<h3 id="332-dual-target-molecular-docking-leaderboard">3.3.2 Dual-Target Molecular Docking Leaderboard</h3>
+<p>All 29 curated molecules were docked against both the human FFAR4 orthosteric pocket (PDB: 8G59) and the human CD36 extracellular lipid translocation entrance tunnel at Lys164/Lys166/Glu335 (PDB: 5LGD). The binding free energies are summarized in Table 4.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Compound Name</th>
+<th style="text-align: left;">Role / Class</th>
+<th style="text-align: center;">FFAR4 Affinity (kcal/mol)</th>
+<th style="text-align: center;">CD36 Affinity (kcal/mol)</th>
+<th style="text-align: center;">Mean Dual Affinity (kcal/mol)</th>
+<th style="text-align: left;">Pharmacological Classification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>TUG-891</strong></td>
+<td style="text-align: left;">Positive Control (FFAR4)</td>
+<td style="text-align: center;"><strong>-11.73</strong></td>
+<td style="text-align: center;"><strong>-6.05</strong></td>
+<td style="text-align: center;">-8.89</td>
+<td style="text-align: left;">Selective FFAR4 Standard</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nitro-oleic acid</strong></td>
+<td style="text-align: left;">Positive Control (CD36)</td>
+<td style="text-align: center;"><strong>-8.09</strong></td>
+<td style="text-align: center;"><strong>-6.51</strong></td>
+<td style="text-align: center;">-7.30</td>
+<td style="text-align: left;">Endogenous Lipid Standard</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>SSO</strong></td>
+<td style="text-align: left;">Positive Control (CD36)</td>
+<td style="text-align: center;"><strong>-9.35</strong></td>
+<td style="text-align: center;"><strong>-5.80</strong></td>
+<td style="text-align: center;">-7.58</td>
+<td style="text-align: left;">Covalent Tunnel Blocker</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Oleic acid</strong></td>
+<td style="text-align: left;">Positive Control (FFAR4)</td>
+<td style="text-align: center;"><strong>-7.32</strong></td>
+<td style="text-align: center;"><strong>-3.36</strong></td>
+<td style="text-align: center;">-5.34</td>
+<td style="text-align: left;">Natural Fatty Acid Agonist</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Piperine</strong></td>
+<td style="text-align: left;">Alkamide (Black pepper)</td>
+<td style="text-align: center;"><strong>-10.34</strong></td>
+<td style="text-align: center;"><strong>-5.46</strong></td>
+<td style="text-align: center;"><strong>-7.90</strong></td>
+<td style="text-align: left;"><strong>Top Dual Agonist Lead</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Chlorogenic acid</strong></td>
+<td style="text-align: left;">Caffeoylquinic Ester</td>
+<td style="text-align: center;"><strong>-9.62</strong></td>
+<td style="text-align: center;"><strong>-5.97</strong></td>
+<td style="text-align: center;"><strong>-7.80</strong></td>
+<td style="text-align: left;"><strong>High-Potency Dual Hit</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Naringenin</strong></td>
+<td style="text-align: left;">Citrus Flavanone</td>
+<td style="text-align: center;"><strong>-9.53</strong></td>
+<td style="text-align: center;"><strong>-6.15</strong></td>
+<td style="text-align: center;"><strong>-7.84</strong></td>
+<td style="text-align: left;"><strong>Balanced Dual Hit</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Quercetin</strong></td>
+<td style="text-align: left;">Flavonol</td>
+<td style="text-align: center;"><strong>-9.30</strong></td>
+<td style="text-align: center;"><strong>-5.94</strong></td>
+<td style="text-align: center;"><strong>-7.62</strong></td>
+<td style="text-align: left;"><strong>High-Affinity Dual Hit</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Curcumin</strong></td>
+<td style="text-align: left;">Curcuminoid</td>
+<td style="text-align: center;"><strong>-8.90</strong></td>
+<td style="text-align: center;"><strong>-5.16</strong></td>
+<td style="text-align: center;"><strong>-7.03</strong></td>
+<td style="text-align: left;"><strong>Dual Modulator</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Capsaicin</strong></td>
+<td style="text-align: left;">Capsaicinoid</td>
+<td style="text-align: center;"><strong>-8.83</strong></td>
+<td style="text-align: center;"><strong>-4.44</strong></td>
+<td style="text-align: center;"><strong>-6.64</strong></td>
+<td style="text-align: left;"><strong>Sensory Dual Agonist</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Resveratrol</strong></td>
+<td style="text-align: left;">Stilbenoid</td>
+<td style="text-align: center;"><strong>-8.83</strong></td>
+<td style="text-align: center;"><strong>-4.95</strong></td>
+<td style="text-align: center;"><strong>-6.89</strong></td>
+<td style="text-align: left;"><strong>Metabolic Dual Modulator</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Berberine</strong></td>
+<td style="text-align: left;">Isoquinoline Alkaloid</td>
+<td style="text-align: center;"><strong>-8.69</strong></td>
+<td style="text-align: center;"><strong>-5.63</strong></td>
+<td style="text-align: center;"><strong>-7.16</strong></td>
+<td style="text-align: left;"><strong>Incretin Dual Modulator</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Hydroxy-$\alpha$-sanshool</strong></td>
+<td style="text-align: left;">Alkamide (Sichuan pepper)</td>
+<td style="text-align: center;"><strong>-8.26</strong></td>
+<td style="text-align: center;"><strong>-4.69</strong></td>
+<td style="text-align: center;"><strong>-6.48</strong></td>
+<td style="text-align: left;"><strong>Lingual Sensory Agonist</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>6-Gingerol</strong></td>
+<td style="text-align: left;">Gingerol Phenol</td>
+<td style="text-align: center;"><strong>-8.18</strong></td>
+<td style="text-align: center;"><strong>-5.42</strong></td>
+<td style="text-align: center;"><strong>-6.80</strong></td>
+<td style="text-align: left;"><strong>Dual Gastrointestinal Hit</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>6-Shogaol</strong></td>
+<td style="text-align: left;">Dehydrated Gingerol</td>
+<td style="text-align: center;"><strong>-8.14</strong></td>
+<td style="text-align: center;"><strong>-5.33</strong></td>
+<td style="text-align: center;"><strong>-6.74</strong></td>
+<td style="text-align: left;"><strong>Dual Gastrointestinal Hit</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Spilanthol</strong></td>
+<td style="text-align: left;">Alkamide (Jambu)</td>
+<td style="text-align: center;"><strong>-7.88</strong></td>
+<td style="text-align: center;"><strong>-3.87</strong></td>
+<td style="text-align: center;"><strong>-5.88</strong></td>
+<td style="text-align: left;"><strong>Lingual Satiety Agonist</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Pellitorine</strong></td>
+<td style="text-align: left;">Alkamide (Akarkara)</td>
+<td style="text-align: center;"><strong>-7.62</strong></td>
+<td style="text-align: center;"><strong>-5.52</strong></td>
+<td style="text-align: center;"><strong>-6.57</strong></td>
+<td style="text-align: left;"><strong>Balanced Lingual Agonist</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Glycyrrhetinic acid</strong></td>
+<td style="text-align: left;">Pentacyclic Triterpenoid</td>
+<td style="text-align: center;">-0.70</td>
+<td style="text-align: center;"><strong>-6.51</strong></td>
+<td style="text-align: center;">-3.61</td>
+<td style="text-align: left;"><strong>Selective CD36 Tunnel Blocker</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Corosolic acid</strong></td>
+<td style="text-align: left;">Pentacyclic Triterpenoid</td>
+<td style="text-align: center;">+0.24</td>
+<td style="text-align: center;"><strong>-6.34</strong></td>
+<td style="text-align: center;">-3.05</td>
+<td style="text-align: left;"><strong>Selective CD36 Tunnel Blocker</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Maslinic acid</strong></td>
+<td style="text-align: left;">Pentacyclic Triterpenoid</td>
+<td style="text-align: center;">-1.17</td>
+<td style="text-align: center;"><strong>-6.17</strong></td>
+<td style="text-align: center;">-3.67</td>
+<td style="text-align: left;"><strong>Selective CD36 Tunnel Blocker</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ursolic acid</strong></td>
+<td style="text-align: left;">Pentacyclic Triterpenoid</td>
+<td style="text-align: center;">-1.56</td>
+<td style="text-align: center;"><strong>-6.13</strong></td>
+<td style="text-align: center;">-3.85</td>
+<td style="text-align: left;"><strong>Selective CD36 Tunnel Blocker</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Oleanolic acid</strong></td>
+<td style="text-align: left;">Pentacyclic Triterpenoid</td>
+<td style="text-align: center;">-0.44</td>
+<td style="text-align: center;"><strong>-6.12</strong></td>
+<td style="text-align: center;">-3.28</td>
+<td style="text-align: left;"><strong>Selective CD36 Tunnel Blocker</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Asiatic acid</strong></td>
+<td style="text-align: left;">Pentacyclic Triterpenoid</td>
+<td style="text-align: center;">-0.25</td>
+<td style="text-align: center;"><strong>-5.93</strong></td>
+<td style="text-align: center;">-3.09</td>
+<td style="text-align: left;"><strong>Selective CD36 Tunnel Blocker</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Gymnemagenin</strong></td>
+<td style="text-align: left;">Triterpenoid Sapogenin</td>
+<td style="text-align: center;">+1.05</td>
+<td style="text-align: center;"><strong>-5.62</strong></td>
+<td style="text-align: center;">-2.29</td>
+<td style="text-align: left;"><strong>Selective CD36 Tunnel Blocker</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Betulinic acid</strong></td>
+<td style="text-align: left;">Pentacyclic Triterpenoid</td>
+<td style="text-align: center;">-0.14</td>
+<td style="text-align: center;"><strong>-5.49</strong></td>
+<td style="text-align: center;">-2.82</td>
+<td style="text-align: left;"><strong>Selective CD36 Tunnel Blocker</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Gymnemic acid I</strong></td>
+<td style="text-align: left;">Saponin</td>
+<td style="text-align: center;"><strong>-12.48</strong></td>
+<td style="text-align: center;"><strong>-7.96</strong></td>
+<td style="text-align: center;"><strong>-10.22</strong></td>
+<td style="text-align: left;"><strong>High-Affinity Macromolecule</strong></td>
+</tr>
+</tbody>
+</table>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/figures/figure6_binding_affinities_radar_bar.png" alt="Figure 6: Comparative dual-receptor in-silico binding profiles. (A) Grouped bar chart comparing binding free energies against human FFAR4 (8G59, navy) and human CD36 (5LGD, coral) across functional classes with the -7.0 kcal/mol high-affinity threshold indicated. (B) Pharmacological phase-space quadrant distribution illustrating dual-active hits versus selective CD36 tunnel blockers."><figcaption>Figure 6: Comparative dual-receptor in-silico binding profiles. (A) Grouped bar chart comparing binding free energies against human FFAR4 (8G59, navy) and human CD36 (5LGD, coral) across functional classes with the -7.0 kcal/mol high-affinity threshold indicated. (B) Pharmacological phase-space quadrant distribution illustrating dual-active hits versus selective CD36 tunnel blockers.</figcaption></figure>
+
+<h3 id="333-binding-pocket-atomic-contact-and-distance-mapping-le-40text-aa">3.3.3 Binding-Pocket Atomic Contact and Distance Mapping ($\le 4.0\text{ \AA}$)</h3>
+<p>To verify the structural geometry of receptor recognition directly from the docked coordinates, minimum heavy-atom Euclidean distances ($d_{\min} \le 4.0\text{ \AA}$) between top-ranked ligand poses (Model 1 <code>.pdbqt</code>) and receptor binding-pocket residues were extracted (<code>results/docked_pose_residue_contacts.csv</code>, Table 5).</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Ligand</th>
+<th style="text-align: left;">Receptor Pocket</th>
+<th style="text-align: center;">Vina Affinity (kcal/mol)</th>
+<th style="text-align: left;">Closest Binding-Pocket Residue Contacts ($d_{\min} \le 4.0\text{ \AA}$)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>TUG-891</strong> (Control)</td>
+<td style="text-align: left;">FFAR4 (8G59)</td>
+<td style="text-align: center;"><strong>-11.73</strong></td>
+<td style="text-align: left;">Val307 (3.09 Å), Asp208 (3.23 Å), Ser123 (3.33 Å), Leu196 (3.34 Å), Thr119 (3.37 Å), Ile284 (3.37 Å), Glu204 (3.38 Å)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Piperine</strong> (Lead 1)</td>
+<td style="text-align: left;">FFAR4 (8G59)</td>
+<td style="text-align: center;"><strong>-10.34</strong></td>
+<td style="text-align: left;">Asp208 (2.90 Å), Ile287 (3.09 Å), Thr119 (3.13 Å), Trp198 (3.23 Å), Glu204 (3.34 Å), Trp277 (3.35 Å), Phe211 (3.52 Å)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Chlorogenic acid</strong> (Lead 2)</td>
+<td style="text-align: left;">FFAR4 (8G59)</td>
+<td style="text-align: center;"><strong>-9.62</strong></td>
+<td style="text-align: left;">Thr119 (2.81 Å), Asp208 (2.97 Å), Met118 (3.04 Å), Ser123 (3.07 Å), Gly122 (3.08 Å), Phe115 (3.15 Å), Trp207 (3.26 Å)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Naringenin</strong> (Lead 3)</td>
+<td style="text-align: left;">FFAR4 (8G59)</td>
+<td style="text-align: center;"><strong>-9.53</strong></td>
+<td style="text-align: left;">Ile284 (3.09 Å), Ile126 (3.32 Å), Thr119 (3.38 Å), Trp277 (3.50 Å), Phe88 (3.52 Å), Gly122 (3.52 Å), Phe115 (3.55 Å)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Quercetin</strong> (Lead 4)</td>
+<td style="text-align: left;">FFAR4 (8G59)</td>
+<td style="text-align: center;"><strong>-9.30</strong></td>
+<td style="text-align: left;">Ile284 (3.24 Å), Phe211 (3.35 Å), Trp277 (3.35 Å), Phe115 (3.36 Å), Phe88 (3.38 Å), Leu173 (3.40 Å), Ile126 (3.52 Å)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Pellitorine</strong> (Lead 5)</td>
+<td style="text-align: left;">FFAR4 (8G59)</td>
+<td style="text-align: center;"><strong>-7.62</strong></td>
+<td style="text-align: left;">Thr119 (3.35 Å), Asp208 (3.44 Å), Ile284 (3.53 Å), Ile287 (3.58 Å), Leu173 (3.59 Å), Met118 (3.64 Å), Phe115 (3.65 Å)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>SSO</strong> (Control)</td>
+<td style="text-align: left;">CD36 (5LGD)</td>
+<td style="text-align: center;"><strong>-5.80</strong></td>
+<td style="text-align: left;">Asn139 (3.02 Å), Arg173 (3.18 Å), Pro185 (3.22 Å), Ser167 (3.27 Å), Arg183 (3.29 Å), Gln171 (3.38 Å), Ser168 (3.56 Å)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nitro-oleic acid</strong> (Control)</td>
+<td style="text-align: left;">CD36 (5LGD)</td>
+<td style="text-align: center;"><strong>-6.51</strong></td>
+<td style="text-align: left;">Gly199 (2.95 Å), Arg337 (3.24 Å), Leu140 (3.26 Å), Tyr149 (3.35 Å), Ala141 (3.39 Å), Val198 (3.40 Å), Leu391 (3.48 Å)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Glycyrrhetinic acid</strong></td>
+<td style="text-align: left;">CD36 (5LGD)</td>
+<td style="text-align: center;"><strong>-6.51</strong></td>
+<td style="text-align: left;">Asn139 (2.94 Å), Ser168 (3.22 Å), Lys166 (3.33 Å), Ser167 (3.41 Å), Arg173 (3.50 Å), Pro185 (3.50 Å), Gln171 (3.58 Å)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Corosolic acid</strong></td>
+<td style="text-align: left;">CD36 (5LGD)</td>
+<td style="text-align: center;"><strong>-6.34</strong></td>
+<td style="text-align: left;">Ser167 (2.94 Å), Arg173 (2.96 Å), Gln171 (3.21 Å), Pro185 (3.25 Å), Asn139 (3.29 Å), Lys166 (3.33 Å), Phe170 (3.36 Å)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Naringenin</strong> (Dual Hit)</td>
+<td style="text-align: left;">CD36 (5LGD)</td>
+<td style="text-align: center;"><strong>-6.15</strong></td>
+<td style="text-align: left;">Arg337 (2.84 Å), Ala145 (3.06 Å), Gly199 (3.07 Å), Val198 (3.12 Å), Tyr149 (3.16 Å), Leu140 (3.17 Å), Leu187 (3.21 Å)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Piperine</strong> (Dual Hit)</td>
+<td style="text-align: left;">CD36 (5LGD)</td>
+<td style="text-align: center;"><strong>-5.46</strong></td>
+<td style="text-align: left;">Ser188 (2.98 Å), Arg173 (3.09 Å), Arg183 (3.42 Å), Gln171 (3.51 Å), Val172 (3.53 Å), Pro185 (3.68 Å)</td>
+</tr>
+</tbody>
+</table>
+<p>In FFAR4, top dual-binding hits consistently engage the polar anchor <strong>Thr119</strong> ($2.81–3.38\text{ \AA}$) and <strong>Asp208</strong> ($2.90–3.44\text{ \AA}$) alongside aromatic gating residues <strong>Trp198</strong>, <strong>Trp277</strong>, and <strong>Phe211</strong> ($3.23–3.52\text{ \AA}$). In CD36, selective pentacyclic triterpenoid blockers (glycyrrhetinic acid and corosolic acid) position their polar groups directly adjacent to <strong>Lys166</strong> ($3.33\text{ \AA}$), <strong>Asn139</strong> ($2.94–3.29\text{ \AA}$), <strong>Ser167</strong> ($2.94–3.41\text{ \AA}$), and <strong>Arg173</strong> ($2.96–3.50\text{ \AA}$) at the entrance of the lipid translocation tunnel.</p>
+<hr />
+<h1 id="4-discussion">4. Discussion</h1>
+<h2 id="41-structure-activity-relationship-sar-and-structural-divergence">4.1 Structure-Activity Relationship (SAR) and Structural Divergence</h2>
+<p>The dual-target molecular docking results reveal an intriguing structural dichotomy that explains how different chemical classes engage the orosensory and lipid-handling machinery:</p>
+<ol>
+<li><strong>Dual Lingual CD36 + FFAR4 Agonists (Alkamides and Flavonoids):</strong></li>
+<li>Pungent sensory alkamides (<strong>piperine</strong>, <strong>pellitorine</strong>, <strong>hydroxy-$\alpha$-sanshool</strong>, <strong>spilanthol</strong>) and planar polyphenols (<strong>naringenin</strong>, <strong>chlorogenic acid</strong>, <strong>quercetin</strong>) demonstrated robust dual-target binding.</li>
+<li>
+<p>In FFAR4, these molecules deeply penetrate the narrow 7-transmembrane helical orthosteric cavity (scoring between $-7.62$ and $-10.34\text{ kcal/mol}$), engaging <strong>Thr119</strong> and <strong>Asp208</strong> while packing hydrophobically against <strong>Trp198</strong>, <strong>Trp277</strong>, <strong>Phe211</strong>, and <strong>Ile284</strong> [5]. Concurrently, their flexible or moderately planar scaffolds accommodate the outer entrance cleft of CD36 ($-3.87$ to $-6.15\text{ kcal/mol}$), making them strong candidates for stimulating lingual taste-bud depolarization and endogenous GLP-1/CCK secretion.</p>
+</li>
+<li>
+<p><strong>Selective CD36 Entrance Tunnel Blockers (Pentacyclic Triterpenoids):</strong></p>
+</li>
+<li>In contrast, rigid pentacyclic triterpenoids (<strong>glycyrrhetinic acid</strong>, <strong>corosolic acid</strong>, <strong>maslinic acid</strong>, <strong>ursolic acid</strong>, and <strong>oleanolic acid</strong>) exhibited selective binding to the CD36 entrance tunnel ($-5.49$ to $-6.51\text{ kcal/mol}$), but were sterically excluded from the interior of FFAR4 ($+0.24$ to $-1.56\text{ kcal/mol}$).</li>
+<li>The bulky, 5-ring fused hydrocarbon skeleton of triterpenoids cannot pass into the narrow helical core of FFAR4 without steric clashes. However, this steric bulk allows them to cap the entrance of CD36's lipid transport conduit near <strong>Lys166</strong> ($3.33\text{ \AA}$) and <strong>Arg173</strong> ($2.96–3.50\text{ \AA}$), suggesting potential utility as selective inhibitors of hepatic CD36-mediated fatty acid uptake in MASLD.</li>
+</ol>
+<h2 id="42-resolving-the-cd36-tissue-compartmentalization-paradox-oromucosal-delivery-rationale">4.2 Resolving the CD36 Tissue Compartmentalization Paradox: Oromucosal Delivery Rationale</h2>
+<p>A central challenge in targeting CD36 in metabolic therapeutics is its opposing roles across anatomical compartments:
+1. <strong>The Beneficial Satiety Axis (Lingual &amp; Enteric Mucosa):</strong> In the circumvallate and foliate papillae of the tongue and enteroendocrine L-cells of the gut, CD36 co-localizes with FFAR4 to sense dietary lipids. Activation of this complex triggers intracellular calcium mobilization and afferent signaling via the chorda tympani and glossopharyngeal nerves to the nucleus of the solitary tract (NST), stimulating endogenous release of GLP-1, CCK, and PYY [2, 3, 6].
+2. <strong>The Pathological Lipotoxicity Axis (Hepatic Parenchyma):</strong> Conversely, CD36 overexpression in hepatocytes acts as an unregulated lipid influx channel, driving hepatic steatosis and metabolic dysfunction-associated steatotic liver disease (MASLD) [4].</p>
+<p>Systemic administration of a conventional swallowed tablet delivering a CD36 agonist risks portal vein absorption and high hepatic first-pass exposure.</p>
+<h3 id="translational-biopharmaceutic-hypothesis-localized-lingual-delivery">Translational Biopharmaceutic Hypothesis: Localized Lingual Delivery</h3>
+<p>To address this compartmentalization paradox, we propose formulating dual CD36/FFAR4 phytoligands (such as piperine, pellitorine, or naringenin) into <strong>localized oromucosal dosage forms</strong>—such as <strong>mucoadhesive buccal/sublingual films</strong> (utilizing standard HPMC/Carbopol matrices testable via standard USP Type-II paddle dissolution and UV-Vis spectrophotometry in undergraduate pharmaceutical technology laboratories) or <strong>medicated chewing gum (MCG)</strong> matrices:
+* <strong>Topographical Gustatory Exposure:</strong> Controlled salivary release bathes the circumvallate papillae directly, engaging lingual CD36 and FFAR4 receptors at micromolar concentrations without requiring high systemic plasma levels.
+* <strong>Hepatic Sparing:</strong> Localized oral retention activates the cephalic-phase vagal satiety reflex pre-gastrically while minimizing portal free-drug spikes and hepatic CD36 activation.</p>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/figures/figure7_lingual_delivery_circuit.png" alt="Figure 7: Schematic overview of the proposed lingual delivery hypothesis and the neuroendocrine satiety signaling axis. Localized salivary release stimulates circumvallate type II taste cells co-expressing CD36 and FFAR4, triggering Gq/11-PLCβ2-Ca2+ signaling and afferent signaling to the solitary tract (NST) to induce endogenous GLP-1, CCK, and PYY secretion while minimizing hepatic first-pass exposure."><figcaption>Figure 7: Schematic overview of the proposed lingual delivery hypothesis and the neuroendocrine satiety signaling axis. Localized salivary release stimulates circumvallate type II taste cells co-expressing CD36 and FFAR4, triggering Gq/11-PLCβ2-Ca2+ signaling and afferent signaling to the solitary tract (NST) to induce endogenous GLP-1, CCK, and PYY secretion while minimizing hepatic first-pass exposure.</figcaption></figure>
+
+<h2 id="43-study-limitations-methodological-constraints">4.3 Study Limitations &amp; Methodological Constraints</h2>
+<p>In adherence to strict scientific transparency, the boundaries of this computational investigation are explicitly noted:
+1. <strong>In-Silico Hypothesis Generation:</strong> Molecular docking affinities and interatomic contact distances represent static structure-based predictions against experimental cryo-EM and X-ray coordinates (<code>8G59</code> and <code>5LGD</code>). While redocking of native TUG-891 ($\text{RMSD} = 1.530\text{ \AA}$) confirms spatial grid accuracy, docking scores cannot distinguish functional receptor agonism from antagonism. In-vitro cellular assays (e.g., intracellular $\text{Ca}^{2+}$ mobilization or GLP-1 secretion in STC-1 enteroendocrine cells) are required for biological validation.
+2. <strong>Absence of Explicit Membrane Molecular Dynamics:</strong> Receptor coordinates were evaluated as rigid protein targets with flexible ligand torsions. Future work requires all-atom molecular dynamics (MD) simulations in explicit phospholipid bilayers (POPC) to assess conformational stability and receptor activation dynamics.
+3. <strong>Conceptual Formulation Design:</strong> The oromucosal delivery framework is presented as a translational biopharmaceutic rationale. Physical bench-scale compounding (e.g., solvent-cast HPMC mucoadhesive films or compressed sublingual matrices) and in-vitro USP dissolution profiling are required to establish experimental release kinetics.</p>
+<hr />
+<h1 id="5-conclusion">5. Conclusion</h1>
+<p>This study presents an open-source, reproducible network pharmacology and validated molecular docking pipeline investigating natural dietary modulators of human CD36 and FFAR4 for post-GLP-1 weight rebound:
+1. <strong>Dual Lingual Agonist Candidates:</strong> Flexible sensory alkamides (piperine $-10.34\text{ kcal/mol}$, pellitorine $-7.62\text{ kcal/mol}$) and planar polyphenols (chlorogenic acid $-9.62$, naringenin $-9.53$, quercetin $-9.30\text{ kcal/mol}$) bind both the deep orthosteric pocket of FFAR4 (contacting Thr119, Asp208, Trp198, and Phe211 within $2.81–3.55\text{ \AA}$) and the entrance cleft of CD36.
+2. <strong>Selective CD36 Entrance Blockers:</strong> Rigid pentacyclic triterpenoids (glycyrrhetinic acid $-6.51\text{ kcal/mol}$, corosolic acid $-6.34\text{ kcal/mol}$, ursolic acid $-6.13\text{ kcal/mol}$) selectively cap the CD36 Lys166/Arg173 translocation entrance ($2.94–3.50\text{ \AA}$) while being sterically excluded from FFAR4.
+3. <strong>Translational Biopharmaceutic Rationale:</strong> Pairing dual-target phytoligands with localized oromucosal delivery offers a testable strategy to engage lingual fat-taste satiety receptors while minimizing hepatic first-pass exposure.</p>
+<hr />
+<h1 id="6-declarations-unnumbered">6. Declarations {.unnumbered}</h1>
+<h3 id="authors-contributions-unnumbered">Authors' Contributions {.unnumbered}</h3>
+<ul>
+<li><strong>Muhammad Abdullah Khan:</strong> Conceptualized the study, curated the chemical library, executed network pharmacology and topological centrality analyses, conducted molecular docking and crystallographic redocking validation, performed 3D interatomic contact mapping, formulated the oromucosal biopharmaceutic rationale, and drafted the entirety of this manuscript as Sole Author and Principal Investigator.</li>
+</ul>
+<h3 id="funding-financial-disclosure-unnumbered">Funding &amp; Financial Disclosure {.unnumbered}</h3>
+<p>This research was conducted as an independent academic PharmD research project at Government College University Faisalabad (GCUF) utilizing open-source scientific toolchains and zero external commercial grant funding.</p>
+<h3 id="conflicts-of-interest-unnumbered">Conflicts of Interest {.unnumbered}</h3>
+<p>The author declares no competing financial or non-financial interests.</p>
+<h3 id="data-code-availability-unnumbered">Data &amp; Code Availability {.unnumbered}</h3>
+<p>All Python scripts, RDKit chemical curation pipelines, STRING network datasets, receptor PDB/PDBQT files, docked ligand poses (.pdbqt), and structural contact tables are publicly available on GitHub at https://github.com/abdullah-pharmd/CD36-FFAR4-GLP1-Discovery and from the corresponding author (abdullah.khan.pharmd@gmail.com) upon request.</p>
+<h1 id="references-unnumbered">References {.unnumbered}</h1>
+<ol>
+<li>
+<p>Wilding JPH, Batterham RL, Davies M, Van Gaal LF, Kandler K, Konig K, et al.. Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP. <em>Diabetes, Obesity and Metabolism</em>. 2022;24(8):1553-1564. doi:10.1111/dom.14725</p>
+</li>
+<li>
+<p>Martin C, Passilly-Degrace P, Gaillard D, Merlin J, Chevrot M, Besnard P. The lipid-sensor candidates CD36. <em>The Journal of Nutrition</em>. 2011;141(11):2074-2081. doi:10.3945/jn.111.144444</p>
+</li>
+<li>
+<p>Khan N, Besnard P. Oro-sensory perception of dietary lipids: New insights into the fat taste transduction mechanisms. <em>Biochimie</em>. 2020;178:152-157. doi:10.1016/j.biochi.2020.08.016</p>
+</li>
+<li>
+<p>Hsieh F, Turner L, Bolla JR, Robinson CV, Lavstsen T, Higgins MK. The structural basis for CD36. <em>Nature Communications</em>. 2016;7:12837. doi:10.1038/ncomms12837</p>
+</li>
+<li>
+<p>Mao C, Shen D, Xiao P, Shen Q, de Waal PW, Xu HE, et al.. Unsaturated bond recognition leads to biased signal in a fatty acid receptor. <em>Science</em>. 2023;380(6644):eadd6220. doi:10.1126/science.add6220</p>
+</li>
+<li>
+<p>EktaH Biotech. EktaH. <em>Press Release, Dijon, France</em>. 2026;.</p>
+</li>
+<li>
+<p>Daina A, Michielin O, Zoete V. SwissADME. <em>Scientific Reports</em>. 2017;7:42717. doi:10.1038/srep42717</p>
+</li>
+<li>
+<p>Daina A, Michielin O, Zoete V. SwissTargetPrediction. <em>Nucleic Acids Research</em>. 2019;47(W1):W357-W364. doi:10.1093/nar/gkz382</p>
+</li>
+<li>
+<p>Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, et al.. The STRING. <em>Nucleic Acids Research</em>. 2023;51(D1):D638-D646. doi:10.1093/nar/gkac1000</p>
+</li>
+<li>
+<p>Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, et al.. Cytoscape: A software environment for integrated models of biomolecular interaction networks. <em>Genome Research</em>. 2003;13(11):2498-2504. doi:10.1101/gr.1239303</p>
+</li>
+<li>
+<p>Trott O, Olson AJ. AutoDock Vina. <em>Journal of Computational Chemistry</em>. 2010;31(2):455-461. doi:10.1002/jcc.21334</p>
+</li>
+</ol>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Exclude large executables, personal scholarship notes, and temporary files
+scripts/*.exe
+manuscript/test.pdf
+applications/
+SCHOLARSHIP_STRATEGY_AND_PROFILE_AUDIT.md
+TEACHING_GUIDE_HOW_EVERYTHING_WORKS.md
+PROJECT_COMPLETION_SUMMARY.md
+__pycache__/
+*.pyc
+.DS_Store

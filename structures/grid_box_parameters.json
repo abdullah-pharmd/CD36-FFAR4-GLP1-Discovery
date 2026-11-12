@@ -1,0 +1,88 @@
+{
+  "project": "CD36 + FFAR4 Dual-Target In-Silico Screening",
+  "software_protocol": "BioInfoX PyRx 0.8 / AutoDock Vina 1.2.5",
+  "receptors": [
+    {
+      "pdb_id": "5LGD",
+      "target": "Human CD36 Ectodomain",
+      "uniprot": "P16671",
+      "chain": "A",
+      "residue_range": "30-439",
+      "clean_pdb": "5LGD_CD36_clean.pdb",
+      "native_ligands": ["5LGD_PLM_A512.pdb", "5LGD_PLM_A513.pdb"],
+      "grid_boxes": {
+        "pocket_1_tunnel_midpoint": {
+          "description": "Mid-channel hydrophobic pocket (Palmitate 512 centroid)",
+          "center_x": -41.83,
+          "center_y": -32.91,
+          "center_z": 36.08,
+          "size_x": 22.0,
+          "size_y": 22.0,
+          "size_z": 22.0
+        },
+        "pocket_2_tunnel_exit": {
+          "description": "Deep tunnel pocket (Palmitate 513 centroid)",
+          "center_x": -42.50,
+          "center_y": -25.89,
+          "center_z": 17.08,
+          "size_x": 22.0,
+          "size_y": 22.0,
+          "size_z": 22.0
+        },
+        "tunnel_entrance_lys164": {
+          "description": "Extracellular entrance pocket (Lys164 / Lys166 / Glu335 triad)",
+          "center_x": -37.38,
+          "center_y": -39.18,
+          "center_z": 48.65,
+          "size_x": 24.0,
+          "size_y": 24.0,
+          "size_z": 24.0
+        }
+      }
+    },
+    {
+      "pdb_id": "8G59",
+      "target": "Human FFAR4 (GPR120) Receptor Active State",
+      "uniprot": "Q5NUL3",
+      "chain": "R",
+      "residue_range": "32-345",
+      "clean_pdb": "8G59_FFAR4_clean.pdb",
+      "co_crystallized_ligand": "8G59_TUG891.pdb",
+      "ligand_hetatm_id": "YN9",
+      "ligand_name": "TUG-891 (Selective FFAR4 Agonist)",
+      "orthosteric_grid_box": {
+        "description": "Orthosteric binding pocket (TUG-891 centroid, Arg99, Thr119, Trp198, Phe211, Ile280, Asn291)",
+        "center_x": 98.09,
+        "center_y": 123.78,
+        "center_z": 117.74,
+        "size_x": 22.0,
+        "size_y": 22.0,
+        "size_z": 22.0
+      },
+      "redocking_validation": {
+        "status": "Ready for AutoDock Vina redocking",
+        "target_rmsd": "< 2.0 A"
+      }
+    },
+    {
+      "pdb_id": "8ID6",
+      "target": "Human FFAR4 (GPR120) Receptor Bound to Natural Agonist",
+      "uniprot": "Q5NUL3",
+      "chain": "R",
+      "residue_range": "32-347",
+      "clean_pdb": "8ID6_FFAR4_clean.pdb",
+      "co_crystallized_ligand": "8ID6_OLA.pdb",
+      "ligand_hetatm_id": "OLA",
+      "ligand_name": "Oleic acid (Natural Fatty Acid Agonist)",
+      "orthosteric_grid_box": {
+        "description": "Orthosteric fatty acid pocket (Oleic acid centroid)",
+        "center_x": 96.81,
+        "center_y": 125.56,
+        "center_z": 118.84,
+        "size_x": 22.0,
+        "size_y": 22.0,
+        "size_z": 22.0
+      }
+    }
+  ]
+}
