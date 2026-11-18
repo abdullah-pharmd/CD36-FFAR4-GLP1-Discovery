@@ -1,0 +1,6 @@
+{
+  "N7F_901_4A5S_dG": -10.71,
+  "N7F_901_Hungarian_RMSD_A": 0.78,
+  "N7F_Polar_HBonds": "GLU206 (2.76 \u00c5), GLU205 (2.80 \u00c5), TYR662 (2.88 \u00c5), TYR631 (3.17 \u00c5), TYR547 (3.36 \u00c5)",
+  "N7F_Contacts": "GLU206 (2.76 \u00c5), GLU205 (2.80 \u00c5), TYR662 (2.88 \u00c5), SER630 (3.04 \u00c5), TYR631 (3.17 \u00c5), TYR547 (3.36 \u00c5), TYR666 (3.47 \u00c5)"
+}

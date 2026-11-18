@@ -1,0 +1,26 @@
+{
+  "FFAR4": {
+    "Target": "FFAR4_8G59_CHEMBL5339",
+    "N_Actives": 15,
+    "N_Inactives": 15,
+    "Mean_Active_dG": -10.36,
+    "Mean_Inactive_dG": -9.41,
+    "ROC_AUC_Affinity": 0.733,
+    "ROC_AUC_LE": 0.756,
+    "EF_20pct": 1.67,
+    "MannWhitney_p_Affinity": 0.015508,
+    "MannWhitney_p_LE": 0.0090077
+  },
+  "DPP4": {
+    "Target": "DPP4_4A5S_CHEMBL284",
+    "N_Actives": 15,
+    "N_Inactives": 14,
+    "Mean_Active_dG": -8.91,
+    "Mean_Inactive_dG": -8.76,
+    "ROC_AUC_Affinity": 0.538,
+    "ROC_AUC_LE": 0.638,
+    "EF_20pct": 1.16,
+    "MannWhitney_p_Affinity": 0.37171,
+    "MannWhitney_p_LE": 0.10672
+  }
+}

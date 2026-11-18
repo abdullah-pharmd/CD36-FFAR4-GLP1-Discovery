@@ -1,0 +1,1201 @@
+Disease_ID,Disease_Name,Gene_Symbol,OpenTargets_Score
+MONDO_0011122,obesity disorder,MC4R,0.8362
+MONDO_0011122,obesity disorder,GNAS,0.8236
+MONDO_0011122,obesity disorder,PCSK1,0.7874
+MONDO_0011122,obesity disorder,LEPR,0.7641
+MONDO_0011122,obesity disorder,POMC,0.7471
+MONDO_0011122,obesity disorder,GIPR,0.7425
+MONDO_0011122,obesity disorder,GLP1R,0.737
+MONDO_0011122,obesity disorder,PPARG,0.7248
+MONDO_0011122,obesity disorder,LEP,0.7227
+MONDO_0011122,obesity disorder,FTO,0.702
+MONDO_0011122,obesity disorder,SIM1,0.6677
+MONDO_0011122,obesity disorder,CNR1,0.641
+MONDO_0011122,obesity disorder,ADCY3,0.6218
+MONDO_0011122,obesity disorder,SLC6A3,0.6206
+MONDO_0011122,obesity disorder,SLC6A2,0.6044
+MONDO_0011122,obesity disorder,BDNF,0.6026
+MONDO_0011122,obesity disorder,OPRM1,0.6017
+MONDO_0011122,obesity disorder,PNLIP,0.601
+MONDO_0011122,obesity disorder,SLC6A4,0.5979
+MONDO_0011122,obesity disorder,HTR2C,0.5928
+MONDO_0011122,obesity disorder,OPRD1,0.5856
+MONDO_0011122,obesity disorder,OPRK1,0.5842
+MONDO_0011122,obesity disorder,LIPF,0.5841
+MONDO_0011122,obesity disorder,MYT1L,0.5817
+MONDO_0011122,obesity disorder,NR0B2,0.576
+MONDO_0011122,obesity disorder,CAST,0.5738
+MONDO_0011122,obesity disorder,ENPP1,0.5639
+MONDO_0011122,obesity disorder,APOE,0.5575
+MONDO_0011122,obesity disorder,NEGR1,0.5538
+MONDO_0011122,obesity disorder,TFAP2B,0.5496
+MONDO_0011122,obesity disorder,SLC39A8,0.5463
+MONDO_0011122,obesity disorder,UCP3,0.5457
+MONDO_0011122,obesity disorder,HEATR3,0.5453
+MONDO_0011122,obesity disorder,ADRB3,0.5415
+MONDO_0011122,obesity disorder,SEC16B,0.5412
+MONDO_0011122,obesity disorder,TRAPPC9,0.5398
+MONDO_0011122,obesity disorder,TCF7L2,0.5375
+MONDO_0011122,obesity disorder,TTC8,0.5369
+MONDO_0011122,obesity disorder,GRP,0.5342
+MONDO_0011122,obesity disorder,HTR1D,0.5314
+MONDO_0011122,obesity disorder,HTR7,0.5271
+MONDO_0011122,obesity disorder,CEP19,0.5251
+MONDO_0011122,obesity disorder,CPNE4,0.5215
+MONDO_0011122,obesity disorder,ADCY9,0.5184
+MONDO_0011122,obesity disorder,ANAPC4,0.5177
+MONDO_0011122,obesity disorder,BBS4,0.5134
+MONDO_0011122,obesity disorder,HTR1A,0.5123
+MONDO_0011122,obesity disorder,SCN2A,0.512
+MONDO_0011122,obesity disorder,SLC18A2,0.5116
+MONDO_0011122,obesity disorder,GALNT10,0.5115
+MONDO_0011122,obesity disorder,SCN1A,0.5114
+MONDO_0011122,obesity disorder,BANK1,0.5113
+MONDO_0011122,obesity disorder,GRIA1,0.511
+MONDO_0011122,obesity disorder,ETV5,0.5104
+MONDO_0011122,obesity disorder,PRMT7,0.5094
+MONDO_0011122,obesity disorder,ONECUT1,0.5083
+MONDO_0011122,obesity disorder,AUTS2,0.5081
+MONDO_0011122,obesity disorder,BBS9,0.5076
+MONDO_0011122,obesity disorder,FHIT,0.5074
+MONDO_0011122,obesity disorder,FAIM2,0.5073
+MONDO_0011122,obesity disorder,LMX1B,0.5065
+MONDO_0011122,obesity disorder,ADRA2B,0.5045
+MONDO_0011122,obesity disorder,FOXG1,0.501
+MONDO_0011122,obesity disorder,IRS1,0.4995
+MONDO_0011122,obesity disorder,ADRA2A,0.4995
+MONDO_0011122,obesity disorder,CDH7,0.4985
+MONDO_0011122,obesity disorder,ADRA1A,0.4978
+MONDO_0011122,obesity disorder,LRFN2,0.497
+MONDO_0011122,obesity disorder,FANCL,0.4962
+MONDO_0011122,obesity disorder,ADH1B,0.4958
+MONDO_0011122,obesity disorder,GNPDA2,0.4953
+MONDO_0011122,obesity disorder,ADRB1,0.4894
+MONDO_0011122,obesity disorder,NLGN1,0.4892
+MONDO_0011122,obesity disorder,ADRA2C,0.4865
+MONDO_0011122,obesity disorder,BBS2,0.4862
+MONDO_0011122,obesity disorder,ZNF536,0.4857
+MONDO_0011122,obesity disorder,PKHD1,0.4833
+MONDO_0011122,obesity disorder,ZFHX3,0.4829
+MONDO_0011122,obesity disorder,THRB,0.4826
+MONDO_0011122,obesity disorder,OLFM4,0.4808
+MONDO_0011122,obesity disorder,PCDH17,0.4802
+MONDO_0011122,obesity disorder,BBS7,0.4796
+MONDO_0011122,obesity disorder,MKKS,0.4788
+MONDO_0011122,obesity disorder,ARL6,0.4786
+MONDO_0011122,obesity disorder,BBS5,0.4785
+MONDO_0011122,obesity disorder,BBS10,0.4778
+MONDO_0011122,obesity disorder,MKS1,0.4778
+MONDO_0011122,obesity disorder,ADRB2,0.4773
+MONDO_0011122,obesity disorder,NRXN3,0.4771
+MONDO_0011122,obesity disorder,PHIP,0.4765
+MONDO_0011122,obesity disorder,GRIA4,0.4762
+MONDO_0011122,obesity disorder,BBS12,0.4759
+MONDO_0011122,obesity disorder,SDCCAG8,0.4755
+MONDO_0011122,obesity disorder,VPS13B,0.4751
+MONDO_0011122,obesity disorder,POM121C,0.4729
+MONDO_0011122,obesity disorder,HTR1B,0.4726
+MONDO_0011122,obesity disorder,CALCR,0.4721
+MONDO_0011122,obesity disorder,SIGMAR1,0.4718
+MONDO_0011122,obesity disorder,LCT,0.4718
+MONDO_0011122,obesity disorder,NUDC,0.4717
+MONDO_0011122,obesity disorder,POC5,0.4714
+MONDO_0011122,obesity disorder,NTNG1,0.4703
+MONDO_0011122,obesity disorder,HTR2A,0.4686
+MONDO_0011122,obesity disorder,HTR4,0.4675
+MONDO_0011122,obesity disorder,HTR2B,0.4667
+MONDO_0011122,obesity disorder,HTR3A,0.4665
+MONDO_0011122,obesity disorder,STX16,0.4661
+MONDO_0011122,obesity disorder,MLLT10,0.466
+MONDO_0011122,obesity disorder,RBMS1,0.4658
+MONDO_0011122,obesity disorder,HTR5A,0.4649
+MONDO_0011122,obesity disorder,BRINP3,0.4648
+MONDO_0011122,obesity disorder,HTR6,0.4637
+MONDO_0011122,obesity disorder,CDH13,0.4635
+MONDO_0011122,obesity disorder,ADRA1B,0.4623
+MONDO_0011122,obesity disorder,HTR3D,0.462
+MONDO_0011122,obesity disorder,HTR3E,0.462
+MONDO_0011122,obesity disorder,HTR1E,0.462
+MONDO_0011122,obesity disorder,HTR3B,0.462
+MONDO_0011122,obesity disorder,HTR3C,0.462
+MONDO_0011122,obesity disorder,HTR1F,0.462
+MONDO_0011122,obesity disorder,NDUFS3,0.4592
+MONDO_0011122,obesity disorder,STXBP6,0.4585
+MONDO_0011122,obesity disorder,SNX19,0.4584
+MONDO_0011122,obesity disorder,FUBP1,0.4574
+MONDO_0011122,obesity disorder,ARPP21,0.4562
+MONDO_0011122,obesity disorder,GABRG3,0.4531
+MONDO_0011122,obesity disorder,CDIN1,0.4527
+MONDO_0011122,obesity disorder,TMEM18,0.4526
+MONDO_0011122,obesity disorder,OLFM1,0.4522
+MONDO_0011122,obesity disorder,PIK3C3,0.4519
+MONDO_0011122,obesity disorder,C12orf42,0.4514
+MONDO_0011122,obesity disorder,RARB,0.4501
+MONDO_0011122,obesity disorder,CADM2,0.4497
+MONDO_0011122,obesity disorder,BCL11B,0.449
+MONDO_0011122,obesity disorder,LHCGR,0.4475
+MONDO_0011122,obesity disorder,SLCO3A1,0.4466
+MONDO_0011122,obesity disorder,SCN11A,0.4454
+MONDO_0011122,obesity disorder,ADRA1D,0.445
+MONDO_0011122,obesity disorder,LINGO2,0.4448
+MONDO_0011122,obesity disorder,AKT3,0.441
+MONDO_0011122,obesity disorder,RBFOX1,0.4402
+MONDO_0011122,obesity disorder,SLC22A12,0.4391
+MONDO_0011122,obesity disorder,GABRA5,0.4382
+MONDO_0011122,obesity disorder,CADM1,0.4381
+MONDO_0011122,obesity disorder,SGO1,0.4368
+MONDO_0011122,obesity disorder,ECE2,0.4362
+MONDO_0011122,obesity disorder,GRIA2,0.4357
+MONDO_0011122,obesity disorder,KCNK3,0.4357
+MONDO_0011122,obesity disorder,NDUFB8,0.434
+MONDO_0011122,obesity disorder,RORA,0.4335
+MONDO_0011122,obesity disorder,SCN10A,0.4319
+MONDO_0011122,obesity disorder,NDUFA13,0.4315
+MONDO_0011122,obesity disorder,SCN3A,0.4307
+MONDO_0011122,obesity disorder,RERGL,0.4301
+MONDO_0011122,obesity disorder,ZBTB10,0.4291
+MONDO_0011122,obesity disorder,LRRC1,0.428
+MONDO_0011122,obesity disorder,GABRB3,0.4275
+MONDO_0011122,obesity disorder,NPAS3,0.427
+MONDO_0011122,obesity disorder,SCN8A,0.4269
+MONDO_0011122,obesity disorder,GCGR,0.4266
+MONDO_0011122,obesity disorder,SCN5A,0.4266
+MONDO_0011122,obesity disorder,GABRB2,0.4259
+MONDO_0011122,obesity disorder,VGLL4,0.425
+MONDO_0011122,obesity disorder,HEY2,0.4238
+MONDO_0011122,obesity disorder,GHR,0.4238
+MONDO_0011122,obesity disorder,GPD2,0.423
+MONDO_0011122,obesity disorder,KCNMB2,0.4228
+MONDO_0011122,obesity disorder,KCNQ5,0.4227
+MONDO_0011122,obesity disorder,GRIK5,0.4225
+MONDO_0011122,obesity disorder,SALL3,0.4211
+MONDO_0011122,obesity disorder,PDZRN4,0.4204
+MONDO_0011122,obesity disorder,TAFA5,0.4203
+MONDO_0011122,obesity disorder,NDUFS4,0.4197
+MONDO_0011122,obesity disorder,SKOR1,0.419
+MONDO_0011122,obesity disorder,GRIK3,0.4184
+MONDO_0011122,obesity disorder,NDUFAB1,0.4182
+MONDO_0011122,obesity disorder,ZNF804A,0.417
+MONDO_0011122,obesity disorder,NDUFAF1,0.416
+MONDO_0011122,obesity disorder,AGRP,0.4156
+MONDO_0011122,obesity disorder,GRIK1,0.4155
+MONDO_0011122,obesity disorder,SCN9A,0.4146
+MONDO_0011122,obesity disorder,GABRA6,0.4146
+MONDO_0011122,obesity disorder,PRICKLE1,0.4143
+MONDO_0011122,obesity disorder,SCN7A,0.4137
+MONDO_0011122,obesity disorder,DNMT3A,0.4136
+MONDO_0011122,obesity disorder,CA4,0.4136
+MONDO_0011122,obesity disorder,CADPS,0.4136
+MONDO_0011122,obesity disorder,SCN4A,0.4133
+MONDO_0011122,obesity disorder,GABRA2,0.4132
+MONDO_0011122,obesity disorder,GABRD,0.413
+MONDO_0011122,obesity disorder,NDUFB9,0.4129
+MONDO_0011122,obesity disorder,IGF1R,0.4126
+MONDO_0011122,obesity disorder,GABRG2,0.4126
+MONDO_0011122,obesity disorder,CA2,0.4122
+MONDO_0011122,obesity disorder,GRIK2,0.4121
+MONDO_0011122,obesity disorder,CACNA1C,0.4119
+MONDO_0011122,obesity disorder,GRIA3,0.4118
+MONDO_0011122,obesity disorder,GABRQ,0.4116
+MONDO_0011122,obesity disorder,GABRP,0.4116
+MONDO_0011122,obesity disorder,GABRA3,0.4116
+MONDO_0011122,obesity disorder,GABRG1,0.4116
+MONDO_0011122,obesity disorder,GABRB1,0.4116
+MONDO_0011122,obesity disorder,GABRA1,0.4116
+MONDO_0011122,obesity disorder,GABRE,0.4116
+MONDO_0011122,obesity disorder,GABRA4,0.4116
+MONDO_0011122,obesity disorder,ST18,0.4116
+MONDO_0011122,obesity disorder,NDUFS1,0.4115
+MONDO_0011122,obesity disorder,GSAP,0.4114
+MONDO_0011122,obesity disorder,NDUFA8,0.4113
+MONDO_0011122,obesity disorder,ZEB2,0.4108
+MONDO_0011122,obesity disorder,GRIK4,0.4108
+MONDO_0011122,obesity disorder,MT-ND4L,0.41
+MONDO_0011122,obesity disorder,MT-ND6,0.4092
+MONDO_0011122,obesity disorder,MT-ND5,0.409
+MONDO_0011122,obesity disorder,MT-ND2,0.4089
+MONDO_0011122,obesity disorder,HRH4,0.4088
+MONDO_0011122,obesity disorder,NDUFA6,0.4086
+MONDO_0011122,obesity disorder,COXFA4,0.4082
+MONDO_0011122,obesity disorder,ADAMTS9,0.4081
+MONDO_0011122,obesity disorder,MT-ND3,0.4077
+MONDO_0011122,obesity disorder,MT-ND4,0.4076
+MONDO_0011122,obesity disorder,NDUFB6,0.4075
+MONDO_0011122,obesity disorder,NDUFV1,0.4074
+MONDO_0011122,obesity disorder,NDUFB2,0.407
+MONDO_0011122,obesity disorder,COXFA4L2,0.4065
+MONDO_0011122,obesity disorder,NDUFS5,0.4065
+MONDO_0011122,obesity disorder,NDUFS2,0.4065
+MONDO_0011122,obesity disorder,NDUFAF4,0.4063
+MONDO_0011122,obesity disorder,NDUFC2,0.4063
+MONDO_0011122,obesity disorder,NDUFA11,0.4063
+MONDO_0011122,obesity disorder,NDUFA12,0.4061
+MONDO_0011122,obesity disorder,MT-ND1,0.4061
+MONDO_0011122,obesity disorder,NDUFAF2,0.4058
+MONDO_0011122,obesity disorder,NDUFA9,0.4056
+MONDO_0011122,obesity disorder,NDUFA3,0.4056
+MONDO_0011122,obesity disorder,NDUFB5,0.4056
+MONDO_0011122,obesity disorder,NDUFA2,0.4056
+MONDO_0011122,obesity disorder,NDUFB7,0.4051
+MONDO_0011122,obesity disorder,NDUFA1,0.4051
+MONDO_0011122,obesity disorder,NDUFAF3,0.4051
+MONDO_0011122,obesity disorder,NDUFA5,0.4051
+MONDO_0011122,obesity disorder,NDUFC1,0.4051
+MONDO_0011122,obesity disorder,NDUFA7,0.4051
+MONDO_0011122,obesity disorder,NDUFS8,0.4051
+MONDO_0011122,obesity disorder,NDUFB10,0.4051
+MONDO_0011122,obesity disorder,NDUFB4,0.4051
+MONDO_0011122,obesity disorder,NDUFB3,0.4051
+MONDO_0011122,obesity disorder,NDUFB1,0.4051
+MONDO_0011122,obesity disorder,NDUFS7,0.4051
+MONDO_0011122,obesity disorder,NDUFA10,0.4051
+MONDO_0011122,obesity disorder,NDUFV3,0.4051
+MONDO_0011122,obesity disorder,NDUFB11,0.4051
+MONDO_0011122,obesity disorder,NDUFV2,0.4051
+MONDO_0011122,obesity disorder,NDUFS6,0.4051
+MONDO_0011122,obesity disorder,CACNA1D,0.4051
+MONDO_0011122,obesity disorder,PATJ,0.405
+MONDO_0011122,obesity disorder,VWC2,0.405
+MONDO_0011122,obesity disorder,RECQL,0.4044
+MONDO_0011122,obesity disorder,ELAVL4,0.4039
+MONDO_0011122,obesity disorder,EBF1,0.4038
+MONDO_0011122,obesity disorder,PRMT6,0.4034
+MONDO_0011122,obesity disorder,PPP3CA,0.4006
+MONDO_0011122,obesity disorder,SPDYE18,0.3997
+MONDO_0011122,obesity disorder,CHMP3,0.3992
+MONDO_0011122,obesity disorder,CCNE1,0.3989
+MONDO_0011122,obesity disorder,NFIL3,0.3988
+MONDO_0011122,obesity disorder,CRTC1,0.3987
+MONDO_0011122,obesity disorder,FOXP2,0.3987
+MONDO_0011122,obesity disorder,ADARB1,0.3981
+MONDO_0011122,obesity disorder,PTBP2,0.397
+MONDO_0011122,obesity disorder,PRKCE,0.3957
+MONDO_0011122,obesity disorder,ATP5F1E,0.3943
+MONDO_0011122,obesity disorder,LDB2,0.3929
+MONDO_0011122,obesity disorder,TCF4,0.3921
+MONDO_0011122,obesity disorder,PDE4B,0.3914
+MONDO_0011122,obesity disorder,ZNF521,0.3908
+MONDO_0011122,obesity disorder,RASA2,0.3908
+MONDO_0011122,obesity disorder,DNAH8,0.3904
+MONDO_0011122,obesity disorder,POU3F4,0.3882
+MONDO_0011122,obesity disorder,NR3C2,0.3881
+MONDO_0011122,obesity disorder,RTN4,0.3865
+MONDO_0011122,obesity disorder,SLC2A2,0.3863
+MONDO_0011122,obesity disorder,NLRC3,0.3863
+MONDO_0011122,obesity disorder,MAPK3,0.3841
+MONDO_0011122,obesity disorder,GGNBP2,0.383
+MONDO_0011122,obesity disorder,PAX2,0.3825
+MONDO_0011122,obesity disorder,LRP1B,0.3813
+MONDO_0011122,obesity disorder,SLC6A14,0.3806
+MONDO_0011122,obesity disorder,CENPW,0.3793
+MONDO_0011122,obesity disorder,ERBB4,0.378
+MONDO_0011122,obesity disorder,VRK2,0.378
+MONDO_0011122,obesity disorder,SLC35B3,0.3768
+MONDO_0011122,obesity disorder,HS6ST3,0.376
+MONDO_0011122,obesity disorder,NPY5R,0.3752
+MONDO_0011122,obesity disorder,GOLT1B,0.3747
+MONDO_0011122,obesity disorder,MAD1L1,0.3718
+MONDO_0011122,obesity disorder,BAIAP2,0.3712
+MONDO_0011122,obesity disorder,FLT3,0.3709
+MONDO_0011122,obesity disorder,CBLN1,0.3707
+MONDO_0011122,obesity disorder,CDKAL1,0.3691
+MONDO_0005148,type 2 diabetes mellitus,KCNJ11,0.8772
+MONDO_0005148,type 2 diabetes mellitus,ABCC8,0.8764
+MONDO_0005148,type 2 diabetes mellitus,GCK,0.868
+MONDO_0005148,type 2 diabetes mellitus,PPARG,0.861
+MONDO_0005148,type 2 diabetes mellitus,HNF1A,0.8498
+MONDO_0005148,type 2 diabetes mellitus,HNF4A,0.7992
+MONDO_0005148,type 2 diabetes mellitus,HNF1B,0.7768
+MONDO_0005148,type 2 diabetes mellitus,INSR,0.7702
+MONDO_0005148,type 2 diabetes mellitus,GLP1R,0.7687
+MONDO_0005148,type 2 diabetes mellitus,WFS1,0.7639
+MONDO_0005148,type 2 diabetes mellitus,SLC2A2,0.7454
+MONDO_0005148,type 2 diabetes mellitus,PAX4,0.7344
+MONDO_0005148,type 2 diabetes mellitus,SLC30A8,0.7237
+MONDO_0005148,type 2 diabetes mellitus,AKT2,0.7207
+MONDO_0005148,type 2 diabetes mellitus,GPD2,0.7094
+MONDO_0005148,type 2 diabetes mellitus,GIPR,0.6961
+MONDO_0005148,type 2 diabetes mellitus,NDUFS4,0.6891
+MONDO_0005148,type 2 diabetes mellitus,CDKAL1,0.688
+MONDO_0005148,type 2 diabetes mellitus,NEUROD1,0.6865
+MONDO_0005148,type 2 diabetes mellitus,TCF7L2,0.6842
+MONDO_0005148,type 2 diabetes mellitus,IRS1,0.6585
+MONDO_0005148,type 2 diabetes mellitus,GIGYF1,0.6574
+MONDO_0005148,type 2 diabetes mellitus,MT-ND1,0.6555
+MONDO_0005148,type 2 diabetes mellitus,ENPP1,0.6549
+MONDO_0005148,type 2 diabetes mellitus,NDUFB8,0.6549
+MONDO_0005148,type 2 diabetes mellitus,HMGCR,0.6446
+MONDO_0005148,type 2 diabetes mellitus,SLC5A2,0.6428
+MONDO_0005148,type 2 diabetes mellitus,KCNQ1,0.6412
+MONDO_0005148,type 2 diabetes mellitus,DPP4,0.641
+MONDO_0005148,type 2 diabetes mellitus,NDUFB2,0.639
+MONDO_0005148,type 2 diabetes mellitus,MTNR1B,0.636
+MONDO_0005148,type 2 diabetes mellitus,RFX6,0.6325
+MONDO_0005148,type 2 diabetes mellitus,FTO,0.6289
+MONDO_0005148,type 2 diabetes mellitus,NDUFB6,0.6282
+MONDO_0005148,type 2 diabetes mellitus,NDUFS3,0.6244
+MONDO_0005148,type 2 diabetes mellitus,PPARA,0.6216
+MONDO_0005148,type 2 diabetes mellitus,NDUFA10,0.6198
+MONDO_0005148,type 2 diabetes mellitus,MT-ND6,0.6178
+MONDO_0005148,type 2 diabetes mellitus,NDUFB9,0.617
+MONDO_0005148,type 2 diabetes mellitus,NDUFA13,0.6164
+MONDO_0005148,type 2 diabetes mellitus,NDUFC2,0.6143
+MONDO_0005148,type 2 diabetes mellitus,NDUFA5,0.614
+MONDO_0005148,type 2 diabetes mellitus,NDUFAB1,0.6139
+MONDO_0005148,type 2 diabetes mellitus,NDUFAF3,0.6126
+MONDO_0005148,type 2 diabetes mellitus,IRS2,0.6125
+MONDO_0005148,type 2 diabetes mellitus,MT-ND2,0.612
+MONDO_0005148,type 2 diabetes mellitus,MT-ND4L,0.6115
+MONDO_0005148,type 2 diabetes mellitus,MT-ND4,0.6104
+MONDO_0005148,type 2 diabetes mellitus,MT-ND5,0.6094
+MONDO_0005148,type 2 diabetes mellitus,NDUFB4,0.6094
+MONDO_0005148,type 2 diabetes mellitus,NDUFA1,0.6093
+MONDO_0005148,type 2 diabetes mellitus,NDUFV1,0.6092
+MONDO_0005148,type 2 diabetes mellitus,NDUFA6,0.6091
+MONDO_0005148,type 2 diabetes mellitus,MT-ND3,0.6091
+MONDO_0005148,type 2 diabetes mellitus,NDUFA2,0.609
+MONDO_0005148,type 2 diabetes mellitus,NDUFB10,0.6089
+MONDO_0005148,type 2 diabetes mellitus,NDUFA11,0.6089
+MONDO_0005148,type 2 diabetes mellitus,NDUFV3,0.6089
+MONDO_0005148,type 2 diabetes mellitus,NDUFS8,0.6085
+MONDO_0005148,type 2 diabetes mellitus,NDUFS2,0.6084
+MONDO_0005148,type 2 diabetes mellitus,NDUFB7,0.6083
+MONDO_0005148,type 2 diabetes mellitus,NDUFS1,0.6082
+MONDO_0005148,type 2 diabetes mellitus,COXFA4,0.6082
+MONDO_0005148,type 2 diabetes mellitus,NDUFS6,0.6081
+MONDO_0005148,type 2 diabetes mellitus,NDUFS5,0.608
+MONDO_0005148,type 2 diabetes mellitus,NDUFAF1,0.608
+MONDO_0005148,type 2 diabetes mellitus,NDUFAF2,0.6079
+MONDO_0005148,type 2 diabetes mellitus,NDUFB5,0.6077
+MONDO_0005148,type 2 diabetes mellitus,NDUFV2,0.6076
+MONDO_0005148,type 2 diabetes mellitus,NDUFB3,0.6075
+MONDO_0005148,type 2 diabetes mellitus,NDUFS7,0.6075
+MONDO_0005148,type 2 diabetes mellitus,NDUFA8,0.6075
+MONDO_0005148,type 2 diabetes mellitus,NDUFA12,0.6075
+MONDO_0005148,type 2 diabetes mellitus,NDUFA7,0.6071
+MONDO_0005148,type 2 diabetes mellitus,COXFA4L2,0.6071
+MONDO_0005148,type 2 diabetes mellitus,NDUFA3,0.6071
+MONDO_0005148,type 2 diabetes mellitus,NDUFA9,0.6071
+MONDO_0005148,type 2 diabetes mellitus,NDUFB11,0.6071
+MONDO_0005148,type 2 diabetes mellitus,NDUFC1,0.6071
+MONDO_0005148,type 2 diabetes mellitus,NDUFB1,0.6071
+MONDO_0005148,type 2 diabetes mellitus,NDUFAF4,0.6071
+MONDO_0005148,type 2 diabetes mellitus,MGAM,0.6054
+MONDO_0005148,type 2 diabetes mellitus,APOE,0.6042
+MONDO_0005148,type 2 diabetes mellitus,PDX1,0.6033
+MONDO_0005148,type 2 diabetes mellitus,AMY2A,0.5996
+MONDO_0005148,type 2 diabetes mellitus,JAZF1,0.5949
+MONDO_0005148,type 2 diabetes mellitus,KL,0.5946
+MONDO_0005148,type 2 diabetes mellitus,NR3C2,0.5944
+MONDO_0005148,type 2 diabetes mellitus,PAM,0.593
+MONDO_0005148,type 2 diabetes mellitus,INS,0.5914
+MONDO_0005148,type 2 diabetes mellitus,UBE2E2,0.5887
+MONDO_0005148,type 2 diabetes mellitus,LPL,0.5886
+MONDO_0005148,type 2 diabetes mellitus,CTRB1,0.5881
+MONDO_0005148,type 2 diabetes mellitus,CTRB2,0.5864
+MONDO_0005148,type 2 diabetes mellitus,GAA,0.5837
+MONDO_0005148,type 2 diabetes mellitus,RASGRP1,0.5819
+MONDO_0005148,type 2 diabetes mellitus,GCKR,0.5758
+MONDO_0005148,type 2 diabetes mellitus,FGFR4,0.5749
+MONDO_0005148,type 2 diabetes mellitus,TFAP2B,0.5749
+MONDO_0005148,type 2 diabetes mellitus,SI,0.5695
+MONDO_0005148,type 2 diabetes mellitus,SLC16A11,0.5685
+MONDO_0005148,type 2 diabetes mellitus,HDAC9,0.5685
+MONDO_0005148,type 2 diabetes mellitus,MGAM2,0.5684
+MONDO_0005148,type 2 diabetes mellitus,AGTR1,0.5684
+MONDO_0005148,type 2 diabetes mellitus,RREB1,0.5681
+MONDO_0005148,type 2 diabetes mellitus,GRB14,0.5648
+MONDO_0005148,type 2 diabetes mellitus,PROX1,0.5647
+MONDO_0005148,type 2 diabetes mellitus,ABO,0.5632
+MONDO_0005148,type 2 diabetes mellitus,ADCY5,0.5629
+MONDO_0005148,type 2 diabetes mellitus,IGF2BP2,0.561
+MONDO_0005148,type 2 diabetes mellitus,SLC22A3,0.5604
+MONDO_0005148,type 2 diabetes mellitus,DGKB,0.559
+MONDO_0005148,type 2 diabetes mellitus,TLE1,0.5588
+MONDO_0005148,type 2 diabetes mellitus,ANKH,0.5579
+MONDO_0005148,type 2 diabetes mellitus,PNPLA3,0.5575
+MONDO_0005148,type 2 diabetes mellitus,LIPC,0.5564
+MONDO_0005148,type 2 diabetes mellitus,GLIS3,0.5563
+MONDO_0005148,type 2 diabetes mellitus,HMGA2,0.5541
+MONDO_0005148,type 2 diabetes mellitus,GRP,0.5518
+MONDO_0005148,type 2 diabetes mellitus,ADAMTS9,0.5512
+MONDO_0005148,type 2 diabetes mellitus,GPSM1,0.5493
+MONDO_0005148,type 2 diabetes mellitus,INHBB,0.5481
+MONDO_0005148,type 2 diabetes mellitus,KSR2,0.5472
+MONDO_0005148,type 2 diabetes mellitus,FBRSL1,0.5444
+MONDO_0005148,type 2 diabetes mellitus,ETV1,0.5444
+MONDO_0005148,type 2 diabetes mellitus,SLC5A1,0.5435
+MONDO_0005148,type 2 diabetes mellitus,ANGPTL4,0.5429
+MONDO_0005148,type 2 diabetes mellitus,ARAP1,0.5414
+MONDO_0005148,type 2 diabetes mellitus,BCL2L11,0.5398
+MONDO_0005148,type 2 diabetes mellitus,SLC12A8,0.5392
+MONDO_0005148,type 2 diabetes mellitus,ST6GAL1,0.5388
+MONDO_0005148,type 2 diabetes mellitus,PRC1,0.5386
+MONDO_0005148,type 2 diabetes mellitus,EYA2,0.5376
+MONDO_0005148,type 2 diabetes mellitus,SPRED2,0.5364
+MONDO_0005148,type 2 diabetes mellitus,TET2,0.5364
+MONDO_0005148,type 2 diabetes mellitus,NEUROG3,0.536
+MONDO_0005148,type 2 diabetes mellitus,NFATC2,0.5349
+MONDO_0005148,type 2 diabetes mellitus,ZFHX3,0.5347
+MONDO_0005148,type 2 diabetes mellitus,KLF14,0.5338
+MONDO_0005148,type 2 diabetes mellitus,ONECUT1,0.533
+MONDO_0005148,type 2 diabetes mellitus,NKX6-3,0.5327
+MONDO_0005148,type 2 diabetes mellitus,MYO5C,0.5326
+MONDO_0005148,type 2 diabetes mellitus,TENT5C,0.5318
+MONDO_0005148,type 2 diabetes mellitus,ACE,0.5312
+MONDO_0005148,type 2 diabetes mellitus,WSCD2,0.5307
+MONDO_0005148,type 2 diabetes mellitus,ZMIZ1,0.5292
+MONDO_0005148,type 2 diabetes mellitus,CDKN1B,0.5288
+MONDO_0005148,type 2 diabetes mellitus,PPP1R3A,0.5285
+MONDO_0005148,type 2 diabetes mellitus,GP2,0.526
+MONDO_0005148,type 2 diabetes mellitus,CCND1,0.5248
+MONDO_0005148,type 2 diabetes mellitus,PTGFRN,0.5228
+MONDO_0005148,type 2 diabetes mellitus,CDKN2B,0.5223
+MONDO_0005148,type 2 diabetes mellitus,HHEX,0.5221
+MONDO_0005148,type 2 diabetes mellitus,SINHCAF,0.5214
+MONDO_0005148,type 2 diabetes mellitus,TRIM66,0.5211
+MONDO_0005148,type 2 diabetes mellitus,SCTR,0.5207
+MONDO_0005148,type 2 diabetes mellitus,ITGA1,0.5207
+MONDO_0005148,type 2 diabetes mellitus,BDNF,0.5205
+MONDO_0005148,type 2 diabetes mellitus,GTF2I,0.5201
+MONDO_0005148,type 2 diabetes mellitus,ARID5B,0.52
+MONDO_0005148,type 2 diabetes mellitus,TFRC,0.5182
+MONDO_0005148,type 2 diabetes mellitus,CTBP1,0.5178
+MONDO_0005148,type 2 diabetes mellitus,NLGN1,0.5175
+MONDO_0005148,type 2 diabetes mellitus,TYK2,0.5167
+MONDO_0005148,type 2 diabetes mellitus,NUS1,0.5134
+MONDO_0005148,type 2 diabetes mellitus,GNPDA2,0.5127
+MONDO_0005148,type 2 diabetes mellitus,HHIP,0.5116
+MONDO_0005148,type 2 diabetes mellitus,TRPS1,0.511
+MONDO_0005148,type 2 diabetes mellitus,AUTS2,0.5106
+MONDO_0005148,type 2 diabetes mellitus,LRMDA,0.5105
+MONDO_0005148,type 2 diabetes mellitus,CALCR,0.5102
+MONDO_0005148,type 2 diabetes mellitus,KCNK17,0.5101
+MONDO_0005148,type 2 diabetes mellitus,ACSL1,0.5101
+MONDO_0005148,type 2 diabetes mellitus,TTN,0.5099
+MONDO_0005148,type 2 diabetes mellitus,LEPR,0.5094
+MONDO_0005148,type 2 diabetes mellitus,DRD2,0.5085
+MONDO_0005148,type 2 diabetes mellitus,ANK1,0.5081
+MONDO_0005148,type 2 diabetes mellitus,CPA1,0.507
+MONDO_0005148,type 2 diabetes mellitus,LONRF1,0.5069
+MONDO_0005148,type 2 diabetes mellitus,IGF1R,0.5067
+MONDO_0005148,type 2 diabetes mellitus,BEND3,0.5065
+MONDO_0005148,type 2 diabetes mellitus,EBF2,0.5045
+MONDO_0005148,type 2 diabetes mellitus,RSPO3,0.5039
+MONDO_0005148,type 2 diabetes mellitus,ATP5F1E,0.5029
+MONDO_0005148,type 2 diabetes mellitus,JADE2,0.5029
+MONDO_0005148,type 2 diabetes mellitus,HMG20A,0.5023
+MONDO_0005148,type 2 diabetes mellitus,PEAK1,0.5008
+MONDO_0005148,type 2 diabetes mellitus,CEP68,0.4999
+MONDO_0005148,type 2 diabetes mellitus,CTTNBP2,0.4998
+MONDO_0005148,type 2 diabetes mellitus,CAMK1D,0.4993
+MONDO_0005148,type 2 diabetes mellitus,PML,0.4987
+MONDO_0005148,type 2 diabetes mellitus,MBNL1,0.4984
+MONDO_0005148,type 2 diabetes mellitus,RGS17,0.4958
+MONDO_0005148,type 2 diabetes mellitus,PLXND1,0.4954
+MONDO_0005148,type 2 diabetes mellitus,TSPAN8,0.4949
+MONDO_0005148,type 2 diabetes mellitus,ATXN7,0.4947
+MONDO_0005148,type 2 diabetes mellitus,HIVEP2,0.4944
+MONDO_0005148,type 2 diabetes mellitus,GRID1,0.4939
+MONDO_0005148,type 2 diabetes mellitus,PCDH17,0.4939
+MONDO_0005148,type 2 diabetes mellitus,CPNE4,0.4938
+MONDO_0005148,type 2 diabetes mellitus,CMIP,0.4931
+MONDO_0005148,type 2 diabetes mellitus,SH2B3,0.4922
+MONDO_0005148,type 2 diabetes mellitus,LAMA1,0.4922
+MONDO_0005148,type 2 diabetes mellitus,PDE4B,0.492
+MONDO_0005148,type 2 diabetes mellitus,TP53INP1,0.49
+MONDO_0005148,type 2 diabetes mellitus,BCL2,0.4899
+MONDO_0005148,type 2 diabetes mellitus,PDE3A,0.4894
+MONDO_0005148,type 2 diabetes mellitus,SLC1A2,0.4891
+MONDO_0005148,type 2 diabetes mellitus,ACVR1C,0.4879
+MONDO_0005148,type 2 diabetes mellitus,PSMD6,0.4878
+MONDO_0005148,type 2 diabetes mellitus,ZNF257,0.4878
+MONDO_0005148,type 2 diabetes mellitus,CCND2,0.4874
+MONDO_0005148,type 2 diabetes mellitus,ETS1,0.4851
+MONDO_0005148,type 2 diabetes mellitus,FBXW7,0.4842
+MONDO_0005148,type 2 diabetes mellitus,CYTH1,0.4839
+MONDO_0005148,type 2 diabetes mellitus,PPP3CA,0.4827
+MONDO_0005148,type 2 diabetes mellitus,RNF6,0.4811
+MONDO_0005148,type 2 diabetes mellitus,SLC39A11,0.481
+MONDO_0005148,type 2 diabetes mellitus,NHSL1,0.4799
+MONDO_0005148,type 2 diabetes mellitus,DRD4,0.4799
+MONDO_0005148,type 2 diabetes mellitus,DNMT3A,0.4794
+MONDO_0005148,type 2 diabetes mellitus,PCBD1,0.479
+MONDO_0005148,type 2 diabetes mellitus,WDR11,0.4774
+MONDO_0005148,type 2 diabetes mellitus,PLEKHA1,0.4773
+MONDO_0005148,type 2 diabetes mellitus,ZNF236,0.4753
+MONDO_0005148,type 2 diabetes mellitus,MC4R,0.4753
+MONDO_0005148,type 2 diabetes mellitus,CDKN1C,0.4742
+MONDO_0005148,type 2 diabetes mellitus,FXYD2,0.4736
+MONDO_0005148,type 2 diabetes mellitus,MINDY1,0.4729
+MONDO_0005148,type 2 diabetes mellitus,TSHZ2,0.4728
+MONDO_0005148,type 2 diabetes mellitus,IL12B,0.4724
+MONDO_0005148,type 2 diabetes mellitus,SSR1,0.4698
+MONDO_0005148,type 2 diabetes mellitus,PGM1,0.4698
+MONDO_0005148,type 2 diabetes mellitus,DRD3,0.4695
+MONDO_0005148,type 2 diabetes mellitus,MEF2C,0.4692
+MONDO_0005148,type 2 diabetes mellitus,UBE2E3,0.4676
+MONDO_0005148,type 2 diabetes mellitus,GPR26,0.4674
+MONDO_0005148,type 2 diabetes mellitus,MSRA,0.4674
+MONDO_0005148,type 2 diabetes mellitus,LIPF,0.4672
+MONDO_0005148,type 2 diabetes mellitus,CAMK2B,0.4664
+MONDO_0005148,type 2 diabetes mellitus,CENPW,0.466
+MONDO_0005148,type 2 diabetes mellitus,ADRB1,0.4652
+MONDO_0005148,type 2 diabetes mellitus,ARPP21,0.4652
+MONDO_0005148,type 2 diabetes mellitus,MED23,0.4651
+MONDO_0005148,type 2 diabetes mellitus,FANCL,0.4647
+MONDO_0005148,type 2 diabetes mellitus,CDH7,0.4644
+MONDO_0005148,type 2 diabetes mellitus,KLHL42,0.4642
+MONDO_0005148,type 2 diabetes mellitus,RBMS1,0.4633
+MONDO_0005148,type 2 diabetes mellitus,FAIM2,0.4629
+MONDO_0005148,type 2 diabetes mellitus,CRHR2,0.4615
+MONDO_0005148,type 2 diabetes mellitus,ALDH2,0.4609
+MONDO_0005148,type 2 diabetes mellitus,NEGR1,0.4606
+MONDO_0005148,type 2 diabetes mellitus,MEOX2,0.4604
+MONDO_0005148,type 2 diabetes mellitus,VPS13C,0.4601
+MONDO_0005148,type 2 diabetes mellitus,VPS33B,0.4587
+MONDO_0005148,type 2 diabetes mellitus,UBE3C,0.4578
+MONDO_0005148,type 2 diabetes mellitus,P2RY12,0.4576
+MONDO_0005148,type 2 diabetes mellitus,ZEB2,0.4572
+MONDO_0005148,type 2 diabetes mellitus,PATJ,0.4569
+MONDO_0005148,type 2 diabetes mellitus,ZZEF1,0.4569
+MONDO_0005148,type 2 diabetes mellitus,ZC3H11B,0.4569
+MONDO_0005148,type 2 diabetes mellitus,MAGI2,0.4569
+MONDO_0005148,type 2 diabetes mellitus,OLFM4,0.4568
+MONDO_0005148,type 2 diabetes mellitus,UNC5C,0.4568
+MONDO_0005148,type 2 diabetes mellitus,TCF4,0.4563
+MONDO_0005148,type 2 diabetes mellitus,JPH1,0.4548
+MONDO_0005148,type 2 diabetes mellitus,NKX6-1,0.4545
+MONDO_0005148,type 2 diabetes mellitus,SNTB1,0.4539
+MONDO_0005148,type 2 diabetes mellitus,PTEN,0.4534
+MONDO_0005148,type 2 diabetes mellitus,PRIM1,0.4531
+MONDO_0005148,type 2 diabetes mellitus,SCN2A,0.4528
+MONDO_0005148,type 2 diabetes mellitus,LRFN2,0.4523
+MONDO_0005148,type 2 diabetes mellitus,EYA1,0.4518
+MONDO_0005148,type 2 diabetes mellitus,IL13,0.4515
+MONDO_0005148,type 2 diabetes mellitus,YKT6,0.4507
+MONDO_0005148,type 2 diabetes mellitus,CHD1L,0.4506
+MONDO_0005148,type 2 diabetes mellitus,MPPED2,0.4505
+MONDO_0005148,type 2 diabetes mellitus,ERBB4,0.4505
+MONDO_0005148,type 2 diabetes mellitus,PDZRN4,0.4504
+MONDO_0005148,type 2 diabetes mellitus,AOAH,0.45
+MONDO_0005148,type 2 diabetes mellitus,PPIP5K2,0.4498
+MONDO_0005148,type 2 diabetes mellitus,PPP2R3A,0.4495
+MONDO_0005148,type 2 diabetes mellitus,GRB10,0.4491
+MONDO_0005148,type 2 diabetes mellitus,FGFR3,0.4488
+MONDO_0005148,type 2 diabetes mellitus,DHFR2,0.4486
+MONDO_0005148,type 2 diabetes mellitus,MYC,0.4483
+MONDO_0005148,type 2 diabetes mellitus,DMRTA2,0.4483
+MONDO_0005148,type 2 diabetes mellitus,HEY2,0.4479
+MONDO_0005148,type 2 diabetes mellitus,MAML3,0.4479
+MONDO_0005148,type 2 diabetes mellitus,LRRC74A,0.4476
+MONDO_0005148,type 2 diabetes mellitus,ADH1B,0.4472
+MONDO_0005148,type 2 diabetes mellitus,ENSG00000293584,0.4462
+MONDO_0005148,type 2 diabetes mellitus,LINGO2,0.4458
+MONDO_0005148,type 2 diabetes mellitus,VPS53,0.4455
+MONDO_0005148,type 2 diabetes mellitus,PELO,0.4448
+MONDO_0005148,type 2 diabetes mellitus,STARD10,0.4444
+MONDO_0005148,type 2 diabetes mellitus,SSPN,0.4442
+MONDO_0005148,type 2 diabetes mellitus,LRRC1,0.4441
+MONDO_0005148,type 2 diabetes mellitus,MRPS30,0.444
+MONDO_0005148,type 2 diabetes mellitus,GALNT3,0.443
+EFO_1001248,non-alcoholic fatty liver,PNPLA3,0.7455
+EFO_1001248,non-alcoholic fatty liver,GLP1R,0.5703
+EFO_1001248,non-alcoholic fatty liver,THRB,0.5522
+EFO_1001248,non-alcoholic fatty liver,APOE,0.5135
+EFO_1001248,non-alcoholic fatty liver,APOA5,0.4802
+EFO_1001248,non-alcoholic fatty liver,PPARG,0.4776
+EFO_1001248,non-alcoholic fatty liver,LPL,0.4666
+EFO_1001248,non-alcoholic fatty liver,TRIB1,0.4543
+EFO_1001248,non-alcoholic fatty liver,LIPC,0.4429
+EFO_1001248,non-alcoholic fatty liver,GCKR,0.4414
+EFO_1001248,non-alcoholic fatty liver,SCARB1,0.4395
+EFO_1001248,non-alcoholic fatty liver,RSPO3,0.4374
+EFO_1001248,non-alcoholic fatty liver,TM6SF2,0.4264
+EFO_1001248,non-alcoholic fatty liver,PPARA,0.4207
+EFO_1001248,non-alcoholic fatty liver,EYA1,0.4183
+EFO_1001248,non-alcoholic fatty liver,SLC5A2,0.4145
+EFO_1001248,non-alcoholic fatty liver,NEGR1,0.4137
+EFO_1001248,non-alcoholic fatty liver,CMIP,0.4104
+EFO_1001248,non-alcoholic fatty liver,MTARC1,0.4092
+EFO_1001248,non-alcoholic fatty liver,NDUFS3,0.4091
+EFO_1001248,non-alcoholic fatty liver,VDR,0.4001
+EFO_1001248,non-alcoholic fatty liver,NDUFS4,0.3999
+EFO_1001248,non-alcoholic fatty liver,APOB,0.3971
+EFO_1001248,non-alcoholic fatty liver,NDUFA9,0.391
+EFO_1001248,non-alcoholic fatty liver,GALNT2,0.3895
+EFO_1001248,non-alcoholic fatty liver,FTO,0.3877
+EFO_1001248,non-alcoholic fatty liver,HNF1A,0.3856
+EFO_1001248,non-alcoholic fatty liver,NDUFA13,0.3856
+EFO_1001248,non-alcoholic fatty liver,NDUFS2,0.3846
+EFO_1001248,non-alcoholic fatty liver,NDUFA10,0.3845
+EFO_1001248,non-alcoholic fatty liver,MT-ND6,0.3829
+EFO_1001248,non-alcoholic fatty liver,COXFA4,0.3823
+EFO_1001248,non-alcoholic fatty liver,NDUFB8,0.3819
+EFO_1001248,non-alcoholic fatty liver,NDUFB6,0.3815
+EFO_1001248,non-alcoholic fatty liver,GPD2,0.3808
+EFO_1001248,non-alcoholic fatty liver,NDUFA7,0.3805
+EFO_1001248,non-alcoholic fatty liver,NDUFV1,0.3805
+EFO_1001248,non-alcoholic fatty liver,NDUFB2,0.3803
+EFO_1001248,non-alcoholic fatty liver,NDUFA6,0.3803
+EFO_1001248,non-alcoholic fatty liver,NDUFS5,0.3803
+EFO_1001248,non-alcoholic fatty liver,NDUFS6,0.3802
+EFO_1001248,non-alcoholic fatty liver,NDUFAB1,0.3802
+EFO_1001248,non-alcoholic fatty liver,NDUFA8,0.38
+EFO_1001248,non-alcoholic fatty liver,NDUFA3,0.38
+EFO_1001248,non-alcoholic fatty liver,MT-ND4L,0.38
+EFO_1001248,non-alcoholic fatty liver,NDUFB7,0.38
+EFO_1001248,non-alcoholic fatty liver,NDUFB10,0.3798
+EFO_1001248,non-alcoholic fatty liver,NDUFB9,0.3796
+EFO_1001248,non-alcoholic fatty liver,NDUFB3,0.3794
+EFO_1001248,non-alcoholic fatty liver,NDUFS1,0.3794
+EFO_1001248,non-alcoholic fatty liver,NDUFA1,0.3794
+EFO_1001248,non-alcoholic fatty liver,MT-ND3,0.3794
+EFO_1001248,non-alcoholic fatty liver,NDUFA5,0.3793
+EFO_1001248,non-alcoholic fatty liver,HNF4A,0.3791
+EFO_1001248,non-alcoholic fatty liver,NDUFA2,0.3791
+EFO_1001248,non-alcoholic fatty liver,MT-ND4,0.3791
+EFO_1001248,non-alcoholic fatty liver,NDUFA12,0.3789
+EFO_1001248,non-alcoholic fatty liver,GCGR,0.3787
+EFO_1001248,non-alcoholic fatty liver,NDUFV3,0.3785
+EFO_1001248,non-alcoholic fatty liver,NDUFV2,0.3785
+EFO_1001248,non-alcoholic fatty liver,NDUFC2,0.3785
+EFO_1001248,non-alcoholic fatty liver,NDUFS7,0.3785
+EFO_1001248,non-alcoholic fatty liver,NDUFB1,0.3785
+EFO_1001248,non-alcoholic fatty liver,NDUFB5,0.3785
+EFO_1001248,non-alcoholic fatty liver,MT-ND5,0.3781
+EFO_1001248,non-alcoholic fatty liver,MT-ND1,0.3781
+EFO_1001248,non-alcoholic fatty liver,NDUFB11,0.3781
+EFO_1001248,non-alcoholic fatty liver,NDUFA11,0.3781
+EFO_1001248,non-alcoholic fatty liver,NDUFB4,0.3781
+EFO_1001248,non-alcoholic fatty liver,NDUFS8,0.3781
+EFO_1001248,non-alcoholic fatty liver,NDUFAF2,0.3781
+EFO_1001248,non-alcoholic fatty liver,NDUFAF4,0.3781
+EFO_1001248,non-alcoholic fatty liver,COXFA4L2,0.3781
+EFO_1001248,non-alcoholic fatty liver,MT-ND2,0.3781
+EFO_1001248,non-alcoholic fatty liver,NDUFC1,0.3781
+EFO_1001248,non-alcoholic fatty liver,NDUFAF1,0.3781
+EFO_1001248,non-alcoholic fatty liver,NDUFAF3,0.3781
+EFO_1001248,non-alcoholic fatty liver,ABCA1,0.378
+EFO_1001248,non-alcoholic fatty liver,MYO1F,0.3722
+EFO_1001248,non-alcoholic fatty liver,DPP4,0.3669
+EFO_1001248,non-alcoholic fatty liver,PPARD,0.3614
+EFO_1001248,non-alcoholic fatty liver,COLEC11,0.361
+EFO_1001248,non-alcoholic fatty liver,REEP3,0.3605
+EFO_1001248,non-alcoholic fatty liver,IRS1,0.3604
+EFO_1001248,non-alcoholic fatty liver,BDNF,0.3604
+EFO_1001248,non-alcoholic fatty liver,HHIP,0.3602
+EFO_1001248,non-alcoholic fatty liver,LPA,0.36
+EFO_1001248,non-alcoholic fatty liver,INSR,0.3545
+EFO_1001248,non-alcoholic fatty liver,ZC3H11B,0.3535
+EFO_1001248,non-alcoholic fatty liver,LEPR,0.352
+EFO_1001248,non-alcoholic fatty liver,SLC39A8,0.3516
+EFO_1001248,non-alcoholic fatty liver,GPAM,0.3513
+EFO_1001248,non-alcoholic fatty liver,GGT1,0.3473
+EFO_1001248,non-alcoholic fatty liver,CNR1,0.347
+EFO_1001248,non-alcoholic fatty liver,BPTF,0.346
+EFO_1001248,non-alcoholic fatty liver,PGS1,0.3446
+EFO_1001248,non-alcoholic fatty liver,EXOC3L4,0.3446
+EFO_1001248,non-alcoholic fatty liver,ADORA2A,0.3393
+EFO_1001248,non-alcoholic fatty liver,ITCH,0.3373
+EFO_1001248,non-alcoholic fatty liver,PDE4D,0.3361
+EFO_1001248,non-alcoholic fatty liver,COBLL1,0.3353
+EFO_1001248,non-alcoholic fatty liver,NR1H4,0.3332
+EFO_1001248,non-alcoholic fatty liver,PDE4A,0.3315
+EFO_1001248,non-alcoholic fatty liver,RGS6,0.3278
+EFO_1001248,non-alcoholic fatty liver,GPR26,0.3276
+EFO_1001248,non-alcoholic fatty liver,ROBO1,0.3272
+EFO_1001248,non-alcoholic fatty liver,PDE4B,0.3267
+EFO_1001248,non-alcoholic fatty liver,JAZF1,0.326
+EFO_1001248,non-alcoholic fatty liver,KPNA2,0.3256
+EFO_1001248,non-alcoholic fatty liver,PDE4C,0.3255
+EFO_1001248,non-alcoholic fatty liver,PDE5A,0.3235
+EFO_1001248,non-alcoholic fatty liver,PDE3B,0.3215
+EFO_1001248,non-alcoholic fatty liver,PDE3A,0.3207
+EFO_1001248,non-alcoholic fatty liver,PDE2A,0.3191
+EFO_1001248,non-alcoholic fatty liver,PDE1B,0.319
+EFO_1001248,non-alcoholic fatty liver,ADORA2B,0.3184
+EFO_1001248,non-alcoholic fatty liver,PDE8A,0.318
+EFO_1001248,non-alcoholic fatty liver,PDE6A,0.318
+EFO_1001248,non-alcoholic fatty liver,PDE6C,0.318
+EFO_1001248,non-alcoholic fatty liver,PDE6D,0.318
+EFO_1001248,non-alcoholic fatty liver,PDE10A,0.318
+EFO_1001248,non-alcoholic fatty liver,PDE8B,0.318
+EFO_1001248,non-alcoholic fatty liver,PDE6G,0.318
+EFO_1001248,non-alcoholic fatty liver,PDE1C,0.318
+EFO_1001248,non-alcoholic fatty liver,PDE6H,0.318
+EFO_1001248,non-alcoholic fatty liver,PDE1A,0.318
+EFO_1001248,non-alcoholic fatty liver,PDE7B,0.318
+EFO_1001248,non-alcoholic fatty liver,PDE9A,0.318
+EFO_1001248,non-alcoholic fatty liver,PDE6B,0.318
+EFO_1001248,non-alcoholic fatty liver,PDE7A,0.318
+EFO_1001248,non-alcoholic fatty liver,KLF14,0.3155
+EFO_1001248,non-alcoholic fatty liver,DLG5,0.3154
+EFO_1001248,non-alcoholic fatty liver,ATRAID,0.3118
+EFO_1001248,non-alcoholic fatty liver,AGTR1,0.3105
+EFO_1001248,non-alcoholic fatty liver,TMEM132B,0.3078
+EFO_1001248,non-alcoholic fatty liver,PLA2G2F,0.3071
+EFO_1001248,non-alcoholic fatty liver,HMGCR,0.3041
+EFO_1001248,non-alcoholic fatty liver,SFMBT1,0.3023
+EFO_1001248,non-alcoholic fatty liver,MAP2K5,0.2997
+EFO_1001248,non-alcoholic fatty liver,ZNF513,0.2989
+EFO_1001248,non-alcoholic fatty liver,MRC1,0.2955
+EFO_1001248,non-alcoholic fatty liver,HK1,0.293
+EFO_1001248,non-alcoholic fatty liver,EFNA3,0.2905
+EFO_1001248,non-alcoholic fatty liver,DOCK6,0.2903
+EFO_1001248,non-alcoholic fatty liver,GNPDA2,0.2901
+EFO_1001248,non-alcoholic fatty liver,RALY,0.289
+EFO_1001248,non-alcoholic fatty liver,EYA2,0.2879
+EFO_1001248,non-alcoholic fatty liver,IL17A,0.2878
+EFO_1001248,non-alcoholic fatty liver,ETV6,0.2864
+EFO_1001248,non-alcoholic fatty liver,CETP,0.2863
+EFO_1001248,non-alcoholic fatty liver,SAMM50,0.2859
+EFO_1001248,non-alcoholic fatty liver,AOC1,0.2848
+EFO_1001248,non-alcoholic fatty liver,TRPS1,0.2786
+EFO_1001248,non-alcoholic fatty liver,ADPGK,0.2785
+EFO_1001248,non-alcoholic fatty liver,SNX17,0.2784
+EFO_1001248,non-alcoholic fatty liver,CEP68,0.2779
+EFO_1001248,non-alcoholic fatty liver,BCKDHB,0.2765
+EFO_1001248,non-alcoholic fatty liver,MTTP,0.2756
+EFO_1001248,non-alcoholic fatty liver,LEPROT,0.2733
+EFO_1001248,non-alcoholic fatty liver,NPC1,0.2731
+EFO_1001248,non-alcoholic fatty liver,BAZ1B,0.2722
+EFO_1001248,non-alcoholic fatty liver,ILRUN,0.2718
+EFO_1001248,non-alcoholic fatty liver,ESR1,0.2712
+EFO_1001248,non-alcoholic fatty liver,PRDX6,0.27
+EFO_1001248,non-alcoholic fatty liver,ANGPTL3,0.2698
+EFO_1001248,non-alcoholic fatty liver,NR1H3,0.2698
+EFO_1001248,non-alcoholic fatty liver,ZPR1,0.2664
+EFO_1001248,non-alcoholic fatty liver,APOC3,0.2643
+EFO_1001248,non-alcoholic fatty liver,CALCRL,0.2642
+EFO_1001248,non-alcoholic fatty liver,ZMIZ1,0.2627
+EFO_1001248,non-alcoholic fatty liver,CDH6,0.2619
+EFO_1001248,non-alcoholic fatty liver,CLCN2,0.2616
+EFO_1001248,non-alcoholic fatty liver,ZNF827,0.2591
+EFO_1001248,non-alcoholic fatty liver,LIPG,0.2581
+EFO_1001248,non-alcoholic fatty liver,NFAT5,0.2555
+EFO_1001248,non-alcoholic fatty liver,ACP2,0.254
+EFO_1001248,non-alcoholic fatty liver,ARL15,0.249
+EFO_1001248,non-alcoholic fatty liver,DCLK2,0.2467
+EFO_1001248,non-alcoholic fatty liver,SCGN,0.2457
+EFO_1001248,non-alcoholic fatty liver,TMEM18,0.2449
+EFO_1001248,non-alcoholic fatty liver,ARID1A,0.2446
+EFO_1001248,non-alcoholic fatty liver,MPP2,0.2442
+EFO_1001248,non-alcoholic fatty liver,MAP3K1,0.2394
+EFO_1001248,non-alcoholic fatty liver,HSD17B13,0.239
+EFO_1001248,non-alcoholic fatty liver,CCDC18,0.2356
+EFO_1001248,non-alcoholic fatty liver,MSL2,0.2353
+EFO_1001248,non-alcoholic fatty liver,TULP1,0.234
+EFO_1001248,non-alcoholic fatty liver,HMGA1,0.2317
+EFO_1001248,non-alcoholic fatty liver,ITIH2,0.2312
+EFO_1001248,non-alcoholic fatty liver,FANCL,0.2309
+EFO_1001248,non-alcoholic fatty liver,DENND1A,0.23
+EFO_1001248,non-alcoholic fatty liver,EBF1,0.2299
+EFO_1001248,non-alcoholic fatty liver,CELF1,0.2287
+EFO_1001248,non-alcoholic fatty liver,NFATC3,0.2282
+EFO_1001248,non-alcoholic fatty liver,SULT1A1,0.2268
+EFO_1001248,non-alcoholic fatty liver,FHIT,0.2243
+EFO_1001248,non-alcoholic fatty liver,NRXN3,0.2189
+EFO_1001248,non-alcoholic fatty liver,SMIM29,0.2174
+EFO_1001248,non-alcoholic fatty liver,RBM6,0.2173
+EFO_1001248,non-alcoholic fatty liver,MICAL3,0.2161
+EFO_1001248,non-alcoholic fatty liver,BCDIN3D,0.2151
+EFO_1001248,non-alcoholic fatty liver,ZC3H4,0.2143
+EFO_1001248,non-alcoholic fatty liver,PCDH9,0.2137
+EFO_1001248,non-alcoholic fatty liver,VPS53,0.2131
+EFO_1001248,non-alcoholic fatty liver,CPN1,0.2126
+EFO_1001248,non-alcoholic fatty liver,RAB11B,0.2124
+EFO_1001248,non-alcoholic fatty liver,BUD13,0.2106
+EFO_1001248,non-alcoholic fatty liver,GPRC5B,0.2086
+EFO_1001248,non-alcoholic fatty liver,RPL37A,0.2085
+EFO_1001248,non-alcoholic fatty liver,MACF1,0.2084
+EFO_1001248,non-alcoholic fatty liver,ARHGEF19,0.2065
+EFO_1001248,non-alcoholic fatty liver,TMEM258,0.2063
+EFO_1001248,non-alcoholic fatty liver,MTCH2,0.206
+EFO_1001248,non-alcoholic fatty liver,AFF1,0.2054
+EFO_1001248,non-alcoholic fatty liver,ATP2A1,0.2047
+EFO_1001248,non-alcoholic fatty liver,BMP8A,0.2043
+EFO_1001248,non-alcoholic fatty liver,KAT8,0.2013
+EFO_1001248,non-alcoholic fatty liver,POC5,0.2004
+EFO_1001248,non-alcoholic fatty liver,ANKRD55,0.2
+EFO_1001248,non-alcoholic fatty liver,MAP3K5,0.1996
+EFO_1001248,non-alcoholic fatty liver,SH3GL2,0.1958
+EFO_1001248,non-alcoholic fatty liver,FSIP2,0.1943
+EFO_1001248,non-alcoholic fatty liver,TEAD3,0.1917
+EFO_1001248,non-alcoholic fatty liver,RFT1,0.1891
+EFO_1001248,non-alcoholic fatty liver,SEC16B,0.1887
+EFO_1001248,non-alcoholic fatty liver,GRB14,0.186
+EFO_1001248,non-alcoholic fatty liver,CCR5,0.1856
+EFO_1001248,non-alcoholic fatty liver,ZDHHC18,0.1841
+EFO_1001248,non-alcoholic fatty liver,TMED5,0.1834
+EFO_1001248,non-alcoholic fatty liver,ISL1,0.1833
+EFO_1001248,non-alcoholic fatty liver,CCR2,0.1825
+EFO_1001248,non-alcoholic fatty liver,TNKS,0.1778
+EFO_1001248,non-alcoholic fatty liver,CCDC92,0.1754
+EFO_1001248,non-alcoholic fatty liver,PRKD1,0.1747
+EFO_1001248,non-alcoholic fatty liver,SYCE1L,0.1725
+EFO_1001248,non-alcoholic fatty liver,PPP1R3B,0.1715
+EFO_1001248,non-alcoholic fatty liver,LINGO2,0.1702
+EFO_1001248,non-alcoholic fatty liver,CYP26A1,0.164
+EFO_1001248,non-alcoholic fatty liver,CITED2,0.1609
+EFO_1001248,non-alcoholic fatty liver,NEDD9,0.1604
+EFO_1001248,non-alcoholic fatty liver,CNTLN,0.1601
+EFO_1001248,non-alcoholic fatty liver,DOCK7,0.1578
+EFO_1001248,non-alcoholic fatty liver,AHCY,0.1573
+EFO_1001248,non-alcoholic fatty liver,SLC9C2,0.1557
+EFO_1001248,non-alcoholic fatty liver,DNAH10,0.1505
+EFO_1001248,non-alcoholic fatty liver,CCNL1,0.1471
+EFO_1001248,non-alcoholic fatty liver,SKOR1,0.1448
+EFO_1001248,non-alcoholic fatty liver,KLB,0.1398
+EFO_1001248,non-alcoholic fatty liver,GNAT2,0.1382
+EFO_1001248,non-alcoholic fatty liver,TINAG,0.138
+EFO_1001248,non-alcoholic fatty liver,MON1B,0.136
+EFO_1001248,non-alcoholic fatty liver,ACACA,0.1352
+EFO_1001248,non-alcoholic fatty liver,GSTM1,0.1339
+EFO_1001248,non-alcoholic fatty liver,APOA1,0.1335
+EFO_1001248,non-alcoholic fatty liver,IGF2R,0.1333
+EFO_1001248,non-alcoholic fatty liver,VRK2,0.1305
+EFO_1001248,non-alcoholic fatty liver,GUF1,0.1299
+EFO_1001248,non-alcoholic fatty liver,FGF1,0.1294
+EFO_1001248,non-alcoholic fatty liver,FGFR4,0.1284
+EFO_1001248,non-alcoholic fatty liver,ZNF335,0.1278
+EFO_1001248,non-alcoholic fatty liver,KRT18,0.1276
+EFO_1001248,non-alcoholic fatty liver,LEP,0.1267
+EFO_1001248,non-alcoholic fatty liver,PIGV,0.1259
+EFO_1001248,non-alcoholic fatty liver,CASP1,0.1254
+EFO_1001248,non-alcoholic fatty liver,EIF2B4,0.124
+EFO_1001248,non-alcoholic fatty liver,TMEM170B,0.1236
+EFO_1001248,non-alcoholic fatty liver,ANKDD1B,0.1232
+EFO_1001248,non-alcoholic fatty liver,CASP3,0.1231
+EFO_1001248,non-alcoholic fatty liver,XDH,0.1227
+EFO_1001248,non-alcoholic fatty liver,NPC1L1,0.1217
+EFO_1001248,non-alcoholic fatty liver,GPT,0.1208
+EFO_1001248,non-alcoholic fatty liver,APOC1,0.1197
+EFO_1001248,non-alcoholic fatty liver,ACACB,0.1197
+EFO_1001248,non-alcoholic fatty liver,FOXO1,0.1197
+EFO_1001248,non-alcoholic fatty liver,AR,0.1195
+EFO_1001248,non-alcoholic fatty liver,FGF21,0.1193
+EFO_1001248,non-alcoholic fatty liver,HAMP,0.1192
+EFO_1001248,non-alcoholic fatty liver,INS,0.1186
+EFO_1001248,non-alcoholic fatty liver,CASP8,0.1181
+EFO_1001248,non-alcoholic fatty liver,ADIPOQ,0.1177
+EFO_1001248,non-alcoholic fatty liver,MON1A,0.1177
+EFO_1001248,non-alcoholic fatty liver,NLRP3,0.1175
+EFO_1001248,non-alcoholic fatty liver,CD8A,0.1172
+EFO_1001248,non-alcoholic fatty liver,VEGFA,0.1172
+EFO_1001248,non-alcoholic fatty liver,CASP2,0.1171
+EFO_1001248,non-alcoholic fatty liver,GCG,0.1171
+EFO_1001248,non-alcoholic fatty liver,TNF,0.1168
+EFO_1001248,non-alcoholic fatty liver,SIRT1,0.1162
+EFO_1001248,non-alcoholic fatty liver,GDF15,0.1159
+EFO_1001248,non-alcoholic fatty liver,ANGPTL8,0.1158
+EFO_1001248,non-alcoholic fatty liver,SLC10A2,0.1158
+EFO_1001248,non-alcoholic fatty liver,RBP4,0.1156
+EFO_1001248,non-alcoholic fatty liver,SHBG,0.1156
+EFO_1001248,non-alcoholic fatty liver,CDKN1A,0.1154
+EFO_1001248,non-alcoholic fatty liver,PRKAA1,0.1153
+EFO_1001248,non-alcoholic fatty liver,GNMT,0.1145
+EFO_1001248,non-alcoholic fatty liver,CD4,0.1144
+EFO_1001248,non-alcoholic fatty liver,AHSG,0.1144
+EFO_1001248,non-alcoholic fatty liver,MC4R,0.114
+EFO_1001248,non-alcoholic fatty liver,RETN,0.1138
+EFO_1000653,sarcopenia,FTO,0.3827
+EFO_1000653,sarcopenia,TNFSF11,0.3322
+EFO_1000653,sarcopenia,NDUFC1,0.2715
+EFO_1000653,sarcopenia,NDUFS8,0.2652
+EFO_1000653,sarcopenia,NDUFB5,0.2648
+EFO_1000653,sarcopenia,NDUFS1,0.2642
+EFO_1000653,sarcopenia,NDUFS3,0.2642
+EFO_1000653,sarcopenia,NDUFB7,0.2633
+EFO_1000653,sarcopenia,NDUFAF4,0.2633
+EFO_1000653,sarcopenia,NDUFA7,0.2633
+EFO_1000653,sarcopenia,MT-ND6,0.2633
+EFO_1000653,sarcopenia,NDUFB10,0.2633
+EFO_1000653,sarcopenia,MT-ND2,0.2633
+EFO_1000653,sarcopenia,NDUFB4,0.2633
+EFO_1000653,sarcopenia,NDUFS4,0.2633
+EFO_1000653,sarcopenia,NDUFA9,0.2633
+EFO_1000653,sarcopenia,NDUFA5,0.2633
+EFO_1000653,sarcopenia,NDUFS6,0.2633
+EFO_1000653,sarcopenia,MT-ND4,0.2633
+EFO_1000653,sarcopenia,NDUFA6,0.2633
+EFO_1000653,sarcopenia,MT-ND1,0.2633
+EFO_1000653,sarcopenia,NDUFV2,0.2633
+EFO_1000653,sarcopenia,NDUFAF2,0.2633
+EFO_1000653,sarcopenia,NDUFB2,0.2633
+EFO_1000653,sarcopenia,NDUFAF1,0.2633
+EFO_1000653,sarcopenia,NDUFA10,0.2633
+EFO_1000653,sarcopenia,NDUFAF3,0.2633
+EFO_1000653,sarcopenia,NDUFS2,0.2633
+EFO_1000653,sarcopenia,COXFA4,0.2633
+EFO_1000653,sarcopenia,NDUFV1,0.2633
+EFO_1000653,sarcopenia,NDUFA8,0.2633
+EFO_1000653,sarcopenia,MT-ND5,0.2633
+EFO_1000653,sarcopenia,NDUFS7,0.2633
+EFO_1000653,sarcopenia,NDUFB3,0.2633
+EFO_1000653,sarcopenia,NDUFB8,0.2633
+EFO_1000653,sarcopenia,NDUFA13,0.2633
+EFO_1000653,sarcopenia,NDUFB6,0.2633
+EFO_1000653,sarcopenia,NDUFA1,0.2633
+EFO_1000653,sarcopenia,NDUFB11,0.2633
+EFO_1000653,sarcopenia,NDUFC2,0.2633
+EFO_1000653,sarcopenia,NDUFA3,0.2633
+EFO_1000653,sarcopenia,NDUFA11,0.2633
+EFO_1000653,sarcopenia,GPD2,0.2633
+EFO_1000653,sarcopenia,NDUFB9,0.2633
+EFO_1000653,sarcopenia,NDUFAB1,0.2633
+EFO_1000653,sarcopenia,NDUFA12,0.2633
+EFO_1000653,sarcopenia,NDUFV3,0.2633
+EFO_1000653,sarcopenia,NDUFB1,0.2633
+EFO_1000653,sarcopenia,NDUFS5,0.2633
+EFO_1000653,sarcopenia,MT-ND3,0.2633
+EFO_1000653,sarcopenia,COXFA4L2,0.2633
+EFO_1000653,sarcopenia,MT-ND4L,0.2633
+EFO_1000653,sarcopenia,NDUFA2,0.2633
+EFO_1000653,sarcopenia,FDPS,0.2587
+EFO_1000653,sarcopenia,GHR,0.2063
+EFO_1000653,sarcopenia,MSTN,0.1297
+EFO_1000653,sarcopenia,FNDC5,0.1146
+EFO_1000653,sarcopenia,IL6,0.1132
+EFO_1000653,sarcopenia,CRP,0.1132
+EFO_1000653,sarcopenia,IGF1,0.1129
+EFO_1000653,sarcopenia,GPT,0.1114
+EFO_1000653,sarcopenia,GDF15,0.1112
+EFO_1000653,sarcopenia,INS,0.111
+EFO_1000653,sarcopenia,ACVR2B,0.1105
+EFO_1000653,sarcopenia,TNF,0.1096
+EFO_1000653,sarcopenia,AR,0.1091
+EFO_1000653,sarcopenia,IL16,0.104
+EFO_1000653,sarcopenia,NEFL,0.1013
+EFO_1000653,sarcopenia,IL10,0.0974
+EFO_1000653,sarcopenia,PTH,0.096
+EFO_1000653,sarcopenia,SOST,0.0952
+EFO_1000653,sarcopenia,SIRT1,0.0946
+EFO_1000653,sarcopenia,ALB,0.0918
+EFO_1000653,sarcopenia,CST3,0.0915
+EFO_1000653,sarcopenia,NPPB,0.0895
+EFO_1000653,sarcopenia,GLP1R,0.0894
+EFO_1000653,sarcopenia,ADIPOQ,0.0885
+EFO_1000653,sarcopenia,CXCL10,0.0876
+EFO_1000653,sarcopenia,CD8A,0.086
+EFO_1000653,sarcopenia,APLN,0.0857
+EFO_1000653,sarcopenia,BRD2,0.0856
+EFO_1000653,sarcopenia,TTR,0.0837
+EFO_1000653,sarcopenia,LEP,0.0835
+EFO_1000653,sarcopenia,NFE2L2,0.0822
+EFO_1000653,sarcopenia,XDH,0.0814
+EFO_1000653,sarcopenia,BMP7,0.0799
+EFO_1000653,sarcopenia,AGRN,0.0794
+EFO_1000653,sarcopenia,TTN,0.0786
+EFO_1000653,sarcopenia,FGF21,0.0785
+EFO_1000653,sarcopenia,ACTN3,0.0783
+EFO_1000653,sarcopenia,CD9,0.0781
+EFO_1000653,sarcopenia,OSTN,0.0777
+EFO_1000653,sarcopenia,PRKN,0.0777
+EFO_1000653,sarcopenia,FYN,0.077
+EFO_1000653,sarcopenia,EGFR,0.0759
+EFO_1000653,sarcopenia,RETN,0.075
+EFO_1000653,sarcopenia,CLU,0.075
+EFO_1000653,sarcopenia,GPT2,0.0743
+EFO_1000653,sarcopenia,HSPA12B,0.0739
+EFO_1000653,sarcopenia,DYRK1B,0.0739
+EFO_1000653,sarcopenia,DKK3,0.0723
+EFO_1000653,sarcopenia,B2M,0.0721
+EFO_1000653,sarcopenia,RPGRIP1L,0.0716
+EFO_1000653,sarcopenia,PDCD1,0.0704
+EFO_1000653,sarcopenia,NOX4,0.0701
+EFO_1000653,sarcopenia,HP,0.0697
+EFO_1000653,sarcopenia,MTHFR,0.0684
+EFO_1000653,sarcopenia,IL17A,0.0681
+EFO_1000653,sarcopenia,STAT3,0.0655
+EFO_1000653,sarcopenia,AIP,0.0641
+EFO_1000653,sarcopenia,PIM1,0.0638
+EFO_1000653,sarcopenia,HLA-DRA,0.0621
+EFO_1000653,sarcopenia,BAK1,0.0611
+EFO_1000653,sarcopenia,CXCL12,0.0608
+EFO_1000653,sarcopenia,GSDME,0.0606
+EFO_1000653,sarcopenia,NEK6,0.0606
+EFO_1000653,sarcopenia,SPARC,0.0602
+EFO_1000653,sarcopenia,AFP,0.0594
+EFO_1000653,sarcopenia,CKM,0.059
+EFO_1000653,sarcopenia,CCL11,0.0575
+EFO_1000653,sarcopenia,IL33,0.0569
+EFO_1000653,sarcopenia,MYOZ1,0.0554
+EFO_1000653,sarcopenia,TP53,0.0548
+EFO_1000653,sarcopenia,CD274,0.0542
+EFO_1000653,sarcopenia,PRDX6,0.0541
+EFO_1000653,sarcopenia,CD4,0.0534
+EFO_1000653,sarcopenia,FGF2,0.0532
+EFO_1000653,sarcopenia,IL4,0.0526
+EFO_1000653,sarcopenia,EEF1E1,0.051
+EFO_1000653,sarcopenia,HTRA1,0.0503
+EFO_1000653,sarcopenia,COL15A1,0.0503
+EFO_1000653,sarcopenia,PCDH7,0.0493
+EFO_1000653,sarcopenia,SELENOP,0.0479
+EFO_1000653,sarcopenia,CDKN1A,0.0475
+EFO_1000653,sarcopenia,APOA1,0.0471
+EFO_1000653,sarcopenia,AKT1,0.0468
+EFO_1000653,sarcopenia,FGF19,0.0462
+EFO_1000653,sarcopenia,BDNF,0.046
+EFO_1000653,sarcopenia,GH1,0.046
+EFO_1000653,sarcopenia,FOXO3,0.0458
+EFO_1000653,sarcopenia,NNMT,0.0452
+EFO_1000653,sarcopenia,GDF11,0.0447
+EFO_1000653,sarcopenia,VDR,0.0445
+EFO_1000653,sarcopenia,PRSS12,0.0443
+EFO_1000653,sarcopenia,BMAL1,0.0443
+EFO_1000653,sarcopenia,SLC7A11,0.0443
+EFO_1000653,sarcopenia,GPBAR1,0.0442
+EFO_1000653,sarcopenia,CEACAM5,0.044
+EFO_1000653,sarcopenia,TF,0.0439
+EFO_1000653,sarcopenia,FST,0.0437
+EFO_1000653,sarcopenia,IL6R,0.0428
+EFO_1000653,sarcopenia,IL37,0.0423
+EFO_1000653,sarcopenia,CCN5,0.0421
+EFO_1000653,sarcopenia,FABP1,0.0421
+EFO_1000653,sarcopenia,MTOR,0.0418
+EFO_1000653,sarcopenia,SLC22A5,0.0418
+EFO_1000653,sarcopenia,GCG,0.0414
+EFO_1000653,sarcopenia,GSTM1,0.041
+EFO_1000653,sarcopenia,IRS1,0.041
+EFO_1000653,sarcopenia,CSF3,0.0407
+EFO_1000653,sarcopenia,CILP2,0.0404
+EFO_1000653,sarcopenia,CCK,0.0404
+EFO_1000653,sarcopenia,CHI3L1,0.0401
+EFO_1000653,sarcopenia,CAV1,0.0399
+EFO_1000653,sarcopenia,PAK4,0.0399
+EFO_1000653,sarcopenia,CXCL8,0.0399
+EFO_1000653,sarcopenia,CCN1,0.0398
+EFO_1000653,sarcopenia,APOB,0.0398
+EFO_1000653,sarcopenia,IL1B,0.0398
+EFO_1000653,sarcopenia,CHD9,0.0397
+EFO_1000653,sarcopenia,CTSS,0.0392
+EFO_1000653,sarcopenia,LCN2,0.0392
+EFO_1000653,sarcopenia,CCL5,0.0386
+EFO_1000653,sarcopenia,RBP4,0.0386
+EFO_1000653,sarcopenia,FOXO1,0.038
+EFO_1000653,sarcopenia,PRKAA2,0.038
+EFO_1000653,sarcopenia,MMP9,0.0372
+EFO_1000653,sarcopenia,LECT2,0.0372
+EFO_1000653,sarcopenia,GPRC5D,0.0368
+EFO_1000653,sarcopenia,GHRL,0.0366
+EFO_1000653,sarcopenia,S100A8,0.0366
+EFO_1000653,sarcopenia,IGFBP3,0.0363
+EFO_1000653,sarcopenia,PBX1,0.0362
+EFO_1000653,sarcopenia,TGFB1,0.0362
+EFO_1000653,sarcopenia,NFKB1,0.0362
+EFO_1000653,sarcopenia,OXT,0.0356
+EFO_1000653,sarcopenia,GOT1,0.0356
+EFO_1000653,sarcopenia,SV2A,0.0353
+EFO_1000653,sarcopenia,IL15,0.0351
+EFO_1000653,sarcopenia,MFGE8,0.035
+EFO_1000653,sarcopenia,CLIC5,0.0347
+EFO_1000653,sarcopenia,DDIT4,0.0347
+EFO_1000653,sarcopenia,CASP8,0.0338
+EFO_1000653,sarcopenia,LPA,0.0336
+EFO_1000653,sarcopenia,SLC38A1,0.0336
+EFO_1000653,sarcopenia,TIMP1,0.0334
+EFO_1000653,sarcopenia,MMP3,0.0333
+EFO_1000653,sarcopenia,PCSK9,0.0329
+EFO_1000653,sarcopenia,SLC5A1,0.0329
+EFO_1000653,sarcopenia,PIK3CA,0.0325
+EFO_1000653,sarcopenia,CCL4,0.0323
+EFO_1000653,sarcopenia,FBXO32,0.0318
+EFO_1000653,sarcopenia,GFOD1,0.0318
+EFO_1000653,sarcopenia,MERTK,0.0316
+EFO_1000653,sarcopenia,CCL2,0.0313
+EFO_1000653,sarcopenia,NLRP3,0.0312
+EFO_1000653,sarcopenia,TRIM63,0.0309
+EFO_1000653,sarcopenia,LPL,0.0307
+EFO_1000653,sarcopenia,PON3,0.0307
+EFO_1000653,sarcopenia,APOE,0.0304
+EFO_1000653,sarcopenia,SHBG,0.0302
+EFO_1000653,sarcopenia,CXCR1,0.03
+EFO_1000653,sarcopenia,PDHB,0.0299
+EFO_1000653,sarcopenia,CXCR2,0.0298
+EFO_1000653,sarcopenia,PPARGC1A,0.0296
+EFO_1000653,sarcopenia,IDO1,0.0296
+EFO_1000653,sarcopenia,TXNIP,0.0294
+EFO_1000653,sarcopenia,NTF3,0.0291
+EFO_1000653,sarcopenia,ACE,0.0289
+EFO_1000653,sarcopenia,ETFDH,0.0289
+EFO_1000653,sarcopenia,EZH2,0.0288
+EFO_1000653,sarcopenia,AMPD1,0.0288
+EFO_1000653,sarcopenia,PDHA1,0.028
+EFO_1000653,sarcopenia,EDN1,0.0278
+EFO_1000653,sarcopenia,NOS2,0.0275
+EFO_1000653,sarcopenia,HPX,0.0274
+EFO_1000653,sarcopenia,TRIM16,0.0273
+EFO_1000653,sarcopenia,UQCC1,0.0273
+EFO_1000653,sarcopenia,GATA4,0.0273
+EFO_1000653,sarcopenia,CCL27,0.0273
+EFO_1000653,sarcopenia,UNC45B,0.0272
+EFO_1000653,sarcopenia,CDKN2A,0.0272
+EFO_1000653,sarcopenia,GFAP,0.027
+EFO_1000653,sarcopenia,PF4,0.027
+EFO_1000653,sarcopenia,HIF1A,0.0265
+EFO_1000653,sarcopenia,DLAT,0.0262
+EFO_1000653,sarcopenia,HLA-DQA1,0.0262
+EFO_1000653,sarcopenia,REN,0.0262
+EFO_1000653,sarcopenia,CASP3,0.0261
+EFO_1000653,sarcopenia,PRDX3,0.0259
+EFO_1000653,sarcopenia,GAPDH,0.0256
+EFO_1000653,sarcopenia,DNMT3A,0.0254
+EFO_1000653,sarcopenia,DKK1,0.0253
+EFO_1000653,sarcopenia,FGF23,0.0253
+EFO_1000653,sarcopenia,GBP2,0.0251
+EFO_1000653,sarcopenia,PRNP,0.0251
+EFO_1000653,sarcopenia,CEBPB,0.0251
+EFO_1000653,sarcopenia,EIF4EBP1,0.0251
+EFO_1000653,sarcopenia,NPC1L1,0.0249
+EFO_1000653,sarcopenia,SERPINE1,0.0249
+EFO_1000653,sarcopenia,MIF,0.0248
+EFO_1000653,sarcopenia,KIT,0.0248
+EFO_1000653,sarcopenia,PRMT1,0.0247
+EFO_1000653,sarcopenia,GDF10,0.0245
+EFO_1000653,sarcopenia,FAM171A1,0.0244
+EFO_1000653,sarcopenia,C1QB,0.0244
+EFO_1000653,sarcopenia,HMGCR,0.0244
+EFO_1000653,sarcopenia,PTGS2,0.0243
+EFO_1000653,sarcopenia,TNFSF12,0.0242
+EFO_1000653,sarcopenia,GPCPD1,0.024
+EFO_1000653,sarcopenia,RBL2,0.024
+EFO_1000653,sarcopenia,PYY,0.0238
+EFO_1000653,sarcopenia,CTH,0.0235
+EFO_1000653,sarcopenia,TNNT1,0.0235
+EFO_1000653,sarcopenia,AGTR1,0.0232
+EFO_1000653,sarcopenia,STING1,0.0231
+EFO_1000653,sarcopenia,APP,0.023
+EFO_1000653,sarcopenia,HDAC9,0.023
+EFO_1000653,sarcopenia,IL25,0.0229
+EFO_1000653,sarcopenia,RAB9A,0.0229
+EFO_1000653,sarcopenia,SMAD3,0.0227
+EFO_1000653,sarcopenia,CD19,0.0223
+EFO_1000653,sarcopenia,BCHE,0.0222
+EFO_1000653,sarcopenia,HGF,0.0221
+EFO_1000653,sarcopenia,GRN,0.0219
+EFO_1000653,sarcopenia,TLR4,0.0219
+EFO_1000653,sarcopenia,SLC5A2,0.0216
+EFO_1000653,sarcopenia,ZNF415,0.0216
+EFO_1000653,sarcopenia,SMAD2,0.0215
+EFO_1000653,sarcopenia,KLB,0.0215
+EFO_1000653,sarcopenia,MT1X,0.0215
+EFO_1000653,sarcopenia,ARHGAP36,0.0215
+EFO_1000653,sarcopenia,ESRRA,0.0214
+EFO_1000653,sarcopenia,IGFBP2,0.0212
+EFO_1000653,sarcopenia,S100B,0.0212
+EFO_1000653,sarcopenia,RXRG,0.0211
+EFO_1000653,sarcopenia,KL,0.021
+EFO_1000653,sarcopenia,CDK4,0.021
+EFO_1000653,sarcopenia,ARID4B,0.0209
+EFO_1000653,sarcopenia,DNM1L,0.0209
+EFO_1000653,sarcopenia,PDK4,0.0207
+EFO_1000653,sarcopenia,CPNE1,0.0205
+EFO_1000653,sarcopenia,CAT,0.0204
+EFO_1000653,sarcopenia,SIRT3,0.0203
+EFO_1000653,sarcopenia,PRKAA1,0.0201
+EFO_1000653,sarcopenia,MT-RNR1,0.0201
+EFO_1000653,sarcopenia,TG,0.0201
+EFO_1000653,sarcopenia,TNFRSF12A,0.02
+EFO_1000653,sarcopenia,AURKA,0.02
+EFO_1000653,sarcopenia,HTRA2,0.0196

@@ -127,9 +127,11 @@ def clean_latex_math(text):
         (r'\text{Da}', ' Da'),     (r'\text{kcal/mol}', ' kcal/mol'), (r'\text{FDR}', ' FDR'),
         (r'\text{Ca}^{2+}', 'Ca²⁺'), (r'\text{RotB}', 'RotB'), (r'\text{TPSA}', 'TPSA'),
         (r'\text{RMSD}', 'RMSD'), (r'\text{min}^{-1/2}', ' min⁻¹/²'), (r'\text{ }\mu\text{M}', ' μM'),
-        (r'\mu\text{M}', 'μM'), (r'^\circ\text{C}', '°C'), (r'^\circ\text{ C}', '°C'),
+        (r'\mu\text{M}', 'μM'), (r'\,\mu\text{g/mL}', ' μg/mL'), (r'\mu\text{g/mL}', 'μg/mL'),
+        (r'^\circ\text{C}', '°C'), (r'^\circ\text{ C}', '°C'),
         (r'\circ\text{C}', '°C'), (r'^\circ', '°'),
-        (r'\pm', '±'), (r'\times', '×'),
+        (r'\pm', '±'), (r'\times', '×'), (r'\cdot', '·'), (r'\neq', '≠'), (r'\in', '∈'),
+        (r'\sigma', 'σ'), (r'\sum', 'Σ'), (r'\,', ' '), (r'\approx', '≈'),
         (r'\alpha', 'α'), (r'\beta', 'β'), (r'\gamma', 'γ'), (r'\Delta', 'Δ'), (r'\sim', '~'),
         (r'G_{q/11}', 'G_q/11'), (r'G_{i/q}', 'G_i/q'), (r'\beta\text{-arrestin-2}', 'β-arrestin-2'),
         (r'CIDR\alpha', 'CIDRα'), (r'R_g', 'Rg'), (r'-\log_{10}(\text{FDR})', '-log₁₀(FDR)'),
@@ -166,7 +168,7 @@ def parse_qmd(qmd_path, bib_entries, is_solo=False):
     
     if is_solo:
         metadata = {
-            "title": "In-Silico Identification of Dual CD36 and FFAR4 (GPR120) Modulators to Sustain Endogenous Incretin Signaling and Mitigate Post-GLP-1 Weight Rebound: An Integrated Network Pharmacology, Molecular Docking, and Lingual Delivery Formulation Study",
+            "title": "Structure-Based Identification of Lingual FFAR4 (GPR120) Agonists and Reversible CD36 Lipid-Chaperone Modulators to Sustain Endogenous GLP-1 Secretion: Integrated Network Pharmacology, Deterministic Molecular Docking, and Salivary Biopharmaceutic Modeling",
             "authors": [
                 {
                     "name": "Muhammad Abdullah Khan",
@@ -181,15 +183,15 @@ def parse_qmd(qmd_path, bib_entries, is_solo=False):
             ],
             "correspondence": "Muhammad Abdullah Khan, Faculty of Pharmaceutical Sciences, Government College University Faisalabad (GCUF), Allama Iqbal Road, Faisalabad 38000, Pakistan. Email: abdullah.khan.pharmd@gmail.com",
             "keywords": [
-                "CD36 / Fatty Acid Translocase", "FFAR4 / GPR120", "GLP-1 Receptor Agonists",
-                "Post-GLP-1 Weight Rebound", "Medicated Chewing Gum", "Network Pharmacology",
-                "Molecular Docking", "Pentacyclic Triterpenoids", "Alkamides", "Satiety Peptides"
+                "FFAR4 / GPR120 Active Agonism", "CD36 Reversible Lipid Chaperone", "GLP-1 Receptor Agonists",
+                "Post-GLP-1 Weight Rebound", "Ligand Efficiency (LE)", "Lipophilic Ligand Efficiency (LLE)",
+                "PAINS Structural Alerts", "Lingual Alkamides", "Salivary Biopharmaceutics", "Deterministic AutoDock Vina"
             ]
         }
         # Adapt Declarations for Solo Author
         solo_declarations = (
             "### Authors' Contributions {.unnumbered}\n"
-            "* **Muhammad Abdullah Khan:** Conceptualized the study, curated the chemical library, executed network pharmacology and topological centrality analyses, conducted molecular docking and crystallographic redocking validation, performed 3D interatomic contact mapping, formulated the oromucosal biopharmaceutic rationale, and drafted the entirety of this manuscript as Sole Author and Principal Investigator.\n\n"
+            "* **Muhammad Abdullah Khan:** Conceptualized the study, curated the chemical library, executed network pharmacology and topological centrality analyses, conducted deterministic molecular docking (--seed 42) and dual-receptor crystallographic redocking validation, computed Ligand Efficiency (LE), Lipophilic Ligand Efficiency (LLE), ESOL solubility, and RDKit PAINS structural alerts, performed 3D interatomic contact mapping, formulated the salivary biopharmaceutic framework, and drafted the entirety of this manuscript as Sole Author and Principal Investigator.\n\n"
             "### Funding & Financial Disclosure {.unnumbered}\n"
             "This research was conducted as an independent academic PharmD research project at Government College University Faisalabad (GCUF) utilizing open-source scientific toolchains and zero external commercial grant funding.\n\n"
             "### Conflicts of Interest {.unnumbered}\n"
@@ -200,7 +202,7 @@ def parse_qmd(qmd_path, bib_entries, is_solo=False):
         body = re.sub(r'# 6\. Declarations.*?(?=\n# References|\Z)', f"# 6. Declarations {{.unnumbered}}\n\n{solo_declarations}\n\n", body, flags=re.DOTALL)
     else:
         metadata = {
-            "title": "In-Silico Identification of Dual CD36 and FFAR4 (GPR120) Modulators to Sustain Endogenous Incretin Signaling and Mitigate Post-GLP-1 Weight Rebound: An Integrated Network Pharmacology, Molecular Docking, and Lingual Delivery Formulation Study",
+            "title": "Structure-Based Identification of Lingual FFAR4 (GPR120) Agonists and Reversible CD36 Lipid-Chaperone Modulators to Sustain Endogenous GLP-1 Secretion: Integrated Network Pharmacology, Deterministic Molecular Docking, and Salivary Biopharmaceutic Modeling",
             "authors": [
                 {"name": "Muhammad Abdullah Khan", "affil": "1", "role": "First Author & Principal Investigator", "email": "abdullah.khan.pharmd@gmail.com"},
                 {"name": "Dr. Abid Mahmood", "affil": "1", "role": "Co-Supervisor (Medicinal Chemistry & Molecular Modeling)", "corr": True, "email": "abid.mahmood@gcuf.edu.pk"},
@@ -212,9 +214,9 @@ def parse_qmd(qmd_path, bib_entries, is_solo=False):
             ],
             "correspondence": "Dr. Abid Mahmood, Assistant Professor of Pharmaceutical Chemistry, Department of Pharmacy, GCUF. Email: abid.mahmood@gcuf.edu.pk | First Author: Muhammad Abdullah Khan (GCUF; Email: abdullah.khan.pharmd@gmail.com).",
             "keywords": [
-                "CD36 / Fatty Acid Translocase", "FFAR4 / GPR120", "GLP-1 Receptor Agonists",
-                "Post-GLP-1 Weight Rebound", "Medicated Chewing Gum", "Network Pharmacology",
-                "Molecular Docking", "Pentacyclic Triterpenoids", "Alkamides", "Satiety Peptides"
+                "FFAR4 / GPR120 Active Agonism", "CD36 Reversible Lipid Chaperone", "GLP-1 Receptor Agonists",
+                "Post-GLP-1 Weight Rebound", "Ligand Efficiency (LE)", "Lipophilic Ligand Efficiency (LLE)",
+                "PAINS Structural Alerts", "Lingual Alkamides", "Salivary Biopharmaceutics", "Deterministic AutoDock Vina"
             ]
         }
         
@@ -819,13 +821,17 @@ def generate_word_document(metadata, body, vancouver_refs, out_path, is_solo=Fal
             p_eq.paragraph_format.space_after = Pt(8)
             
             if "RMSD" in eq_content:
-                eq_text = "RMSD = √[ (1/N) · Σ |r_(i,docked) − r_(i,crystal)|² ]   (Equation 1)"
+                eq_text = "RMSD = √[ (1/N) · Σ |r_(i,docked) − r_(i,crystal)|² ]   (Equation 4)"
             elif "Delta G" in eq_content or "\\Delta G" in eq_content or "G_{bind}" in eq_content or "G_{\\text{bind}}" in eq_content or "G_bind" in eq_content:
-                eq_text = "ΔG_bind = Σ [ e_gauss(d_ij) + e_repulsion(d_ij) + e_hbond(d_ij) + e_hydrophobic(d_ij) ] + w_tor · N_tor   (Equation 2)"
+                eq_text = "ΔG_bind = Σ [ e_gauss(d_ij) + e_repulsion(d_ij) + e_hbond(d_ij) + e_hydrophobic(d_ij) ] + w_tor · N_tor   (Equation 3)"
+            elif "0.16" in eq_content or "RotB" in eq_content:
+                eq_text = "log S = 0.16 − 0.63 · cLogP − 0.0062 · MW + 0.066 · RotB − 0.74 · AP   (Equation 1)"
+            elif "C_B(v)" in eq_content or "sigma_{st}" in eq_content:
+                eq_text = "C_B(v) = Σ_(s ≠ v ≠ t ∈ V) [ σ_st(v) / σ_st ]   (Equation 2)"
             elif "Q_t" in eq_content or "Higuchi" in eq_content:
-                eq_text = "Q_t = K_H · t^(1/2)   (Equation 3)"
+                eq_text = "Q_t = K_H · t^(1/2)"
             elif "M_t" in eq_content or "Peppas" in eq_content:
-                eq_text = "M_t / M_∞ = K_KP · t^n   (Equation 4)"
+                eq_text = "M_t / M_∞ = K_KP · t^n"
             else:
                 eq_text = clean_latex_math(eq_content)
                 

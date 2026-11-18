@@ -1,58 +1,61 @@
-Gene_Symbol,Category
-CD36,GLP-1 Rebound & Metabolic Satiety
-FFAR4,GLP-1 Rebound & Metabolic Satiety
-FFAR1,GLP-1 Rebound & Metabolic Satiety
-GLP1R,GLP-1 Rebound & Metabolic Satiety
-GIPR,GLP-1 Rebound & Metabolic Satiety
-DPP4,GLP-1 Rebound & Metabolic Satiety
-GCG,GLP-1 Rebound & Metabolic Satiety
-CCK,GLP-1 Rebound & Metabolic Satiety
-PYY,GLP-1 Rebound & Metabolic Satiety
-GHRL,GLP-1 Rebound & Metabolic Satiety
-LEPR,GLP-1 Rebound & Metabolic Satiety
-MC4R,GLP-1 Rebound & Metabolic Satiety
-TAS1R2,GLP-1 Rebound & Metabolic Satiety
-TAS1R3,GLP-1 Rebound & Metabolic Satiety
-TRPV1,GLP-1 Rebound & Metabolic Satiety
-TRPA1,GLP-1 Rebound & Metabolic Satiety
-PPARG,GLP-1 Rebound & Metabolic Satiety
-PPARA,GLP-1 Rebound & Metabolic Satiety
-PPARD,GLP-1 Rebound & Metabolic Satiety
-PRKAA1,GLP-1 Rebound & Metabolic Satiety
-PRKAA2,GLP-1 Rebound & Metabolic Satiety
-SIRT1,GLP-1 Rebound & Metabolic Satiety
-PPARGC1A,GLP-1 Rebound & Metabolic Satiety
-AKT1,GLP-1 Rebound & Metabolic Satiety
-MTOR,GLP-1 Rebound & Metabolic Satiety
-GSK3B,GLP-1 Rebound & Metabolic Satiety
-SREBF1,GLP-1 Rebound & Metabolic Satiety
-FASN,GLP-1 Rebound & Metabolic Satiety
-ACSL4,GLP-1 Rebound & Metabolic Satiety
-ADIPOQ,GLP-1 Rebound & Metabolic Satiety
-LEP,GLP-1 Rebound & Metabolic Satiety
-UCP1,GLP-1 Rebound & Metabolic Satiety
-FOXO1,GLP-1 Rebound & Metabolic Satiety
-FOXO3,GLP-1 Rebound & Metabolic Satiety
-TRIM63,GLP-1 Rebound & Metabolic Satiety
-FBXO32,GLP-1 Rebound & Metabolic Satiety
-MSTN,GLP-1 Rebound & Metabolic Satiety
-IGF1,GLP-1 Rebound & Metabolic Satiety
-INSR,GLP-1 Rebound & Metabolic Satiety
-SLC2A4,GLP-1 Rebound & Metabolic Satiety
-TNF,GLP-1 Rebound & Metabolic Satiety
-IL6,GLP-1 Rebound & Metabolic Satiety
-IL1B,GLP-1 Rebound & Metabolic Satiety
-STAT3,GLP-1 Rebound & Metabolic Satiety
-NFKB1,GLP-1 Rebound & Metabolic Satiety
-NLRP3,GLP-1 Rebound & Metabolic Satiety
-TGFB1,GLP-1 Rebound & Metabolic Satiety
-CASP3,GLP-1 Rebound & Metabolic Satiety
-PTGS2,GLP-1 Rebound & Metabolic Satiety
-PTPN1,GLP-1 Rebound & Metabolic Satiety
-MAPK1,GLP-1 Rebound & Metabolic Satiety
-MAPK3,GLP-1 Rebound & Metabolic Satiety
-MAPK8,GLP-1 Rebound & Metabolic Satiety
-PIK3CA,GLP-1 Rebound & Metabolic Satiety
-BCL2,GLP-1 Rebound & Metabolic Satiety
-NFE2L2,GLP-1 Rebound & Metabolic Satiety
-HMOX1,GLP-1 Rebound & Metabolic Satiety
+Gene_Symbol,MeSH_Phenotype
+CD36,Obesity / T2DM / MASLD / Sarcopenia
+FFAR4,Obesity / T2DM / MASLD / Sarcopenia
+FFAR1,Obesity / T2DM / MASLD / Sarcopenia
+GLP1R,Obesity / T2DM / MASLD / Sarcopenia
+GIPR,Obesity / T2DM / MASLD / Sarcopenia
+DPP4,Obesity / T2DM / MASLD / Sarcopenia
+GCG,Obesity / T2DM / MASLD / Sarcopenia
+CCK,Obesity / T2DM / MASLD / Sarcopenia
+PYY,Obesity / T2DM / MASLD / Sarcopenia
+GHRL,Obesity / T2DM / MASLD / Sarcopenia
+LEPR,Obesity / T2DM / MASLD / Sarcopenia
+MC4R,Obesity / T2DM / MASLD / Sarcopenia
+TAS1R2,Obesity / T2DM / MASLD / Sarcopenia
+TAS1R3,Obesity / T2DM / MASLD / Sarcopenia
+TRPA1,Obesity / T2DM / MASLD / Sarcopenia
+KCNK3,Obesity / T2DM / MASLD / Sarcopenia
+GPR119,Obesity / T2DM / MASLD / Sarcopenia
+PPARG,Obesity / T2DM / MASLD / Sarcopenia
+PPARA,Obesity / T2DM / MASLD / Sarcopenia
+PPARD,Obesity / T2DM / MASLD / Sarcopenia
+PRKAA1,Obesity / T2DM / MASLD / Sarcopenia
+PRKAA2,Obesity / T2DM / MASLD / Sarcopenia
+SIRT1,Obesity / T2DM / MASLD / Sarcopenia
+PPARGC1A,Obesity / T2DM / MASLD / Sarcopenia
+AKT1,Obesity / T2DM / MASLD / Sarcopenia
+MTOR,Obesity / T2DM / MASLD / Sarcopenia
+GSK3B,Obesity / T2DM / MASLD / Sarcopenia
+SREBF1,Obesity / T2DM / MASLD / Sarcopenia
+FASN,Obesity / T2DM / MASLD / Sarcopenia
+ACSL4,Obesity / T2DM / MASLD / Sarcopenia
+ADIPOQ,Obesity / T2DM / MASLD / Sarcopenia
+LEP,Obesity / T2DM / MASLD / Sarcopenia
+UCP1,Obesity / T2DM / MASLD / Sarcopenia
+FABP1,Obesity / T2DM / MASLD / Sarcopenia
+FABP4,Obesity / T2DM / MASLD / Sarcopenia
+SLC27A1,Obesity / T2DM / MASLD / Sarcopenia
+FOXO1,Obesity / T2DM / MASLD / Sarcopenia
+FOXO3,Obesity / T2DM / MASLD / Sarcopenia
+TRIM63,Obesity / T2DM / MASLD / Sarcopenia
+FBXO32,Obesity / T2DM / MASLD / Sarcopenia
+MSTN,Obesity / T2DM / MASLD / Sarcopenia
+IGF1,Obesity / T2DM / MASLD / Sarcopenia
+INSR,Obesity / T2DM / MASLD / Sarcopenia
+SLC2A4,Obesity / T2DM / MASLD / Sarcopenia
+SLC2A2,Obesity / T2DM / MASLD / Sarcopenia
+G6PC,Obesity / T2DM / MASLD / Sarcopenia
+TNF,Obesity / T2DM / MASLD / Sarcopenia
+IL6,Obesity / T2DM / MASLD / Sarcopenia
+IL1B,Obesity / T2DM / MASLD / Sarcopenia
+STAT3,Obesity / T2DM / MASLD / Sarcopenia
+NFKB1,Obesity / T2DM / MASLD / Sarcopenia
+NLRP3,Obesity / T2DM / MASLD / Sarcopenia
+TGFB1,Obesity / T2DM / MASLD / Sarcopenia
+CASP3,Obesity / T2DM / MASLD / Sarcopenia
+PTGS2,Obesity / T2DM / MASLD / Sarcopenia
+PTPN1,Obesity / T2DM / MASLD / Sarcopenia
+MAPK1,Obesity / T2DM / MASLD / Sarcopenia
+PIK3CA,Obesity / T2DM / MASLD / Sarcopenia
+NFE2L2,Obesity / T2DM / MASLD / Sarcopenia
+HMOX1,Obesity / T2DM / MASLD / Sarcopenia
