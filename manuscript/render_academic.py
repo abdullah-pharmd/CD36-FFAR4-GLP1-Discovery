@@ -11,7 +11,7 @@ from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
 from docx.oxml import OxmlElement, parse_xml
 from docx.oxml.ns import nsdecls, qn
 
-BASE_DIR = r"C:\Users\Abdullah\.gemini\antigravity\scratch\cd36_ffar4_glp1_study"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANUSCRIPT_DIR = os.path.join(BASE_DIR, "manuscript")
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
 NETWORK_DIR = os.path.join(RESULTS_DIR, "network")

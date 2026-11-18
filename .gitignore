@@ -1,4 +1,4 @@
-# Exclude large executables, personal scholarship notes, and temporary files
+# Exclude large executables, personal scholarship notes, workspace agent files, and temporary files
 scripts/*.exe
 manuscript/test.pdf
 applications/
@@ -6,6 +6,12 @@ SCHOLARSHIP_STRATEGY_AND_PROFILE_AUDIT.md
 TEACHING_GUIDE_HOW_EVERYTHING_WORKS.md
 PROJECT_COMPLETION_SUMMARY.md
 freelance_engine/
+private_reference_archive/
+GEMINI.md
+AGENTS.md
+PROJECT_HANDOFF.md
+PROGRESS_SO_FAR.md
+.agents/
 __pycache__/
 *.pyc
 .DS_Store

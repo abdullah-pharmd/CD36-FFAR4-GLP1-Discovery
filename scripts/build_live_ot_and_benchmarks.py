@@ -5,7 +5,7 @@ from scipy.stats import ttest_ind
 from rdkit import Chem
 from rdkit.Chem import Descriptors, Lipinski, inchi
 
-BASE_DIR = r"C:\Users\Abdullah\.gemini\antigravity\scratch\cd36_ffar4_glp1_study"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NET_DIR = os.path.join(BASE_DIR, "results", "network")
 PROT_B_NET = os.path.join(BASE_DIR, "protocol_b_hepatic_cd36_dpp4", "results", "network")
 os.makedirs(NET_DIR, exist_ok=True)

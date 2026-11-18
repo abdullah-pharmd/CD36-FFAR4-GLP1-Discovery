@@ -1,8 +1,9 @@
 import os, sys
-sys.path.insert(0, r"C:\Users\Abdullah\.gemini\antigravity\scratch\cd36_ffar4_glp1_study\scripts")
+SCRIPTS_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, SCRIPTS_DIR)
 from structural_prep_utils import clean_pdb_strict, prepare_receptor_pdbqt
 
-STRUCT_DIR = r"C:\Users\Abdullah\.gemini\antigravity\scratch\cd36_ffar4_glp1_study\structures"
+STRUCT_DIR = os.path.join(os.path.dirname(SCRIPTS_DIR), "structures")
 
 # 1. 8G59 (Chain R, altLoc clean, salivary pH 6.8)
 n8, c8 = clean_pdb_strict(os.path.join(STRUCT_DIR, "8G59.pdb"), os.path.join(STRUCT_DIR, "8G59_FFAR4_clean.pdb"), "R", "YN9", "401", os.path.join(STRUCT_DIR, "TUG891_crystal.pdb"))
