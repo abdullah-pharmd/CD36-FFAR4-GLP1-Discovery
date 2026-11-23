@@ -1,6 +1,6 @@
 # Reproducible Computational Pharmacology Suite: Hepatic CD36 / Vascular DPP-4 Prioritization (Protocol B) & Exploratory Lingual FFAR4 / CD36 Structural Sensitivity Study (Protocol A)
 
-**Author:** Muhammad Abdullah Khan  
+**Author:** Muhammad Abdullah Khan ([ORCID: 0009-0009-8867-6526](https://orcid.org/0009-0009-8867-6526))  
 **Affiliation:** Department of Pharmaceutics, Faculty of Pharmaceutical Sciences, Government College University Faisalabad (GCUF), Pakistan  
 **Contact:** `abdullah.khan.pharmd@gmail.com`  
 **Repository:** [https://github.com/abdullah-pharmd/CD36-FFAR4-GLP1-Discovery](https://github.com/abdullah-pharmd/CD36-FFAR4-GLP1-Discovery)

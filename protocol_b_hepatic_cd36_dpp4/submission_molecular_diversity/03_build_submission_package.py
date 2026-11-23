@@ -450,7 +450,7 @@ def build_title_page(title, n_words, n_figs, n_tbls):
     add_p(doc, "Dual Hepatic CD36 and DPP-4 Prioritization at pH 7.4", bold_prefix="Running Title: ", space_after=8, align=WD_ALIGN_PARAGRAPH.LEFT)
     add_p(doc, "Muhammad Abdullah Khan¹*", bold_prefix="Author: ", space_after=4, align=WD_ALIGN_PARAGRAPH.LEFT)
     add_p(doc, "¹ Department of Pharmaceutics, Faculty of Pharmaceutical Sciences, Government College University Faisalabad (GCUF), Faisalabad 38000, Pakistan", bold_prefix="Affiliation: ", space_after=4, align=WD_ALIGN_PARAGRAPH.LEFT)
-    add_p(doc, "Muhammad Abdullah Khan, Department of Pharmaceutics, Faculty of Pharmaceutical Sciences, GCUF, Faisalabad 38000, Pakistan. Email: abdullah.khan.pharmd@gmail.com | ORCID: [Insert ORCID iD prior to upload]", bold_prefix="Corresponding Author: ", space_after=8, align=WD_ALIGN_PARAGRAPH.LEFT)
+    add_p(doc, "Muhammad Abdullah Khan, Department of Pharmaceutics, Faculty of Pharmaceutical Sciences, GCUF, Faisalabad 38000, Pakistan. Email: abdullah.khan.pharmd@gmail.com | ORCID: https://orcid.org/0009-0009-8867-6526", bold_prefix="Corresponding Author: ", space_after=8, align=WD_ALIGN_PARAGRAPH.LEFT)
     add_p(doc, f"Main text ~{n_words:,} words; {n_figs} main figures (300 DPI TIFF/PNG); {n_tbls} main tables; 1 Graphical Abstract; Supplementary Data Workbook (.xlsx).", bold_prefix="Manuscript Specifications: ", space_after=8, align=WD_ALIGN_PARAGRAPH.LEFT)
     add_p(doc, "Original Research Article (Traditional Subscription / Zero-APC Publishing Route)", bold_prefix="Article Type: ", space_after=6, align=WD_ALIGN_PARAGRAPH.LEFT)
     add_p(doc, "The author received no external funding and declares no competing financial or non-financial interests. All computational scripts, cleaned receptors, docked poses, and summary tables are publicly archived at https://github.com/abdullah-pharmd/CD36-FFAR4-GLP1-Discovery.", bold_prefix="Statements Summary: ", space_after=6, align=WD_ALIGN_PARAGRAPH.LEFT)
@@ -513,7 +513,7 @@ def build_cover_letter(title, d, has_md):
     add_p(doc, "Thank you for your time and consideration.", space_after=10, align=WD_ALIGN_PARAGRAPH.LEFT)
     add_p(
         doc,
-        "Sincerely,\n\nMuhammad Abdullah Khan\nDepartment of Pharmaceutics, Faculty of Pharmaceutical Sciences\nGovernment College University Faisalabad (GCUF), Faisalabad 38000, Pakistan\nEmail: abdullah.khan.pharmd@gmail.com\nRepository: https://github.com/abdullah-pharmd/CD36-FFAR4-GLP1-Discovery",
+        "Sincerely,\n\nMuhammad Abdullah Khan\nDepartment of Pharmaceutics, Faculty of Pharmaceutical Sciences\nGovernment College University Faisalabad (GCUF), Faisalabad 38000, Pakistan\nEmail: abdullah.khan.pharmd@gmail.com | ORCID: https://orcid.org/0009-0009-8867-6526\nRepository: https://github.com/abdullah-pharmd/CD36-FFAR4-GLP1-Discovery",
         space_after=4, align=WD_ALIGN_PARAGRAPH.LEFT
     )
 
