@@ -1,0 +1,18 @@
+{
+  "Complex": "5LGD_Teneligliptin",
+  "Production_ns": 50.0,
+  "N_Frames": 500,
+  "Prot_CA_RMSD_Mean_A": 1.567,
+  "Prot_CA_RMSD_SD_A": 0.12,
+  "Lig_Heavy_RMSD_Mean_A": 6.545,
+  "Lig_Heavy_RMSD_SD_A": 0.679,
+  "Prot_Rg_Mean_A": 22.794,
+  "Prot_Rg_SD_A": 0.078,
+  "MMGBSA_dG_Mean_kcal_mol": -32.8,
+  "MMGBSA_dG_SD_kcal_mol": 4.7,
+  "MMGBSA_dG_SEM_kcal_mol": 0.3,
+  "MMGBSA_dG_SA_Mean_kcal_mol": -5.26,
+  "Top_Direct_HBonds_Eq": "GLU335 (32.0%); GLU335 (20.4%); ASN205 (6.0%)",
+  "Top_Water_Bridges_Eq": "GLU335 (84.0%); CYS333 (60.0%); ASP209 (52.0%); LYS231 (36.0%)",
+  "Elapsed_Minutes": 292.59
+}

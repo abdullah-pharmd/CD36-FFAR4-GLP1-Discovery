@@ -1,0 +1,10 @@
+Compound,ConformerA_dG_kcal_mol,FixedPose_Phe115_AltA_A,FixedPose_Phe115_AltB_A,FixedPose_AllClashes_AltA,FixedPose_AllClashes_AltB,Redocked_ConformerB_dG_kcal_mol,Delta_dG_AltB_minus_AltA,Redocked_AltB_Phe115_Dist_A,Redocked_AltB_AllClashes,Pose_RMSD_AltA_vs_AltB_A
+TUG-891,-11.577,3.37,5.299,None,None,-11.31,0.267,5.352,None,0.312
+Naringenin,-9.274,3.516,5.66,None,None,-8.901,0.373,3.655,None,3.185
+Resveratrol,-8.533,3.478,5.781,None,None,-8.264,0.269,3.629,None,4.624
+Phloretin,-8.239,3.445,4.25,None,None,-8.476,-0.237,3.508,None,3.065
+Spilanthol,-7.649,3.465,4.677,None,None,-6.993,0.656,3.438,None,5.02
+Gymnemagenin,1.488,1.697,3.965,PHE115 (1.697 Å),None,-3.735,-5.223,3.716,None,0.356
+Oleanolic acid,0.035,1.7,4.214,ILE280 (2.174 Å); PHE115 (1.700 Å),ILE280 (2.174 Å),-7.001,-7.036,3.855,None,0.689
+Ursolic acid,-1.119,1.886,4.311,PHE115 (1.886 Å),None,-7.45,-6.331,4.108,None,1.873
+Corosolic acid,0.52,2.049,4.314,PHE115 (2.049 Å),None,-6.042,-6.562,3.587,None,1.906

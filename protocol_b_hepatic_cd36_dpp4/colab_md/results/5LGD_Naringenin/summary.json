@@ -1,0 +1,18 @@
+{
+  "Complex": "5LGD_Naringenin",
+  "Production_ns": 50.0,
+  "N_Frames": 500,
+  "Prot_CA_RMSD_Mean_A": 1.251,
+  "Prot_CA_RMSD_SD_A": 0.144,
+  "Lig_Heavy_RMSD_Mean_A": 6.191,
+  "Lig_Heavy_RMSD_SD_A": 0.54,
+  "Prot_Rg_Mean_A": 22.706,
+  "Prot_Rg_SD_A": 0.099,
+  "MMGBSA_dG_Mean_kcal_mol": -24.87,
+  "MMGBSA_dG_SD_kcal_mol": 2.82,
+  "MMGBSA_dG_SEM_kcal_mol": 0.18,
+  "MMGBSA_dG_SA_Mean_kcal_mol": -3.58,
+  "Top_Direct_HBonds_Eq": "GLU335 (69.6%); ALA141 (14.4%)",
+  "Top_Water_Bridges_Eq": "TYR149 (75.2%); LEU140 (52.0%); PRO193 (47.2%); GLU335 (38.4%)",
+  "Elapsed_Minutes": 294.42
+}

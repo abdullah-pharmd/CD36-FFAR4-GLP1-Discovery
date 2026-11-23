@@ -1,0 +1,18 @@
+{
+  "Complex": "5LGD_Linagliptin",
+  "Production_ns": 50.0,
+  "N_Frames": 500,
+  "Prot_CA_RMSD_Mean_A": 1.656,
+  "Prot_CA_RMSD_SD_A": 0.153,
+  "Lig_Heavy_RMSD_Mean_A": 1.694,
+  "Lig_Heavy_RMSD_SD_A": 0.251,
+  "Prot_Rg_Mean_A": 22.752,
+  "Prot_Rg_SD_A": 0.07,
+  "MMGBSA_dG_Mean_kcal_mol": -34.79,
+  "MMGBSA_dG_SD_kcal_mol": 4.24,
+  "MMGBSA_dG_SEM_kcal_mol": 0.27,
+  "MMGBSA_dG_SA_Mean_kcal_mol": -5.61,
+  "Top_Direct_HBonds_Eq": "ARG63 (78.8%); ASN118 (63.6%); ALA208 (33.2%); ALA208 (32.4%); ALA208 (27.6%)",
+  "Top_Water_Bridges_Eq": "LYS334 (89.6%); ALA208 (78.4%); ASP270 (74.4%); ARG63 (59.2%)",
+  "Elapsed_Minutes": 294.47
+}

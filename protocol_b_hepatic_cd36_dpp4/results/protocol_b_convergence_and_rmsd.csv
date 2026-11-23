@@ -1,6 +1,15 @@
-Compound,Exh8_dG,Exh12_dG,Delta_dG,Pose_RMSD_A
-N7F-901 (Native 4A5S),-10.71,-10.71,0.0,0.0
-Sitagliptin,-9.207,-9.195,0.012,0.037
-Naringenin,-8.19,-8.19,0.0,0.0
-Berberine,-8.379,-8.359,0.02,0.134
-Teneligliptin,-8.99,-8.986,0.004,0.095
+Compound,Receptor,Crystal_Redocking_RMSD_A,Transverse_or_CoM_Err_A,Exh8_dG,Exh16_dG,Delta_dG,Conv_Pose_RMSD_A
+N7F-901 (Native Crystal),DPP-4 (4A5S),0.78,0.329,-10.71,-10.71,0.0,0.0
+PLM-512 (Palmitic acid CID 985),CD36 (5LGD),3.098,0.156,-6.132,-6.234,0.102,8.281
+Sitagliptin,CD36 (5LGD),,,-8.211,-8.211,0.0,0.0
+Sitagliptin,DPP-4 (4A5S),,,-9.207,-9.233,0.026,0.042
+Linagliptin,CD36 (5LGD),,,-8.793,-8.793,0.0,0.0
+Linagliptin,DPP-4 (4A5S),,,-9.813,-9.813,0.0,0.0
+Silybin A,CD36 (5LGD),,,-7.569,-7.569,0.0,0.0
+Silybin A,DPP-4 (4A5S),,,-9.976,-9.976,0.0,0.0
+Naringenin,CD36 (5LGD),,,-7.251,-7.261,0.01,0.012
+Naringenin,DPP-4 (4A5S),,,-8.19,-8.19,0.0,0.0
+Berberine,CD36 (5LGD),,,-6.76,-6.74,0.02,0.048
+Berberine,DPP-4 (4A5S),,,-8.385,-8.359,0.026,0.075
+Teneligliptin,CD36 (5LGD),,,-7.367,-7.367,0.0,0.0
+Teneligliptin,DPP-4 (4A5S),,,-8.986,-8.996,0.01,0.079

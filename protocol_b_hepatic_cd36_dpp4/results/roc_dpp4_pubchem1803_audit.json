@@ -1,0 +1,256 @@
+{
+  "Benchmark": "DPP4_4A5S_PUBCHEM1803",
+  "N_Total": 60,
+  "N_Actives": 30,
+  "N_Inactives": 30,
+  "Bootstrap_Resamples": 20000,
+  "Bootstrap_Seed": 42,
+  "Tie_Policy": "Full double-precision scores; exact 0.5 tie credit in Mann-Whitney AUC",
+  "Descriptor_Balance": {
+    "MW_Da": {
+      "Active_Mean": 353.51,
+      "Inactive_Mean": 355.5,
+      "t_test_p": 0.7793
+    },
+    "Heavy_Atoms": {
+      "Active_Mean": 24.9,
+      "Inactive_Mean": 25.13,
+      "t_test_p": 0.6625
+    },
+    "WLOGP": {
+      "Active_Mean": 2.44,
+      "Inactive_Mean": 2.2,
+      "t_test_p": 0.5358
+    },
+    "TPSA_A2": {
+      "Active_Mean": 69.17,
+      "Inactive_Mean": 79.62,
+      "t_test_p": 0.0662
+    },
+    "RotB": {
+      "Active_Mean": 3.2,
+      "Inactive_Mean": 4.77,
+      "t_test_p": 0.0001
+    }
+  },
+  "Metrics_By_Score": {
+    "Vina_dG": {
+      "ROC_AUC": 0.6861,
+      "Bootstrap_95CI": [
+        0.5461,
+        0.8133
+      ],
+      "PR_AUC": 0.7112,
+      "MannWhitney_p_one_sided": 0.0067739,
+      "MannWhitney_p_two_sided": 0.013548,
+      "Top6_Actives": 5,
+      "Top6_Boundary_Tie": false,
+      "Top12_Actives": 11,
+      "Top12_Boundary_Tie": false,
+      "EF10pct": 1.667,
+      "EF20pct": 1.833
+    },
+    "LE_Full": {
+      "ROC_AUC": 0.6711,
+      "Bootstrap_95CI": [
+        0.5289,
+        0.8022
+      ],
+      "PR_AUC": 0.6871,
+      "MannWhitney_p_one_sided": 0.011622,
+      "MannWhitney_p_two_sided": 0.023243,
+      "Top6_Actives": 5,
+      "Top6_Boundary_Tie": false,
+      "Top12_Actives": 9,
+      "Top12_Boundary_Tie": false,
+      "EF10pct": 1.667,
+      "EF20pct": 1.5
+    },
+    "Baseline_MW": {
+      "ROC_AUC": 0.485,
+      "Bootstrap_95CI": [
+        0.3389,
+        0.6344
+      ],
+      "PR_AUC": 0.4841,
+      "MannWhitney_p_one_sided": 0.58199,
+      "MannWhitney_p_two_sided": 0.84758,
+      "Top6_Actives": 2,
+      "Top6_Boundary_Tie": false,
+      "Top12_Actives": 5,
+      "Top12_Boundary_Tie": false,
+      "EF10pct": 0.667,
+      "EF20pct": 0.833
+    },
+    "Baseline_HeavyAtoms": {
+      "ROC_AUC": 0.4706,
+      "Bootstrap_95CI": [
+        0.3283,
+        0.6183
+      ],
+      "PR_AUC": 0.4919,
+      "MannWhitney_p_one_sided": 0.65713,
+      "MannWhitney_p_two_sided": 0.69679,
+      "Top6_Actives": 2,
+      "Top6_Boundary_Tie": true,
+      "Top12_Actives": 8,
+      "Top12_Boundary_Tie": true,
+      "EF10pct": 0.667,
+      "EF20pct": 1.333
+    },
+    "Baseline_WLOGP": {
+      "ROC_AUC": 0.5139,
+      "Bootstrap_95CI": [
+        0.3578,
+        0.665
+      ],
+      "PR_AUC": 0.4892,
+      "MannWhitney_p_one_sided": 0.42959,
+      "MannWhitney_p_two_sided": 0.85918,
+      "Top6_Actives": 3,
+      "Top6_Boundary_Tie": false,
+      "Top12_Actives": 4,
+      "Top12_Boundary_Tie": false,
+      "EF10pct": 1.0,
+      "EF20pct": 0.667
+    },
+    "Baseline_TPSA": {
+      "ROC_AUC": 0.3544,
+      "Bootstrap_95CI": [
+        0.2194,
+        0.5011
+      ],
+      "PR_AUC": 0.4114,
+      "MannWhitney_p_one_sided": 0.9741,
+      "MannWhitney_p_two_sided": 0.053602,
+      "Top6_Actives": 0,
+      "Top6_Boundary_Tie": false,
+      "Top12_Actives": 3,
+      "Top12_Boundary_Tie": false,
+      "EF10pct": 0.0,
+      "EF20pct": 0.5
+    },
+    "Baseline_RotB": {
+      "ROC_AUC": 0.2128,
+      "Bootstrap_95CI": [
+        0.1133,
+        0.3278
+      ],
+      "PR_AUC": 0.3902,
+      "MannWhitney_p_one_sided": 0.99996,
+      "MannWhitney_p_two_sided": 8.5551e-05,
+      "Top6_Actives": 1,
+      "Top6_Boundary_Tie": true,
+      "Top12_Actives": 2,
+      "Top12_Boundary_Tie": true,
+      "EF10pct": 0.333,
+      "EF20pct": 0.333
+    }
+  },
+  "Paired_Bootstrap_Diffs": {
+    "Vina_minus_LE_Full": {
+      "Delta_AUC": 0.015,
+      "Paired_Bootstrap_95CI": [
+        -0.1178,
+        0.1489
+      ],
+      "Prob_Vina_Greater": 0.5871
+    },
+    "Vina_minus_Baseline_MW": {
+      "Delta_AUC": 0.2011,
+      "Paired_Bootstrap_95CI": [
+        0.0067,
+        0.3889
+      ],
+      "Prob_Vina_Greater": 0.9783
+    },
+    "Vina_minus_Baseline_HeavyAtoms": {
+      "Delta_AUC": 0.2155,
+      "Paired_Bootstrap_95CI": [
+        0.0372,
+        0.3889
+      ],
+      "Prob_Vina_Greater": 0.9909
+    },
+    "Vina_minus_Baseline_WLOGP": {
+      "Delta_AUC": 0.1722,
+      "Paired_Bootstrap_95CI": [
+        -0.0294,
+        0.3728
+      ],
+      "Prob_Vina_Greater": 0.9524
+    },
+    "Vina_minus_Baseline_TPSA": {
+      "Delta_AUC": 0.3317,
+      "Paired_Bootstrap_95CI": [
+        0.1294,
+        0.5233
+      ],
+      "Prob_Vina_Greater": 0.999
+    },
+    "Vina_minus_Baseline_RotB": {
+      "Delta_AUC": 0.4733,
+      "Paired_Bootstrap_95CI": [
+        0.2539,
+        0.6728
+      ],
+      "Prob_Vina_Greater": 1.0
+    }
+  },
+  "Gate_Confusion_Matrices": {
+    "Tier1A_dG_le_minus8_and_LE_ge_028": {
+      "TP": 22,
+      "FN": 8,
+      "FP": 17,
+      "TN": 13,
+      "Sensitivity": 0.7333,
+      "Specificity": 0.4333,
+      "Precision": 0.5641,
+      "MCC": 0.1747
+    },
+    "dG_le_minus8_only": {
+      "TP": 22,
+      "FN": 8,
+      "FP": 17,
+      "TN": 13,
+      "Sensitivity": 0.7333,
+      "Specificity": 0.4333,
+      "Precision": 0.5641,
+      "MCC": 0.1747
+    },
+    "LE_ge_028_only": {
+      "TP": 30,
+      "FN": 0,
+      "FP": 27,
+      "TN": 3,
+      "Sensitivity": 1.0,
+      "Specificity": 0.1,
+      "Precision": 0.5263,
+      "MCC": 0.2294
+    },
+    "dG_le_minus8_5_strict": {
+      "TP": 16,
+      "FN": 14,
+      "FP": 9,
+      "TN": 21,
+      "Sensitivity": 0.5333,
+      "Specificity": 0.7,
+      "Precision": 0.64,
+      "MCC": 0.2366
+    }
+  },
+  "Bemis_Murcko_Scaffold_Audit": {
+    "Unique_Active_Scaffolds": 25,
+    "Unique_Inactive_Scaffolds": 26,
+    "Cross_Class_Shared_Scaffolds": 2,
+    "Scaffold_Collapsed_N": 51,
+    "Scaffold_Collapsed_Vina_AUC": 0.6654,
+    "Scaffold_Collapsed_Vina_95CI": [
+      0.5077,
+      0.8108
+    ],
+    "Scaffold_Collapsed_Vina_p": 0.021891,
+    "Scaffold_Collapsed_LE_AUC": 0.6492,
+    "Scaffold_Collapsed_LE_p": 0.034511
+  }
+}

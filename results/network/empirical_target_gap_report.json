@@ -1,41 +1,20 @@
 {
-  "Total_Unique_ChEMBL_Targets": 228,
+  "Total_Unique_ChEMBL_Targets": 115,
   "Total_OpenTargets_Phenotype_Genes": 894,
-  "Empirical_ChEMBL_OpenTargets_Overlap": 46,
+  "Empirical_ChEMBL_OpenTargets_Overlap": 22,
   "Overlap_List": [
-    "ALB",
-    "APP",
-    "AR",
-    "AURKA",
-    "BCHE",
     "CA4",
-    "CCNE1",
     "CNR1",
     "DRD4",
     "EGFR",
     "ESR1",
     "FABP1",
-    "FGFR3",
     "FLT3",
-    "GABRA1",
-    "GABRA2",
-    "GABRB2",
-    "GABRG2",
     "GPBAR1",
     "HDAC9",
     "HIF1A",
-    "HTR1A",
-    "HTR2A",
-    "HTR2B",
-    "HTR2C",
-    "HTR7",
     "NFKB1",
     "NOX4",
-    "NR1H4",
-    "OPRD1",
-    "OPRK1",
-    "OPRM1",
-    "PDE5A",
     "PIM1",
     "PPARA",
     "PPARD",
@@ -43,13 +22,47 @@
     "PTGS2",
     "RECQL",
     "SHBG",
-    "SIRT1",
-    "SMAD3",
-    "STAT3",
     "TP53",
     "TTR",
     "XDH"
   ],
   "CD36_in_Empirical_ChEMBL_Hits": false,
-  "FFAR4_in_Empirical_ChEMBL_Hits": true
+  "CD36_Compound_Hits": [],
+  "FFAR4_in_Empirical_ChEMBL_Hits": true,
+  "FFAR4_Compound_Hits": [
+    "Alpha-Linolenic acid",
+    "TUG-891"
+  ],
+  "Empirical_STRING_Stats": {
+    "total_nodes": 22,
+    "connected_nodes": 20,
+    "singleton_nodes": 2,
+    "singleton_list": [
+      "CA4",
+      "DRD4"
+    ],
+    "edges": 74,
+    "kegg_fdr05_count": 51
+  },
+  "Bridge_Genes_Added": [
+    "AKT1",
+    "CD36",
+    "DPP4",
+    "FFAR1",
+    "FFAR4",
+    "GCG",
+    "GLP1R",
+    "PRKAA1"
+  ],
+  "Bridge_STRING_Stats": {
+    "total_nodes": 30,
+    "connected_nodes": 28,
+    "singleton_nodes": 2,
+    "singleton_list": [
+      "CA4",
+      "DRD4"
+    ],
+    "edges": 143,
+    "kegg_fdr05_count": 96
+  }
 }

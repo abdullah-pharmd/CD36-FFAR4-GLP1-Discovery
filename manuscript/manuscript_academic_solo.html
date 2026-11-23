@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Structure-Based Identification of Lingual FFAR4 (GPR120) Agonists and Reversible CD36 Lipid-Chaperone Modulators to Sustain Endogenous GLP-1 Secretion: Integrated Network Pharmacology, Deterministic Molecular Docking, and Salivary Biopharmaceutic Modeling</title>
+    <title>Structure-Based Identification of Lingual FFAR4 (GPR120) Agonists and Reversible CD36 Lipid-Chaperone Modulators to Sustain Endogenous GLP-1 Secretion: Integrated Empirical Network Pharmacology, Deterministic Salivary-pH Docking, ChEMBL ROC-AUC Benchmarking, and Ligand-Efficiency Filtering</title>
     <!-- KaTeX Math -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
@@ -218,7 +218,7 @@
             <div class="article-type">Sole Author Edition | Independent Research</div>
         </div>
         
-        <h1 class="article-title">Structure-Based Identification of Lingual FFAR4 (GPR120) Agonists and Reversible CD36 Lipid-Chaperone Modulators to Sustain Endogenous GLP-1 Secretion: Integrated Network Pharmacology, Deterministic Molecular Docking, and Salivary Biopharmaceutic Modeling</h1>
+        <h1 class="article-title">Structure-Based Identification of Lingual FFAR4 (GPR120) Agonists and Reversible CD36 Lipid-Chaperone Modulators to Sustain Endogenous GLP-1 Secretion: Integrated Empirical Network Pharmacology, Deterministic Salivary-pH Docking, ChEMBL ROC-AUC Benchmarking, and Ligand-Efficiency Filtering</h1>
         
         <div class="authors-list"><span class="author-name">Muhammad Abdullah Khan<sup>1</sup><sup>*</sup></span></div>
         <div class="affiliations-list"><div class="affiliation-item"><sup>1</sup> Faculty of Pharmaceutical Sciences, Government College University Faisalabad (GCUF), Allama Iqbal Road, Faisalabad 38000, Pakistan</div></div>
@@ -236,8 +236,8 @@
         <div class="article-body">
             <h1 id="abstract-unnumbered">Abstract {.unnumbered}</h1>
 <p><strong>Background:</strong> Discontinuation of injectable glucagon-like peptide-1 (GLP-1) receptor agonists (semaglutide, tirzepatide) triggers rapid weight regain driven by hyperphagic rebound and depressed endogenous incretin tone. Clinical Phase 1 translation in May 2026 (EktaH's NKS-3 and NKS-5 oral fat-taste mimetics) validated lingual co-activation of cluster of differentiation 36 (CD36) and free fatty acid receptor 4 (FFAR4 / GPR120) to restore satiety hormone secretion. However, conventional natural-product virtual screening fails peer review due to four unaddressed errors: (i) treating rigid CD36 tunnel occlusion as agonism and benchmarking against irreversible covalent blockers (SSO); (ii) leaving crystallographic alternate side-chain conformers (<code>altLoc B</code> on orthosteric <code>Phe115</code>) and unprotonated receptor residues without polar <code>HD</code> donors; (iii) relying on circular target-prediction Venn diagrams rather than empirical ChEMBL/OpenTargets bioassays; and (iv) failing to separate size-biased, saliva-insoluble pentacyclic triterpenoids (<code>cLogP &gt; 6</code>) or pungent TRPV1/TAS2R irritants from genuine lingual drug leads.</p>
-<p><strong>Methods:</strong> We engineered a fully reproducible, physiological salivary-pH (<code>6.8</code>) cheminformatics and docking framework anchored on <code>altLoc</code>-clean human <strong>FFAR4</strong> (<code>PDB: 8G59</code>, Chain R, <code>2.64 Å</code>; stripping $G_q$/<code>scFv16</code> chains and duplicate <code>Phe115</code> <code>altLoc B</code> atoms) and human <strong>CD36</strong> (<code>PDB: 5LGD</code>, Chain A, <code>2.07 Å</code>; stripping <em>PfEMP1</em> Chain B and glycans, centered on native Palmitic Acid <code>PLM-512</code>). Both receptors and all 22 ligands (4 valid non-covalent controls: <code>TUG-891</code>, <code>Oleic acid</code>, <code>Palmitic acid</code>, <code>Oleoylethanolamide [OEA]</code>; and 18 test compounds spanning sialogogue alkamides, GLP-1-secretagogue PUFAs, dietary polyphenols, and a 4-triterpenoid size-control panel) were protonated at salivary <code>pH 6.8</code> to assign carboxylate anions (<code>-COO⁻</code>) and <code>424</code> / <code>619</code> polar <code>HD</code> donor hydrogens. Empirical ChEMBL bioassays (<code>≤ 10 µM</code>) were intersected live with 894 OpenTargets disease genes (<code>MONDO_0011122</code>, <code>MONDO_0005148</code>, <code>EFO_1001248</code>, <code>EFO_1000653</code>) and STRING v12.0 enrichment APIs. Docking accuracy was validated via symmetry-corrected Hungarian redocking RMSD, multi-exhaustiveness (<code>8</code> vs <code>12</code>) convergence checks, and a size-matched (<code>p_MW = 0.941</code>) ChEMBL5339 experimental Active ($n = 15$) vs. Inactive ($n = 15$) ROC-AUC benchmark. Leads were gated strictly by RDKit Egan/BOILED-Egg GI permeability, Delaney ESOL solubility ($\log S$), PAINS/Brenk alerts, Ligand Efficiency ($LE \ge 0.30$), and Lipophilic Ligand Efficiency ($LLE = pK_d - \text{cLogP}$).</p>
-<p><strong>Results:</strong> Live ChEMBL querying across the 22 compounds identified <code>228</code> unique human targets overlapping with <code>46</code> OpenTargets disease genes, yet empirically demonstrated <strong><code>0</code> standardized ChEMBL assays for <code>CD36</code></strong> and <strong><code>1</code> for <code>FFAR4</code> (<code>TUG-891</code> only)</strong>—quantitatively proving why ligand-based screening cannot replace 3D structure-based docking. Live STRING v12.0 analysis recovered <code>139</code> PPI edges enriched in PPAR (<code>hsa03320</code>, $\text{FDR} = 1.81 \times 10^{-5}$), AMPK (<code>hsa04152</code>, $\text{FDR} = 1.00 \times 10^{-3}$), and MASLD (<code>hsa04932</code>, $\text{FDR} = 2.40 \times 10^{-3}$) pathways. Redocking native <code>TUG-891</code> achieved a symmetry-corrected Hungarian RMSD of <strong><code>0.864 Å</code></strong> ($\Delta G = -11.58\text{ kcal/mol}$), with identical top-pose convergence across <code>exhaustiveness = 8</code> and <code>12</code> ($\text{RMSD} = 0.000\text{--}0.069\text{ \AA}$). Across the 30-compound ChEMBL5339 benchmark, <code>LE</code>-normalized scoring achieved <strong><code>ROC-AUC = 0.756</code></strong> ($p = 0.0090$, $EF_{20\%} = 1.67\times$), outperforming raw $\Delta G$ (<code>ROC-AUC = 0.733</code>, $p = 0.0155$). Crucially, all four rigid pentacyclic triterpenoids (<code>Ursolic</code>, <code>Oleanolic</code>, <code>Corosolic acid</code>, <code>Gymnemagenin</code>) suffered severe heavy-atom steric clashes (<code>1.70–2.05 Å</code>) against <code>Phe115</code> and <code>Ile280</code> in FFAR4 ($\Delta G = -1.12\text{ to }+1.49\text{ kcal/mol}$, $LE \le 0.034$) and exhibited poorly soluble brick-dust profiles ($\text{ESOL } \log S = -6.52\text{ to }-7.16$). Conversely, <strong>PAINS-free and Brenk-free Tier-1A leads</strong>—led by <strong>Naringenin</strong> ($\Delta G_{\text{FFAR4}} = -9.27\text{ kcal/mol}$, $LE = 0.464$, $LLE = 4.29$, $0/0$ PAINS/Brenk, $\log S = -3.49$) and <strong>Phloretin</strong> ($\Delta G_{\text{FFAR4}} = -8.24$, $LE = 0.412$, <code>Thr119</code> H-bond $2.72\text{ \AA}$, $0/0$ PAINS/Brenk)—alongside <strong>Resveratrol</strong> ($-8.53$, $LE = 0.502$), <strong>Pinolenic acid</strong> ($-7.92$, $LE = 0.396$), <strong>6-Gingerol</strong> ($-7.85$, $LE = 0.374$), and the rapid-dissolution sialogogue alkamides <strong>Spilanthol</strong> ($-7.65$, $LE = 0.478$, $359\text{ }\mu\text{g/mL}$, <code>Thr119</code> H-bond $2.94\text{ \AA}$) and <strong>Pellitorine</strong> ($-7.38$, $LE = 0.461$, $301\text{ }\mu\text{g/mL}$) passed every biophysical, solubility, and drug-likeness gate with zero steric clashes while maintaining moderate, reversible palmitate-like CD36 <code>PLM-512</code> cavity binding ($-6.19\text{ to }-7.25\text{ kcal/mol}$).</p>
+<p><strong>Methods:</strong> We engineered a fully reproducible, physiological salivary-pH (<code>6.8</code>) cheminformatics and docking framework anchored on <code>altLoc</code>-clean human <strong>FFAR4</strong> (<code>PDB: 8G59</code>, Chain R, <code>2.64 Å</code>; stripping $G_q$/<code>scFv16</code> chains and duplicate <code>Phe115</code> <code>altLoc B</code> atoms) and human <strong>CD36</strong> (<code>PDB: 5LGD</code>, Chain A, <code>2.07 Å</code>; stripping <em>PfEMP1</em> Chain B and glycans, centered on native Palmitic Acid <code>PLM-512</code>). Both receptors and all 22 ligands (4 valid non-covalent controls: <code>TUG-891</code>, <code>Oleic acid</code>, <code>Palmitic acid</code>, <code>Oleoylethanolamide [OEA]</code>; and 18 test compounds spanning sialogogue alkamides, GLP-1-secretagogue PUFAs, dietary polyphenols, and a 4-triterpenoid size-control panel) were protonated at salivary <code>pH 6.8</code> to assign carboxylate anions (<code>-COO⁻</code>) and <code>424</code> / <code>619</code> polar <code>HD</code> donor hydrogens. Strict quantitative ChEMBL single-protein curation ($\text{pChEMBL} \ge 5.0$, i.e., $\le 10\text{ }\mu\text{M}$, or approved clinical mechanism) was intersected live with 894 OpenTargets disease genes (<code>MONDO_0011122</code>, <code>MONDO_0005148</code>, <code>EFO_1001248</code>, <code>EFO_1000653</code>) and resolved via two-stage STRING v12.0 modeling separating unspiked empirical enrichment from hypothesized mechanistic bridges. Docking accuracy was validated via symmetry-corrected Hungarian redocking RMSD, multi-exhaustiveness (<code>8</code> vs <code>12</code>) convergence checks, and a size-matched (<code>p_MW = 0.941</code>) ChEMBL5339 experimental Active ($n = 15$) vs. Inactive ($n = 15$) ROC-AUC benchmark. Leads were gated strictly by RDKit Egan/BOILED-Egg GI permeability, Delaney ESOL solubility ($\log S$), PAINS/Brenk alerts, Ligand Efficiency ($LE \ge 0.30$), Lipophilic Ligand Efficiency ($LLE = pK_d - \text{cLogP}$), and polar hydrogen-donor verified 3D H-bond classification.</p>
+<p><strong>Results:</strong> Strict quantitative ChEMBL querying across the 22 compounds identified <code>115</code> unique human single-protein targets overlapping with <code>22</code> OpenTargets disease genes, yet empirically demonstrated <strong><code>0</code> standardized ChEMBL assays for <code>CD36</code></strong> and only <strong><code>2</code> compounds for <code>FFAR4</code> (<code>TUG-891</code> and <code>Alpha-Linolenic acid</code>)</strong>—quantitatively proving why ligand-based screening cannot replace 3D structure-based docking. Unspiked Stage 1 STRING v12.0 clustering across the 22 empirical overlap genes returned <code>74</code> PPI edges (<code>20</code> connected hubs anchored by <code>PPARG</code>, <code>HIF1A</code>, <code>TP53</code>, <code>PPARA</code>, <code>PTGS2</code>) empirically enriched in PPAR signaling (<code>hsa03320</code>, $\text{FDR} = 1.00 \times 10^{-4}$), Alcoholic liver disease (<code>hsa04936</code>, $\text{FDR} = 9.90 \times 10^{-4}$), and Efferocytosis (<code>hsa04148</code>, $\text{FDR} = 1.20 \times 10^{-3}$), cleanly separated from Stage 2 mechanistic bridge connectivity (<code>30</code> nodes, <code>143</code> edges). Redocking native <code>TUG-891</code> achieved a symmetry-corrected Hungarian RMSD of <strong><code>0.864 Å</code></strong> ($\Delta G = -11.58\text{ kcal/mol}$), with identical top-pose convergence across <code>exhaustiveness = 8</code> and <code>12</code> ($\text{RMSD} = 0.000\text{--}0.069\text{ \AA}$). Across the 30-compound ChEMBL5339 benchmark, <code>LE</code>-normalized scoring achieved <strong><code>ROC-AUC = 0.756</code></strong> ($p = 0.0090$, $EF_{20\%} = 1.67\times$), outperforming raw $\Delta G$ (<code>ROC-AUC = 0.733</code>, $p = 0.0155$). Crucially, all four rigid pentacyclic triterpenoids (<code>Ursolic</code>, <code>Oleanolic</code>, <code>Corosolic acid</code>, <code>Gymnemagenin</code>) suffered severe heavy-atom steric clashes (<code>1.70–2.05 Å</code>) against <code>Phe115</code> and <code>Ile280</code> in FFAR4 ($\Delta G = -1.12\text{ to }+1.49\text{ kcal/mol}$, $LE \le 0.034$) and exhibited poorly soluble brick-dust profiles ($\text{ESOL } \log S = -6.52\text{ to }-7.16$). Conversely, <strong>PAINS-free and Brenk-free Tier-1A leads</strong>—led by <strong>Naringenin</strong> ($\Delta G_{\text{FFAR4}} = -9.27\text{ kcal/mol}$, $LE = 0.464$, $LLE = 4.29$, $0/0$ PAINS/Brenk, $\log S = -3.49$) and <strong>Phloretin</strong> ($\Delta G_{\text{FFAR4}} = -8.24$, $LE = 0.412$, <code>Thr119</code> H-bond $2.72\text{ \AA}$, $0/0$ PAINS/Brenk)—alongside <strong>Resveratrol</strong> ($-8.53$, $LE = 0.502$), <strong>Pinolenic acid</strong> ($-7.92$, $LE = 0.396$), <strong>6-Gingerol</strong> ($-7.85$, $LE = 0.374$), and the rapid-dissolution sialogogue alkamides <strong>Spilanthol</strong> ($-7.65$, $LE = 0.478$, $359\text{ }\mu\text{g/mL}$, <code>Thr119</code> H-bond $2.94\text{ \AA}$) and <strong>Pellitorine</strong> ($-7.38$, $LE = 0.461$, $301\text{ }\mu\text{g/mL}$) passed every biophysical, solubility, and drug-likeness gate with zero steric clashes while maintaining moderate, reversible palmitate-like CD36 <code>PLM-512</code> cavity binding ($-6.19\text{ to }-7.25\text{ kcal/mol}$).</p>
 <p><strong>Conclusion:</strong> Resolving crystallographic <code>altLoc B</code> artifacts, salivary <code>pH 6.8</code> receptor/ligand protonation, empirical ChEMBL ROC-AUC benchmarking, and <code>Phe115</code> clash/Ligand Efficiency filtering eliminates triterpenoid false positives and defines Naringenin, Phloretin, Resveratrol, Pinolenic acid, and Spilanthol as rigorous, saliva-dispersible candidates for lingual FFAR4/CD36 modulation.</p>
 <hr />
 <h1 id="1-introduction">1. Introduction</h1>
@@ -257,18 +257,18 @@
 <p>$$\log S = 0.16 - 0.63\,\text{cLogP} - 0.0062\,\text{MW} + 0.066\,\text{RotB} - 0.74\,\text{AP}$$</p>
 <p>plus <strong>PAINS</strong> [21] and <strong>Brenk</strong> structural alert catalogs were computed for every ligand.</p>
 <h2 id="22-live-empirical-network-pharmacology-chembl-opentargets-string-v120">2.2 Live Empirical Network Pharmacology (<code>ChEMBL + OpenTargets + STRING v12.0</code>)</h2>
-<p>Instead of manual target curation (<code>scripts/05_live_chembl_string_network.py</code>), all 22 SMILES were mapped by exact InChIKey connectivity (<code>[:14]</code>) to ChEMBL molecules, extracting all experimental <em>Homo sapiens</em> single-protein bioactivities ($\le 10,000\text{ nM}$) and approved mechanisms mapped to HGNC symbols. Disease genes (<code>n = 894</code> unique HGNC symbols) were retrieved live from <strong>OpenTargets GraphQL v4</strong> across four standardized phenotypes: Obesity (<code>MONDO_0011122</code>), Type 2 Diabetes Mellitus (<code>MONDO_0005148</code>), MASLD/NAFLD (<code>EFO_1001248</code>), and Sarcopenia (<code>EFO_1000653</code>). The intersected targets plus canonical taste–incretin anchors were submitted to <strong>STRING v12.0</strong> (<code>required_score = 400</code>, <em>Homo sapiens</em>) for live PPI topology and KEGG/GO enrichment (<code>FDR &lt; 0.05</code>). Betweenness centrality was computed in <code>NetworkX</code>:</p>
+<p>Instead of manual target curation (<code>scripts/05_live_chembl_string_network.py</code>), all 22 SMILES were mapped by exact InChIKey connectivity (<code>[:14]</code>) to ChEMBL molecules, extracting strictly quantitative <em>Homo sapiens</em> single-protein bioactivities ($\text{pChEMBL} \ge 5.0$, i.e., $\le 10\text{ }\mu\text{M}$ IC50/EC50/Ki/Kd/AC50) and approved mechanisms mapped to HGNC symbols. Disease genes (<code>n = 894</code> unique HGNC symbols) were retrieved live from <strong>OpenTargets GraphQL v4</strong> across four standardized phenotypes: Obesity (<code>MONDO_0011122</code>), Type 2 Diabetes Mellitus (<code>MONDO_0005148</code>), MASLD/NAFLD (<code>EFO_1001248</code>), and Sarcopenia (<code>EFO_1000653</code>). Stage 1 <strong>STRING v12.0</strong> (<code>required_score = 400</code>, <em>Homo sapiens</em>) interactome and enrichment analyses ($\text{FDR} &lt; 0.05$) were run exclusively on the 22 unspiked empirical overlap genes, while a separate Stage 2 topological bridge model added pre-specified taste–incretin anchors strictly to map connectivity rather than compute unbiased KEGG enrichment. Betweenness centrality was computed in <code>NetworkX</code>:</p>
 <p>$$C_B(v) = \sum_{s \neq v \neq t \in V} \frac{\sigma_{st}(v)}{\sigma_{st}}$$</p>
 <h2 id="23-strict-altloc-clean-chain-surgery-salivary-ph-68-protonation-and-docking-protocol">2.3 Strict <code>altLoc</code>-Clean Chain Surgery, Salivary <code>pH 6.8</code> Protonation, and Docking Protocol</h2>
 <p>Macromolecular coordinates (<code>scripts/02_prepare_and_dock.py</code>) were prepared cleanly as follows:
 1. <strong>Human FFAR4 (<code>PDB: 8G59</code>, cryo-EM resolution <code>2.64 Å</code> [11]):</strong> Chains <code>A, B, Y, S</code> ($G_q$ $\alpha/\beta/\gamma$ and <code>scFv16</code>), lipids, and <code>11</code> duplicate <code>altLoc B</code> atoms (affecting orthosteric <strong><code>Phe115</code></strong>, occupancy <code>0.50</code>) were excised, retaining single-conformer <strong>Chain R</strong> (<code>2,193</code> heavy atoms). OpenBabel <code>-p 6.8 -xr</code> added <code>424</code> physiological polar <code>HD</code> donor atoms (<code>2,617</code> total PDBQT atoms). Native co-crystallized <strong>TUG-891 (<code>YN9 401</code>, <code>27</code> heavy atoms)</strong> centered the orthosteric grid box at $(98.09, 123.78, 117.74)\text{ \AA}$ ($22.0 \times 22.0 \times 22.0\text{ \AA}^3$). Coordinate verification confirmed <code>Glu204</code> ($2.59\text{ \AA}$), <code>Asp208</code> ($2.64\text{ \AA}$), <code>Met118</code> ($3.04\text{ \AA}$), <code>Phe115</code> ($3.25\text{ \AA}$), <code>Asn291</code> ($3.26\text{ \AA}$), <code>Trp198</code> ($3.38\text{ \AA}$), and <code>Thr119</code> ($3.83\text{ \AA}$) line the <code>8G59</code> active pocket, whereas legacy homology-modeled <code>Arg99</code> lies <code>11.36 Å</code> (closest heavy atom; <code>18.48 Å</code> Cα-to-centroid) away.
 2. <strong>Human CD36 (<code>PDB: 5LGD</code>, X-ray resolution <code>2.07 Å</code> [12]):</strong> Foreign malaria parasite <em>PfEMP1 CIDRα1</em> (<strong>Chain B</strong>), N-glycans, waters, and sulfate ions were removed, retaining clean <strong>Chain A</strong> (<code>3,218</code> heavy atoms; <code>-p 6.8 -xr</code> adding <code>619</code> polar <code>HD</code> atoms). Centered directly on co-crystallized <strong>Palmitic Acid (<code>PLM-512</code>)</strong> at $(-41.83, -32.91, 36.08)\text{ \AA}$ ($22.0 \times 22.0 \times 24.0\text{ \AA}^3$), beneath the apical <code>Lys164</code>/<code>Lys166</code> electrostatic hood and gated by <code>Arg337</code>, <code>Lys334</code>, <code>Glu335</code>, and <code>Asp270</code>.
 3. <strong>Deterministic AutoDock Vina v1.2.7 (<code>--seed 42</code>) &amp; Convergence Verification:</strong> All 22 ligands were re-protonated at salivary <code>pH 6.8</code> (<code>obabel -d -p 6.8</code>, ionizing carboxylates to <code>-COO⁻</code>) and docked uniformly (<code>exhaustiveness = 8</code>, <code>num_modes = 9</code>, <code>--seed 42</code>) [22]:</p>
-<p>$$\Delta G_{\text{bind}} = \sum_{i &lt; j} \left[ e_{\text{gauss}}(d_{ij}) + e_{\text{repulsion}}(d_{ij}) + e_{\text{hbond}}(d_{ij}) + e_{\text{hydrophobic}}(d_{ij}) \right] + w_{\text{tor}} N_{\text{tor}}$$</p>
+<p>$$\Delta G_{\text{bind}} = \frac{\sum_{i &lt; j} \left[ e_{\text{gauss}}(d_{ij}) + e_{\text{repulsion}}(d_{ij}) + e_{\text{hbond}}(d_{ij}) + e_{\text{hydrophobic}}(d_{ij}) \right]}{1 + w_{\text{rot}} N_{\text{rot}}}$$</p>
 <p>Pose stability was verified independently at <code>exhaustiveness = 12</code> (<code>--seed 42</code>) on <code>TUG-891</code> and top leads via symmetry-corrected <strong>Hungarian element-matched heavy-atom RMSD</strong> (<code>scipy.optimize.linear_sum_assignment</code>):</p>
-<p>$$RMSD = \sqrt{ \frac{1}{N} \sum_{i=1}^{N} | \mathbf{r}<em>{i,\text{docked}} - \mathbf{r}</em>{i,\text{crystal}} |^2 }$$</p>
+<p>$$RMSD_{\text{Hungarian}} = \min_{\pi} \sqrt{ \frac{1}{N} \sum_{i=1}^{N} | \mathbf{r}<em>{i,\text{docked}} - \mathbf{r}</em>{\pi(i),\text{crystal}} |^2 }$$</p>
 <h2 id="24-chembl5339-active-vs-inactive-roc-auc-benchmark-3d-interaction-classifier">2.4 ChEMBL5339 Active-vs-Inactive ROC-AUC Benchmark &amp; 3D Interaction Classifier</h2>
-<p>To validate scoring discrimination empirically (<code>scripts/06_roc_auc_validation.py</code>), <code>15</code> experimental FFAR4 agonists (<code>CHEMBL5339</code>, $\text{pChEMBL} \ge 6.5$, mean MW $= 333.5\text{ Da}$) were size-matched (<code>ttest_ind</code> $p = 0.941$) to <code>15</code> experimentally confirmed FFAR4 inactives ($&gt; 10,000\text{ nM}$, mean MW $= 334.2\text{ Da}$) and docked under identical <code>pH 6.8</code> parameters (<code>--seed 42</code>), computing <strong>ROC-AUC</strong>, <strong>$EF_{20\%}$</strong>, and one-sided <strong>Mann–Whitney $U$ $p$-values</strong> across $\Delta G$ and <strong>Ligand Efficiency ($LE = -\Delta G / N_{\text{heavy}}$)</strong> alongside <strong>Lipophilic Ligand Efficiency ($LLE = -\Delta G / 1.364 - \text{cLogP}$)</strong>. Model 1 3D contacts (<code>scripts/04_extract_atomic_contacts.py</code>) classified polar H-bonds ($\text{N/O/S}\cdots\text{N/O/S} \le 3.5\text{ \AA}$), pocket contacts ($\le 4.0\text{ \AA}$), and steric clashes ($&lt; 2.2\text{ \AA}$).</p>
+<p>To validate scoring discrimination empirically (<code>scripts/06_roc_auc_validation.py</code>), <code>15</code> experimental FFAR4 agonists (<code>CHEMBL5339</code>, $\text{pChEMBL} \ge 6.5$, mean MW $= 333.5\text{ Da}$) were size-matched (<code>ttest_ind</code> $p = 0.941$) to <code>15</code> experimentally confirmed FFAR4 inactives ($&gt; 10,000\text{ nM}$, mean MW $= 334.2\text{ Da}$) and docked under identical <code>pH 6.8</code> parameters (<code>--seed 42</code>), computing <strong>ROC-AUC</strong>, <strong>$EF_{20\%}$</strong>, and one-sided <strong>Mann–Whitney $U$ $p$-values</strong> across $\Delta G$ and <strong>Ligand Efficiency ($LE = -\Delta G / N_{\text{heavy}}$)</strong> alongside <strong>Lipophilic Ligand Efficiency ($LLE = -\Delta G / 1.364 - \text{cLogP}$)</strong>. Model 1 3D contacts (<code>scripts/04_extract_atomic_contacts.py</code>) required verified PDBQT polar <code>HD</code> donor–to–acceptor (<code>OA/NA/SA</code>) chemistry for H-bonds ($\le 3.5\text{ \AA}$), while non-bonded pocket contacts ($\le 4.0\text{ \AA}$) and steric clashes ($&lt; 2.2\text{ \AA}$) were classified separately.</p>
 <hr />
 <h1 id="3-results">3. Results</h1>
 <h2 id="31-physicochemical-boiled-egg-esol-solubility-pains-brenk-profiling">3.1 Physicochemical, BOILED-Egg, ESOL Solubility, PAINS &amp; Brenk Profiling</h2>
@@ -578,13 +578,13 @@
 </tr>
 </tbody>
 </table>
-<p>Notably, <strong>Naringenin</strong> ($\text{QED} = 0.742$, $0$ PAINS, $0$ Brenk) and <strong>Phloretin</strong> ($\text{QED} = 0.641$, $0$ PAINS, $0$ Brenk) are the <strong>only two natural leads completely free of both PAINS and Brenk medicinal-chemistry alerts</strong>, while <strong>Spilanthol</strong> ($359\text{ }\mu\text{g/mL}$) and <strong>Pellitorine</strong> ($301\text{ }\mu\text{g/mL}$) provide exceptional rapid salivary dissolution. Conversely, <code>Ursolic</code> and <code>Oleanolic acids</code> fail passive absorption (<code>BOILED-Egg: Low</code>, $\log S &lt; -7.0$, <code>0.03–0.04 µg/mL</code>).</p>
-<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/figures/figure5_chemical_structures.png" alt="Figure 5: 2D Chemical Structures of Validated Controls, PAINS-Free Leads, Lingual Alkamides, and Disqualified Brick-Dust Benchmark (Oleanolic Acid)."><figcaption>Figure 5: 2D Chemical Structures of Validated Controls, PAINS-Free Leads, Lingual Alkamides, and Disqualified Brick-Dust Benchmark (Oleanolic Acid).</figcaption></figure>
+<p>Notably, <strong>Naringenin</strong> ($\text{QED} = 0.742$, $0$ PAINS, $0$ Brenk) and <strong>Phloretin</strong> ($\text{QED} = 0.641$, $0$ PAINS, $0$ Brenk) are the <strong>only two natural leads completely free of both PAINS and Brenk medicinal-chemistry alerts</strong>, while <strong>Spilanthol</strong> ($359\text{ }\mu\text{g/mL}$) and <strong>Pellitorine</strong> ($301\text{ }\mu\text{g/mL}$) provide exceptional rapid salivary dissolution (Figure 1). Conversely, <code>Ursolic</code> and <code>Oleanolic acids</code> fail passive absorption (<code>BOILED-Egg: Low</code>, $\log S &lt; -7.0$, <code>0.03–0.04 µg/mL</code>).</p>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/Documents/Projects/CD36 FFAR4 GLP1 Discovery/results/figures/figure5_chemical_structures.png" alt="Figure 1: 2D Chemical Structures of Validated Controls, PAINS-Free Leads, Lingual Alkamides, and Disqualified Brick-Dust Benchmark (Oleanolic Acid)."><figcaption>Figure 1: 2D Chemical Structures of Validated Controls, PAINS-Free Leads, Lingual Alkamides, and Disqualified Brick-Dust Benchmark (Oleanolic Acid).</figcaption></figure>
 <hr />
-<h2 id="32-live-chemblopentargets-gap-analysis-string-v120-network-enrichment">3.2 Live ChEMBL–OpenTargets Gap Analysis &amp; STRING v12.0 Network Enrichment</h2>
-<p>Querying <strong>ChEMBL REST API</strong> across all 22 compounds retrieved <code>228</code> unique human single-protein targets ($\le 10\text{ }\mu\text{M}$), of which <strong><code>46</code> overlapped with the <code>894</code> OpenTargets phenotype genes</strong> (<code>PPARG</code>, <code>PPARA</code>, <code>PPARD</code>, <code>FABP1</code>, <code>SIRT1</code>, <code>NFKB1</code>, <code>STAT3</code>, <code>PTGS2</code>, <code>NR1H4</code>, <code>GPBAR1</code>, <code>NOX4</code>; Figure 1). Critically, empirical auditing exposed that <strong><code>CD36</code> (<code>CHEMBL1744526</code>) had <code>0 / 22</code> bioassay hits</strong> (<code>false</code>) and <strong><code>FFAR4</code> (<code>CHEMBL5339</code>) had only <code>1 / 22</code> (<code>TUG-891</code> only)</strong>—quantitatively demonstrating that 2D ligand-based target prediction alone suffers a blind spot on lingual fat-taste receptors.</p>
-<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/network/target_disease_venn.png" alt="Figure 1: Live ChEMBL (<= 10 uM) vs. OpenTargets (4 MeSH Phenotypes) Set Intersection Demonstrating Empirical Target Coverage Gaps."><figcaption>Figure 1: Live ChEMBL (<= 10 uM) vs. OpenTargets (4 MeSH Phenotypes) Set Intersection Demonstrating Empirical Target Coverage Gaps.</figcaption></figure>
-<p>Submitting the intersected ChEMBL–OpenTargets hubs and mechanistic taste–incretin nodes (<code>n = 30</code> genes) to the <strong>live STRING v12.0 API</strong> returned <code>139</code> PPI edges (<code>results/network/protocol_a_string_live_edges.csv</code>; Figure 2 &amp; Figure 3), identifying <strong>AKT1</strong> ($\text{Degree} = 21$, $C_B = 0.1563$), <strong>PPARG</strong> ($\text{Degree} = 21$, $C_B = 0.1046$), <strong>PPARA</strong> ($\text{Degree} = 21$, $C_B = 0.1022$), <strong>TP53</strong> (<code>16</code>), <strong>HIF1A</strong> (<code>16</code>), <strong>PTGS2</strong> (<code>16</code>), <strong>CD36</strong> (<code>13</code>), <strong>DPP4</strong> (<code>13</code>), and <strong>GCG</strong> (<code>13</code>) alongside <strong>GLP1R</strong> (<code>9</code>) and <strong>FFAR4</strong> (<code>8</code>) as top network hubs (Table 2). Live STRING functional enrichment returned <code>393</code> significant terms ($\text{FDR} &lt; 0.05$; Figure 4), including <strong><code>PPAR signaling</code> (<code>hsa03320</code>, $\text{FDR} = 1.81 \times 10^{-5}$)</strong>, <strong><code>Adipocytokine signaling</code> (<code>hsa04920</code>, $\text{FDR} = 2.00 \times 10^{-4}$)</strong>, <strong><code>AMPK signaling</code> (<code>hsa04152</code>, $\text{FDR} = 1.00 \times 10^{-3}$)</strong>, <strong><code>Non-alcoholic fatty liver / MASLD</code> (<code>hsa04932</code>, $\text{FDR} = 2.40 \times 10^{-3}$)</strong>, <strong><code>GO:0050909 Sensory perception of taste</code> ($\text{FDR} = 5.70 \times 10^{-3}$)</strong>, and <strong><code>GO:0046887 Positive regulation of hormone secretion</code> ($\text{FDR} = 4.92 \times 10^{-8}$)</strong>.</p>
+<h2 id="32-live-chemblopentargets-gap-analysis-two-stage-string-v120-network-enrichment">3.2 Live ChEMBL–OpenTargets Gap Analysis &amp; Two-Stage STRING v12.0 Network Enrichment</h2>
+<p>Querying <strong>ChEMBL REST API</strong> across all 22 compounds under strict single-protein quantitative criteria ($\text{pChEMBL} \ge 5.0$, i.e., $\le 10\text{ }\mu\text{M}$, or approved clinical mechanism) retrieved <code>115</code> unique human single-protein targets, of which <strong><code>22</code> overlapped with the <code>894</code> OpenTargets phenotype genes</strong> (<code>CA4</code>, <code>CNR1</code>, <code>DRD4</code>, <code>EGFR</code>, <code>ESR1</code>, <code>FABP1</code>, <code>FLT3</code>, <code>GPBAR1</code>, <code>HDAC9</code>, <code>HIF1A</code>, <code>NFKB1</code>, <code>NOX4</code>, <code>PIM1</code>, <code>PPARA</code>, <code>PPARD</code>, <code>PPARG</code>, <code>PTGS2</code>, <code>RECQL</code>, <code>SHBG</code>, <code>TP53</code>, <code>TTR</code>, <code>XDH</code>; Figure 2). Critically, empirical auditing exposed that <strong><code>CD36</code> (<code>CHEMBL1744526</code>) had <code>0 / 22</code> empirical bioassay hits</strong> (<code>CD36_in_Empirical_ChEMBL_Hits = false</code>) and <strong><code>FFAR4</code> (<code>CHEMBL5339</code>) had only <code>2 / 22</code> hits (<code>TUG-891</code> and <code>Alpha-Linolenic acid</code>)</strong>—quantitatively demonstrating that 2D ligand-based target prediction alone cannot cover lingual fat-taste receptors.</p>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/Documents/Projects/CD36 FFAR4 GLP1 Discovery/results/network/target_disease_venn.png" alt="Figure 2: Strict Quantitative ChEMBL (pChEMBL >= 5.0 / Mechanism) vs. OpenTargets (4 MeSH Phenotypes) Set Intersection Demonstrating Empirical Target Coverage Gaps."><figcaption>Figure 2: Strict Quantitative ChEMBL (pChEMBL >= 5.0 / Mechanism) vs. OpenTargets (4 MeSH Phenotypes) Set Intersection Demonstrating Empirical Target Coverage Gaps.</figcaption></figure>
+<p>Submitting strictly the <strong><code>22</code> unspiked empirical ChEMBL–OpenTargets overlap genes</strong> (Stage 1 Pure Empirical Interactome; zero injected bridge nodes) to <strong>live STRING v12.0</strong> (<code>required_score = 400</code>) returned <code>74</code> PPI edges across <code>20</code> connected hubs (<code>2</code> singletons: <code>CA4</code>, <code>DRD4</code>; Figure 3 &amp; Figure 4), anchored by <strong>PPARG</strong> ($\text{Degree} = 15$, $C_B = 0.1618$), <strong>HIF1A</strong> (<code>14</code>, $C_B = 0.1371$), <strong>TP53</strong> (<code>13</code>, $C_B = 0.1156$), <strong>PPARA</strong> (<code>13</code>, $C_B = 0.0887$), <strong>PTGS2</strong> (<code>12</code>, $C_B = 0.0283$), <strong>EGFR</strong> (<code>11</code>), and <strong>NFKB1</strong> (<code>11</code>) alongside lipid transporter <strong>FABP1</strong> (<code>3</code>) and bile-acid receptor <strong>GPBAR1</strong> (<code>2</code>) (Table 2). Pure empirical Stage 1 functional enrichment ($\text{FDR} &lt; 0.05$; Figure 5) recovered <code>51</code> significant KEGG pathways, including <strong><code>PPAR signaling</code> (<code>hsa03320</code>, $n = 4$, $\text{FDR} = 1.00 \times 10^{-4}$)</strong>, <strong><code>Alcoholic liver disease</code> (<code>hsa04936</code>, $n = 4$, $\text{FDR} = 9.90 \times 10^{-4}$)</strong>, <strong><code>Efferocytosis</code> (<code>hsa04148</code>, $n = 4$, $\text{FDR} = 1.20 \times 10^{-3}$)</strong>, <strong><code>GO:0015908 Fatty acid transport</code> ($\text{FDR} = 3.64 \times 10^{-5}$)</strong>, and <strong><code>GO:0045923 Positive regulation of fatty acid metabolic process</code> ($\text{FDR} = 5.38 \times 10^{-5}$)</strong>. Separately, appending <code>8</code> taste–incretin mechanistic effectors (<code>AKT1</code>, <code>CD36</code>, <code>DPP4</code>, <code>FFAR1</code>, <code>FFAR4</code>, <code>GCG</code>, <code>GLP1R</code>, <code>PRKAA1</code>; $n = 30$ total) in Stage 2 strictly for topological bridging expanded connectivity to <code>143</code> edges (linking <code>CD36</code> [<code>13</code>], <code>DPP4</code> [<code>13</code>], <code>GCG</code> [<code>14</code>], <code>GLP1R</code> [<code>9</code>], and <code>FFAR4</code> [<code>8</code>] to empirical <code>PPARG</code>/<code>PPARA</code>; Table 2), without inflating Stage 1 enrichment claims.</p>
 <table>
 <thead>
 <tr>
@@ -593,97 +593,105 @@
 <th style="text-align: center;">Betweenness ($C_B$)</th>
 <th style="text-align: center;">Closeness ($C_C$)</th>
 <th style="text-align: center;">Eigenvector</th>
-<th style="text-align: left;">Empirical Pathway Role</th>
+<th style="text-align: left;">Network Stage &amp; Empirical Role</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>AKT1</strong></td>
-<td style="text-align: center;">21</td>
-<td style="text-align: center;">0.1563</td>
-<td style="text-align: center;">0.7724</td>
-<td style="text-align: center;">0.3143</td>
-<td style="text-align: left;">Primary Metabolic/Survival Hub</td>
+<td style="text-align: left;"><strong>PPARG</strong></td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">0.1618</td>
+<td style="text-align: center;">0.7474</td>
+<td style="text-align: center;">0.3329</td>
+<td style="text-align: left;"><strong>Stage 1 Empirical</strong>: Lipid Master Regulator</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>PPARG</strong></td>
-<td style="text-align: center;">21</td>
-<td style="text-align: center;">0.1046</td>
-<td style="text-align: center;">0.7724</td>
-<td style="text-align: center;">0.3233</td>
-<td style="text-align: left;">Lipid Differentiation Master Regulator</td>
+<td style="text-align: left;"><strong>HIF1A</strong></td>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">0.1371</td>
+<td style="text-align: center;">0.7163</td>
+<td style="text-align: center;">0.3260</td>
+<td style="text-align: left;"><strong>Stage 1 Empirical</strong>: Hypoxia &amp; Metabolic Hub</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>TP53</strong></td>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">0.1156</td>
+<td style="text-align: center;">0.6876</td>
+<td style="text-align: center;">0.3187</td>
+<td style="text-align: left;"><strong>Stage 1 Empirical</strong>: Hepatocyte Stress Hub</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>PPARA</strong></td>
-<td style="text-align: center;">21</td>
-<td style="text-align: center;">0.1022</td>
-<td style="text-align: center;">0.7724</td>
-<td style="text-align: center;">0.3237</td>
-<td style="text-align: left;">Hepatic Fatty-Acid $\beta$-Oxidation Hub</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>CD36</strong></td>
 <td style="text-align: center;">13</td>
-<td style="text-align: center;">0.0270</td>
-<td style="text-align: center;">0.6287</td>
-<td style="text-align: center;">0.2359</td>
-<td style="text-align: left;">Lingual Lipid-Capture Chaperone</td>
+<td style="text-align: center;">0.0887</td>
+<td style="text-align: center;">0.6876</td>
+<td style="text-align: center;">0.3075</td>
+<td style="text-align: left;"><strong>Stage 1 Empirical</strong>: Hepatic $\beta$-Oxidation Hub</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>DPP4</strong></td>
+<td style="text-align: left;"><strong>PTGS2</strong></td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">0.0283</td>
+<td style="text-align: center;">0.6612</td>
+<td style="text-align: center;">0.3156</td>
+<td style="text-align: left;"><strong>Stage 1 Empirical</strong>: Inflammatory Eicosanoid Hub</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>EGFR</strong></td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">0.0348</td>
+<td style="text-align: center;">0.6367</td>
+<td style="text-align: center;">0.2937</td>
+<td style="text-align: left;"><strong>Stage 1 Empirical</strong>: Growth/Fibrosis Signaling</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>FABP1</strong></td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">0.0106</td>
+<td style="text-align: center;">0.4524</td>
+<td style="text-align: center;">0.0684</td>
+<td style="text-align: left;"><strong>Stage 1 Empirical</strong>: Intracellular Lipid Carrier</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>GCG</strong> <em>(Bridge)</em></td>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">0.0483</td>
+<td style="text-align: center;">0.5985</td>
+<td style="text-align: center;">0.1967</td>
+<td style="text-align: left;"><strong>Stage 2 Bridge Anchor</strong>: Proglucagon / GLP-1</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>CD36</strong> <em>(Bridge)</em></td>
 <td style="text-align: center;">13</td>
-<td style="text-align: center;">0.0210</td>
-<td style="text-align: center;">0.6144</td>
-<td style="text-align: center;">0.2334</td>
-<td style="text-align: left;">Incretin Proteolytic Regulator</td>
+<td style="text-align: center;">0.0221</td>
+<td style="text-align: center;">0.6131</td>
+<td style="text-align: center;">0.2208</td>
+<td style="text-align: left;"><strong>Stage 2 Bridge Anchor</strong>: Lingual Lipid Chaperone</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>GCG</strong></td>
+<td style="text-align: left;"><strong>DPP4</strong> <em>(Bridge)</em></td>
 <td style="text-align: center;">13</td>
-<td style="text-align: center;">0.0201</td>
-<td style="text-align: center;">0.6008</td>
-<td style="text-align: center;">0.2177</td>
-<td style="text-align: left;">Proglucagon / GLP-1 Precursor</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>NR1H4 (FXR)</strong></td>
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">0.0161</td>
-<td style="text-align: center;">0.5752</td>
-<td style="text-align: center;">0.1738</td>
-<td style="text-align: left;">Enterohepatic Bile-Acid Incretin Hub</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>GLP1R</strong></td>
-<td style="text-align: center;">9</td>
-<td style="text-align: center;">0.0044</td>
-<td style="text-align: center;">0.5517</td>
-<td style="text-align: center;">0.1642</td>
-<td style="text-align: left;">Primary Incretin Satiety Receptor</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>FFAR4</strong></td>
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">0.0007</td>
-<td style="text-align: center;">0.5101</td>
-<td style="text-align: center;">0.1453</td>
-<td style="text-align: left;">Active Lingual Lipid GPCR Sensor</td>
+<td style="text-align: center;">0.0180</td>
+<td style="text-align: center;">0.5985</td>
+<td style="text-align: center;">0.2146</td>
+<td style="text-align: left;"><strong>Stage 2 Bridge Anchor</strong>: Incretin Protease</td>
 </tr>
 </tbody>
 </table>
-<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/network/ppi_network_graph.png" alt="Figure 2: Live STRING v12.0 PPI Network Across 30 Shared Lipid-Incretin Hubs (139 Edges)."><figcaption>Figure 2: Live STRING v12.0 PPI Network Across 30 Shared Lipid-Incretin Hubs (139 Edges).</figcaption></figure>
-<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/network/hub_genes_barplot.png" alt="Figure 3: Top 12 Hub Genes Ranked by Live STRING v12.0 Degree Centrality."><figcaption>Figure 3: Top 12 Hub Genes Ranked by Live STRING v12.0 Degree Centrality.</figcaption></figure>
-<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/network/kegg_bubble_plot.png" alt="Figure 4: Live STRING v12.0 KEGG Enrichment Bubble Plot (FDR < 0.05)."><figcaption>Figure 4: Live STRING v12.0 KEGG Enrichment Bubble Plot (FDR < 0.05).</figcaption></figure>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/Documents/Projects/CD36 FFAR4 GLP1 Discovery/results/network/ppi_network_graph.png" alt="Figure 3: Stage 1 Pure Empirical Live STRING v12.0 PPI Network Across Unspiked 22 ChEMBL–OpenTargets Overlap Genes (74 Edges)."><figcaption>Figure 3: Stage 1 Pure Empirical Live STRING v12.0 PPI Network Across Unspiked 22 ChEMBL–OpenTargets Overlap Genes (74 Edges).</figcaption></figure>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/Documents/Projects/CD36 FFAR4 GLP1 Discovery/results/network/hub_genes_barplot.png" alt="Figure 4: Top 12 Pure Empirical Hub Genes Ranked by Live STRING v12.0 Degree Centrality."><figcaption>Figure 4: Top 12 Pure Empirical Hub Genes Ranked by Live STRING v12.0 Degree Centrality.</figcaption></figure>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/Documents/Projects/CD36 FFAR4 GLP1 Discovery/results/network/kegg_bubble_plot.png" alt="Figure 5: Pure Empirical Stage 1 Live STRING v12.0 KEGG Enrichment Bubble Plot (FDR < 0.05)."><figcaption>Figure 5: Pure Empirical Stage 1 Live STRING v12.0 KEGG Enrichment Bubble Plot (FDR < 0.05).</figcaption></figure>
 <hr />
 <h2 id="33-validation-hungarian-redocking-exh12-convergence-and-chembl5339-roc-auc">3.3 Validation: Hungarian Redocking, <code>exh=12</code> Convergence, and ChEMBL5339 ROC-AUC</h2>
 <ol>
-<li><strong>Dual-Receptor Redocking &amp; Exhaustiveness Convergence:</strong> Redocking <code>TUG-891</code> (<code>YN9 401</code>, salivary <code>pH 6.8</code>) into <code>altLoc</code>-clean <code>8G59</code> achieved a top binding free energy of <strong>$-11.58\text{ kcal/mol}$</strong> ($LE = 0.429$, $LLE = 3.09$) and a <strong>symmetry-corrected Hungarian heavy-atom RMSD of $0.864\text{ \AA}$</strong>, forming polar H-bonds with <strong><code>Glu204</code> ($3.15\text{ \AA}$), <code>Asn291</code> ($3.20\text{ \AA}$), <code>Asp208</code> ($3.22\text{ \AA}$)</strong>, and aromatic contacts with <code>Trp198</code> (<code>3.44 Å</code>), <code>Phe115</code> (<code>3.37 Å</code>), and <code>Ile287</code> (<code>3.35 Å</code>). Multi-exhaustiveness verification (<code>exhaustiveness = 12</code> vs <code>8</code>, <code>--seed 42</code>) confirmed exact pose convergence ($\text{RMSD} = 0.000\text{ \AA}$ for <code>TUG-891</code>, <code>Spilanthol</code>, <code>Phloretin</code>, and <code>Resveratrol</code>; <code>0.069 Å</code> and $\Delta\Delta G = 0.044\text{ kcal/mol}$ for <code>Naringenin</code>). On <code>5LGD</code>, flexible <code>16</code>-carbon <code>Palmitic acid (PLM-512)</code> achieved $\Delta G = -6.13\text{ kcal/mol}$ ($LE = 0.341$, Hungarian RMSD $= 3.098\text{ \AA}$ across the elongated <code>17 Å</code> lipid channel).</li>
-<li><strong>Empirical ChEMBL5339 ROC-AUC Benchmark:</strong> Docking <code>15</code> experimental FFAR4 agonists ($\text{pChEMBL} \ge 6.5$, mean $\Delta G = -10.36\text{ kcal/mol}$) against <code>15</code> MW-matched ChEMBL inactives ($p_{\text{MW}} = 0.941$, mean $\Delta G = -9.41\text{ kcal/mol}$) achieved <strong><code>ROC-AUC = 0.733</code></strong> ($EF_{20\%} = 1.67\times$, Mann–Whitney $p = 0.0155$) by affinity and <strong><code>ROC-AUC = 0.756</code></strong> ($p = 0.0090$) by <strong>Ligand Efficiency ($LE$)</strong>—statistically confirming that $LE$ filtering sharpens receptor discrimination (Figure 9).</li>
+<li><strong>Dual-Receptor Redocking &amp; Exhaustiveness Convergence:</strong> Redocking <code>TUG-891</code> (<code>YN9 401</code>, salivary <code>pH 6.8</code>) into <code>altLoc</code>-clean <code>8G59</code> achieved a top binding free energy of <strong>$-11.58\text{ kcal/mol}$</strong> ($LE = 0.429$, $LLE = 3.09$) and a <strong>symmetry-corrected Hungarian heavy-atom RMSD of $0.864\text{ \AA}$</strong>, forming donor-verified polar H-bonds with <strong><code>Asn291</code> ($3.20\text{ \AA}$, sc), <code>Leu288</code> ($3.37\text{ \AA}$, bb-NH), <code>Trp198</code> ($3.44\text{ \AA}$, sc)</strong> alongside close pocket contacts with <code>Glu204</code> (<code>3.15 Å</code>), <code>Asp208</code> (<code>3.22 Å</code>), <code>Ile287</code> (<code>3.35 Å</code>), and <code>Phe115</code> (<code>3.37 Å</code>). Multi-exhaustiveness verification (<code>exhaustiveness = 12</code> vs <code>8</code>, <code>--seed 42</code>) confirmed exact pose convergence ($\text{RMSD} = 0.000\text{ \AA}$ for <code>TUG-891</code>, <code>Spilanthol</code>, <code>Phloretin</code>, and <code>Resveratrol</code>; <code>0.069 Å</code> and $\Delta\Delta G = 0.044\text{ kcal/mol}$ for <code>Naringenin</code>). On <code>5LGD</code>, flexible <code>16</code>-carbon <code>Palmitic acid (PLM-512)</code> achieved $\Delta G = -6.13\text{ kcal/mol}$ ($LE = 0.341$, Hungarian RMSD $= 3.098\text{ \AA}$ across the elongated <code>17 Å</code> lipid channel).</li>
+<li><strong>Empirical ChEMBL5339 ROC-AUC Benchmark:</strong> Docking <code>15</code> experimental FFAR4 agonists ($\text{pChEMBL} \ge 6.5$, mean $\Delta G = -10.36\text{ kcal/mol}$) against <code>15</code> MW-matched ChEMBL inactives ($p_{\text{MW}} = 0.941$, mean $\Delta G = -9.41\text{ kcal/mol}$) achieved <strong><code>ROC-AUC = 0.733</code></strong> ($EF_{20\%} = 1.67\times$, Mann–Whitney $p = 0.0155$) by affinity and <strong><code>ROC-AUC = 0.756</code></strong> ($p = 0.0090$) by <strong>Ligand Efficiency ($LE$)</strong>—statistically confirming that $LE$ filtering sharpens receptor discrimination (Figure 6).</li>
 </ol>
-<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/figures/fig_roc_validation_ffar4.png" alt="Figure 9: Empirical Benchmarking on 30 Size-Matched ChEMBL5339 FFAR4 Actives vs. Inactives Demonstrating Improved Discrimination Using Ligand Efficiency (ROC-AUC = 0.756, p = 0.0090)."><figcaption>Figure 9: Empirical Benchmarking on 30 Size-Matched ChEMBL5339 FFAR4 Actives vs. Inactives Demonstrating Improved Discrimination Using Ligand Efficiency (ROC-AUC = 0.756, p = 0.0090).</figcaption></figure>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/Documents/Projects/CD36 FFAR4 GLP1 Discovery/results/figures/fig_roc_validation_ffar4.png" alt="Figure 6: Empirical Benchmarking on 30 Size-Matched ChEMBL5339 FFAR4 Actives vs. Inactives Demonstrating Improved Discrimination Using Ligand Efficiency (ROC-AUC = 0.756, p = 0.0090)."><figcaption>Figure 6: Empirical Benchmarking on 30 Size-Matched ChEMBL5339 FFAR4 Actives vs. Inactives Demonstrating Improved Discrimination Using Ligand Efficiency (ROC-AUC = 0.756, p = 0.0090).</figcaption></figure>
 <hr />
 <h2 id="34-screening-outcomes-phe115-steric-clash-proof-and-3d-polar-h-bond-architecture">3.4 Screening Outcomes, <code>Phe115</code> Steric Clash Proof, and 3D Polar H-Bond Architecture</h2>
-<p>Tables 3 and 4 (<code>results/molecular_docking_results.csv</code>, <code>results/docked_pose_residue_contacts.csv</code>; Figure 6) resolve the entire 22-ligand hierarchy cleanly.</p>
+<p>Tables 3 and 4 (<code>results/molecular_docking_results.csv</code>, <code>results/docked_pose_residue_contacts.csv</code>; Figure 7) resolve the entire 22-ligand hierarchy cleanly.</p>
 <table>
 <thead>
 <tr>
@@ -966,7 +974,7 @@
 </tr>
 </tbody>
 </table>
-<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/figures/figure6_binding_affinities_radar_bar.png" alt="Figure 6: (A) Deterministic Salivary-pH (6.8) Dual-Receptor Binding Affinities. (B) Ligand Efficiency (LE >= 0.30) vs. Heavy-Atom Filter Demonstrating Triterpenoid Disqualification."><figcaption>Figure 6: (A) Deterministic Salivary-pH (6.8) Dual-Receptor Binding Affinities. (B) Ligand Efficiency (LE >= 0.30) vs. Heavy-Atom Filter Demonstrating Triterpenoid Disqualification.</figcaption></figure>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/Documents/Projects/CD36 FFAR4 GLP1 Discovery/results/figures/figure6_binding_affinities_radar_bar.png" alt="Figure 7: (A) Deterministic Salivary-pH (6.8) Dual-Receptor Binding Affinities. (B) Ligand Efficiency (LE >= 0.30) vs. Heavy-Atom Filter Demonstrating Triterpenoid Disqualification."><figcaption>Figure 7: (A) Deterministic Salivary-pH (6.8) Dual-Receptor Binding Affinities. (B) Ligand Efficiency (LE >= 0.30) vs. Heavy-Atom Filter Demonstrating Triterpenoid Disqualification.</figcaption></figure>
 <table>
 <thead>
 <tr>
@@ -980,72 +988,72 @@
 <tbody>
 <tr>
 <td style="text-align: left;"><strong>TUG-891</strong></td>
-<td style="text-align: left;"><code>GLU204</code> (3.15), <code>ASN291</code> (3.20), <code>ASP208</code> (3.22)</td>
-<td style="text-align: left;"><code>ILE126</code> (3.28), <code>ILE287</code> (3.35), <code>PHE115</code> (3.37)</td>
-<td style="text-align: left;"><code>ASN118</code> (3.01), <code>THR207</code> (3.11)</td>
+<td style="text-align: left;"><code>ASN291</code> (3.20, sc), <code>LEU288</code> (3.37, bb-NH), <code>TRP198</code> (3.44, sc)</td>
+<td style="text-align: left;"><code>GLU204</code> (3.15), <code>ASP208</code> (3.22), <code>ILE126</code> (3.28), <code>ILE287</code> (3.35)</td>
+<td style="text-align: left;"><code>ASN118</code> (3.01, sc), <code>THR207</code> (3.11, sc)</td>
 <td style="text-align: left;"><code>LEU200</code> (2.81), <code>PHE201</code> (3.07), <code>LYS334</code> (3.11)</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Naringenin</strong></td>
 <td style="text-align: left;">Hydrophobic/$\pi$-stacking cradle</td>
-<td style="text-align: left;"><code>ILE284</code> (3.12), <code>THR119</code> (3.28), <code>PHE115</code> (3.52)</td>
-<td style="text-align: left;"><code>ALA141</code> (2.77), <code>ARG337</code> (2.80), <code>GLU335</code> (3.49)</td>
+<td style="text-align: left;"><code>ILE284</code> (3.12), <code>THR119</code> (3.28), <code>ILE126</code> (3.30)</td>
+<td style="text-align: left;"><code>ALA141</code> (2.77, bb-O), <code>ARG337</code> (2.80, sc), <code>ALA145</code> (3.01, bb-NH), <code>THR195</code> (3.44, sc)</td>
 <td style="text-align: left;"><code>ALA141</code> (2.77), <code>ARG337</code> (2.80), <code>TYR149</code> (3.40)</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Phloretin</strong></td>
-<td style="text-align: left;"><strong><code>THR119</code> (2.72 Å)</strong></td>
+<td style="text-align: left;"><strong><code>THR119</code> (2.72 Å, sc)</strong></td>
 <td style="text-align: left;"><code>VAL307</code> (3.20), <code>THR310</code> (3.21), <code>ILE280</code> (3.24)</td>
-<td style="text-align: left;"><code>TYR149</code> (2.87), <code>LEU140</code> (2.94), <code>GLY199</code> (3.18)</td>
+<td style="text-align: left;"><code>TYR149</code> (2.87, sc), <code>LEU140</code> (2.94, bb-O), <code>ALA141</code> (2.94, bb-NH), <code>GLY199</code> (3.18, bb-NH)</td>
 <td style="text-align: left;"><code>ARG337</code> (2.93), <code>LEU391</code> (2.98), <code>VAL198</code> (3.03)</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Resveratrol</strong></td>
 <td style="text-align: left;">Hydrophobic/$\pi$-stacking cradle</td>
 <td style="text-align: left;"><code>PHE115</code> (3.48), <code>ASP208</code> (3.48), <code>TRP207</code> (3.51)</td>
-<td style="text-align: left;"><code>ARG337</code> (2.93), <code>ASP270</code> (2.95), <code>GLY199</code> (3.06)</td>
+<td style="text-align: left;"><code>ARG337</code> (2.93, sc), <code>ASP270</code> (2.95, bb-O), <code>GLY199</code> (3.06, bb-O)</td>
 <td style="text-align: left;"><code>ILE341</code> (3.05), <code>LEU391</code> (3.13), <code>PHE201</code> (3.17)</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Spilanthol</strong></td>
-<td style="text-align: left;"><strong><code>THR119</code> (2.94 Å)</strong></td>
+<td style="text-align: left;"><strong><code>THR119</code> (2.94 Å, sc)</strong></td>
 <td style="text-align: left;"><code>LEU173</code> (3.42), <code>PHE115</code> (3.47), <code>ASP208</code> (3.53)</td>
-<td style="text-align: left;"><code>GLY199</code> (3.19)</td>
+<td style="text-align: left;"><code>GLY199</code> (3.19, bb-NH)</td>
 <td style="text-align: left;"><code>ARG337</code> (3.12), <code>ALA144</code> (3.28), <code>VAL198</code> (3.29)</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Pinolenic acid</strong></td>
-<td style="text-align: left;"><code>ILE284</code> (3.34), <code>ASP208</code> (3.42)</td>
-<td style="text-align: left;"><code>PHE115</code> (3.54), <code>MET118</code> (3.54), <code>ILE280</code> (3.58)</td>
-<td style="text-align: left;"><code>LEU200</code> (3.50)</td>
-<td style="text-align: left;"><code>ARG337</code> (2.98), <code>VAL198</code> (3.42), <code>GLY199</code> (3.49)</td>
+<td style="text-align: left;">Hydrophobic/$\pi$-stacking cradle</td>
+<td style="text-align: left;"><code>ILE284</code> (3.34), <code>ASP208</code> (3.42), <code>PHE115</code> (3.54)</td>
+<td style="text-align: left;">Hydrophobic/$\pi$-stacking cradle</td>
+<td style="text-align: left;"><code>ARG337</code> (2.98), <code>ALA145</code> (3.37), <code>VAL198</code> (3.42)</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>10-HOE (HYA)</strong></td>
-<td style="text-align: left;"><strong><code>THR119</code> (2.78 Å)</strong>, <code>ASP208</code> (3.34)</td>
-<td style="text-align: left;"><code>ILE284</code> (3.33), <code>MET118</code> (3.49), <code>PHE115</code> (3.52)</td>
-<td style="text-align: left;"><code>LYS334</code> (3.12), <code>LEU200</code> (3.29)</td>
+<td style="text-align: left;"><strong><code>THR119</code> (2.78 Å, sc)</strong></td>
+<td style="text-align: left;"><code>ILE284</code> (3.33), <code>ASP208</code> (3.34), <code>MET118</code> (3.49)</td>
+<td style="text-align: left;"><code>LYS334</code> (3.12, sc), <code>LEU200</code> (3.29, bb-O)</td>
 <td style="text-align: left;"><code>ASP270</code> (3.31), <code>PHE201</code> (3.45), <code>LEU416</code> (3.48)</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Oleanolic acid</strong></td>
-<td style="text-align: left;">Repulsive clash regime (<code>+0.03 kcal/mol</code>)</td>
+<td style="text-align: left;"><code>ASP208</code> (2.78, sc), <code>THR119</code> (3.08, sc) — <strong>Repulsive (+0.03)</strong></td>
 <td style="text-align: left;"><strong><code>PHE115</code> (1.70 Å clash), <code>ILE280</code> (2.17 Å clash)</strong></td>
-<td style="text-align: left;"><code>LYS231</code> (2.86)</td>
+<td style="text-align: left;"><code>LYS231</code> (2.86, sc)</td>
 <td style="text-align: left;"><code>PRO203</code> (3.16), <code>THR207</code> (3.39), <code>PHE201</code> (3.45)</td>
 </tr>
 </tbody>
 </table>
-<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/figures/figure8_redocking_validation.png" alt="Figure 8: (A) Egan/BOILED-Egg Passive GI & BBB Permeation Profile Showing Brick-Dust Exclusion of Ursolic/Oleanolic/Corosolic Acids. (B) Delaney ESOL Salivary Solubility vs. FFAR4 Lipophilic Ligand Efficiency (LLE)."><figcaption>Figure 8: (A) Egan/BOILED-Egg Passive GI & BBB Permeation Profile Showing Brick-Dust Exclusion of Ursolic/Oleanolic/Corosolic Acids. (B) Delaney ESOL Salivary Solubility vs. FFAR4 Lipophilic Ligand Efficiency (LLE).</figcaption></figure>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/Documents/Projects/CD36 FFAR4 GLP1 Discovery/results/figures/figure8_redocking_validation.png" alt="Figure 8: (A) Egan/BOILED-Egg Passive GI & BBB Permeation Profile Showing Brick-Dust Exclusion of Ursolic/Oleanolic/Corosolic Acids. (B) Delaney ESOL Salivary Solubility vs. FFAR4 Lipophilic Ligand Efficiency (LLE)."><figcaption>Figure 8: (A) Egan/BOILED-Egg Passive GI & BBB Permeation Profile Showing Brick-Dust Exclusion of Ursolic/Oleanolic/Corosolic Acids. (B) Delaney ESOL Salivary Solubility vs. FFAR4 Lipophilic Ligand Efficiency (LLE).</figcaption></figure>
 <hr />
 <h1 id="4-discussion-biopharmaceutic-translation">4. Discussion &amp; Biopharmaceutic Translation</h1>
 <h2 id="41-direct-biophysical-disproof-of-triterpenoids-vs-validation-of-tier-1a-leads">4.1 Direct Biophysical Disproof of Triterpenoids vs. Validation of Tier-1A Leads</h2>
 <p>Removing duplicate <code>altLoc B</code> conformations (<code>Phe115</code>) and modeling physiological <code>pH 6.8</code> receptor <code>HD</code> donors yielded crystal-grade validation (<code>0.864 Å</code> Hungarian RMSD on <code>TUG-891</code>; <code>ROC-AUC = 0.756</code> on <code>CHEMBL5339</code> by <code>LE</code>) and exposed a decisive structural mechanism: <strong>rigid pentacyclic triterpenoids cannot enter the active orthosteric pocket of FFAR4 (<code>8G59</code>) without colliding into <code>Phe115</code> (<code>1.70–2.05 Å</code>) and <code>Ile280</code> (<code>2.17 Å</code>)</strong>, scoring <code>-1.12 to +1.49 kcal/mol</code> (<code>LE ≤ 0.034</code>). Meanwhile, they score <code>-7.02 to -7.82 kcal/mol</code> inside the wider CD36 (<code>5LGD</code>) tunnel purely via lipophilic contact area (<code>LE = 0.195–0.236</code>, <code>LLE &lt; 0</code>), functioning strictly as insoluble CD36 blockers rather than dual lingual agonists.</p>
-<p>In contrast, our compact Tier-1A leads (<strong>Naringenin</strong>: $\Delta G_{\text{FFAR4}} = -9.27$, $LE = 0.464$, $LLE = 4.29$; <strong>Resveratrol</strong>: $-8.53$, $LE = 0.502$; <strong>Phloretin</strong>: $-8.24$, $LE = 0.412$; <strong>Pinolenic acid</strong>: $-7.92$, $LE = 0.396$; <strong>6-Gingerol</strong>: $-7.85$, $LE = 0.374$; <strong>Spilanthol</strong>: $-7.65$, $LE = 0.478$; <strong>Pellitorine</strong>: $-7.38$, $LE = 0.461$) form zero steric clashes (<code>0</code>), establish specific polar H-bonds to <strong><code>Thr119</code> (<code>2.72–2.94 Å</code>)</strong> and <strong><code>Asp208</code> (<code>3.26–3.42 Å</code>)</strong> in FFAR4 while engaging the CD36 <code>PLM-512</code> <code>Arg337</code>/<code>Lys334</code>/<code>Gly199</code> translocation gate reversibly (<code>-6.19 to -7.25 kcal/mol</code>, matching endogenous <code>Palmitic acid</code>, <code>Oleic acid</code>, and <code>OEA</code>; Figure 7). Equally important, catechol polyphenol hits (<code>Chlorogenic acid</code>, <code>Luteolin</code>, <code>Quercetin</code>) are flagged explicitly (<code>1 Alert: catechol_A(92)</code>) so downstream wet-lab assays include reducing/detergent controls against PAINS aggregation [21].</p>
-<figure class="article-figure"><img src="file:///C:/Users/Abdullah/.gemini/antigravity/scratch/cd36_ffar4_glp1_study/results/figures/figure7_lingual_delivery_circuit.png" alt="Figure 7: Corrected Lingual Chaperone-GPCR Biophysical Circuit Incorporating PAINS/Brenk Safety Filtering and Validated Salivary-pH Pocket Architecture."><figcaption>Figure 7: Corrected Lingual Chaperone-GPCR Biophysical Circuit Incorporating PAINS/Brenk Safety Filtering and Validated Salivary-pH Pocket Architecture.</figcaption></figure>
+<p>In contrast, our compact Tier-1A leads (<strong>Naringenin</strong>: $\Delta G_{\text{FFAR4}} = -9.27$, $LE = 0.464$, $LLE = 4.29$; <strong>Resveratrol</strong>: $-8.53$, $LE = 0.502$; <strong>Phloretin</strong>: $-8.24$, $LE = 0.412$; <strong>Pinolenic acid</strong>: $-7.92$, $LE = 0.396$; <strong>6-Gingerol</strong>: $-7.85$, $LE = 0.374$; <strong>Spilanthol</strong>: $-7.65$, $LE = 0.478$; <strong>Pellitorine</strong>: $-7.38$, $LE = 0.461$) form zero steric clashes (<code>0</code>), establish specific polar H-bonds to <strong><code>Thr119</code> (<code>2.72–2.94 Å</code>)</strong> and <strong><code>Asp208</code> (<code>3.26–3.42 Å</code>)</strong> in FFAR4 while engaging the CD36 <code>PLM-512</code> <code>Arg337</code>/<code>Lys334</code>/<code>Gly199</code> translocation gate reversibly (<code>-6.19 to -7.25 kcal/mol</code>, matching endogenous <code>Palmitic acid</code>, <code>Oleic acid</code>, and <code>OEA</code>; Figure 9). Equally important, catechol polyphenol hits (<code>Chlorogenic acid</code>, <code>Luteolin</code>, <code>Quercetin</code>) are flagged explicitly (<code>1 Alert: catechol_A(92)</code>) so downstream wet-lab assays include reducing/detergent controls against PAINS aggregation [21].</p>
+<figure class="article-figure"><img src="file:///C:/Users/Abdullah/Documents/Projects/CD36 FFAR4 GLP1 Discovery/results/figures/figure7_lingual_delivery_circuit.png" alt="Figure 9: Corrected Lingual Chaperone-GPCR Biophysical Circuit Incorporating PAINS/Brenk Safety Filtering and Validated Salivary-pH Pocket Architecture."><figcaption>Figure 9: Corrected Lingual Chaperone-GPCR Biophysical Circuit Incorporating PAINS/Brenk Safety Filtering and Validated Salivary-pH Pocket Architecture.</figcaption></figure>
 <h2 id="42-formulation-feasibility-study-limitations">4.2 Formulation Feasibility &amp; Study Limitations</h2>
 <ol>
-<li><strong>Salivary Dissolution Advantage:</strong> With ESOL solubilities of $359\text{ }\mu\text{g/mL}$ (<strong>Spilanthol</strong>), $301\text{ }\mu\text{g/mL}$ (<strong>Pellitorine</strong>), $181\text{ }\mu\text{g/mL}$ (<strong>Phloretin</strong>), and $88\text{ }\mu\text{g/mL}$ (<strong>Naringenin</strong>), co-formulation in a medicated chewing gum or sublingual lozenge using standard direct-compression/Poloxamer 188 or 1:1 $\beta$-cyclodextrin dispersion achieves micromolar salivary exposure within a 10–15 min chew verified in $\text{pH } 6.8$ simulated saliva via UV-Vis dissolution testing.</li>
+<li><strong>Salivary Dissolution Hypothesis:</strong> With ESOL solubilities of $359\text{ }\mu\text{g/mL}$ (<strong>Spilanthol</strong>), $301\text{ }\mu\text{g/mL}$ (<strong>Pellitorine</strong>), $181\text{ }\mu\text{g/mL}$ (<strong>Phloretin</strong>), and $88\text{ }\mu\text{g/mL}$ (<strong>Naringenin</strong>), co-formulation in a medicated chewing gum or sublingual lozenge using standard direct-compression/Poloxamer 188 or 1:1 $\beta$-cyclodextrin dispersion is hypothesized to achieve micromolar salivary exposure during a 10–15 min chew, pending experimental pH 6.8 simulated-saliva UV-Vis dissolution verification.</li>
 <li><strong>Computational Scope &amp; Limitations:</strong> Static rigid-receptor docking does not capture induced-fit helix rearrangements or phospholipid membrane solvation; because FFAR4 (<code>8G59</code>) is a 7TM GPCR, future all-atom molecular dynamics trajectories require <strong>POPC membrane bilayer embedding</strong> prior to experimental $\text{Ca}^{2+}$ mobilization (FLIPR) and incretin release assays.</li>
 </ol>
 <hr />

@@ -168,7 +168,7 @@ def parse_qmd(qmd_path, bib_entries, is_solo=False):
     
     if is_solo:
         metadata = {
-            "title": "Structure-Based Identification of Lingual FFAR4 (GPR120) Agonists and Reversible CD36 Lipid-Chaperone Modulators to Sustain Endogenous GLP-1 Secretion: Integrated Network Pharmacology, Deterministic Molecular Docking, and Salivary Biopharmaceutic Modeling",
+            "title": "Structure-Based Identification of Lingual FFAR4 (GPR120) Agonists and Reversible CD36 Lipid-Chaperone Modulators to Sustain Endogenous GLP-1 Secretion: Integrated Empirical Network Pharmacology, Deterministic Salivary-pH Docking, ChEMBL ROC-AUC Benchmarking, and Ligand-Efficiency Filtering",
             "authors": [
                 {
                     "name": "Muhammad Abdullah Khan",
@@ -202,7 +202,7 @@ def parse_qmd(qmd_path, bib_entries, is_solo=False):
         body = re.sub(r'# 6\. Declarations.*?(?=\n# References|\Z)', f"# 6. Declarations {{.unnumbered}}\n\n{solo_declarations}\n\n", body, flags=re.DOTALL)
     else:
         metadata = {
-            "title": "Structure-Based Identification of Lingual FFAR4 (GPR120) Agonists and Reversible CD36 Lipid-Chaperone Modulators to Sustain Endogenous GLP-1 Secretion: Integrated Network Pharmacology, Deterministic Molecular Docking, and Salivary Biopharmaceutic Modeling",
+            "title": "Structure-Based Identification of Lingual FFAR4 (GPR120) Agonists and Reversible CD36 Lipid-Chaperone Modulators to Sustain Endogenous GLP-1 Secretion: Integrated Empirical Network Pharmacology, Deterministic Salivary-pH Docking, ChEMBL ROC-AUC Benchmarking, and Ligand-Efficiency Filtering",
             "authors": [
                 {"name": "Muhammad Abdullah Khan", "affil": "1", "role": "First Author & Principal Investigator", "email": "abdullah.khan.pharmd@gmail.com"},
                 {"name": "Dr. Abid Mahmood", "affil": "1", "role": "Co-Supervisor (Medicinal Chemistry & Molecular Modeling)", "corr": True, "email": "abid.mahmood@gcuf.edu.pk"},

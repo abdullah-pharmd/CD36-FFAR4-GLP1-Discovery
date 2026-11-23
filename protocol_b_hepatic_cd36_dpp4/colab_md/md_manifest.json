@@ -1,0 +1,66 @@
+[
+  {
+    "name": "4A5S_N7F901",
+    "sdf": "4A5S_N7F901_pH74.sdf",
+    "heavy_atoms": 37,
+    "total_atoms": 67,
+    "formal_charge": 1,
+    "receptor_pdb": "4A5S_DPP4_clean.pdb"
+  },
+  {
+    "name": "4A5S_Teneligliptin",
+    "sdf": "4A5S_Teneligliptin_pH74.sdf",
+    "heavy_atoms": 30,
+    "total_atoms": 62,
+    "formal_charge": 2,
+    "receptor_pdb": "4A5S_DPP4_clean.pdb"
+  },
+  {
+    "name": "4A5S_Naringenin",
+    "sdf": "4A5S_Naringenin_pH74.sdf",
+    "heavy_atoms": 20,
+    "total_atoms": 32,
+    "formal_charge": 0,
+    "receptor_pdb": "4A5S_DPP4_clean.pdb"
+  },
+  {
+    "name": "4A5S_Berberine",
+    "sdf": "4A5S_Berberine_pH74.sdf",
+    "heavy_atoms": 25,
+    "total_atoms": 43,
+    "formal_charge": 1,
+    "receptor_pdb": "4A5S_DPP4_clean.pdb"
+  },
+  {
+    "name": "5LGD_PLM512",
+    "sdf": "5LGD_PLM512_pH74.sdf",
+    "heavy_atoms": 18,
+    "total_atoms": 49,
+    "formal_charge": -1,
+    "receptor_pdb": "5LGD_CD36_clean.pdb"
+  },
+  {
+    "name": "5LGD_Linagliptin",
+    "sdf": "5LGD_Linagliptin_pH74.sdf",
+    "heavy_atoms": 35,
+    "total_atoms": 64,
+    "formal_charge": 1,
+    "receptor_pdb": "5LGD_CD36_clean.pdb"
+  },
+  {
+    "name": "5LGD_Teneligliptin",
+    "sdf": "5LGD_Teneligliptin_pH74.sdf",
+    "heavy_atoms": 30,
+    "total_atoms": 62,
+    "formal_charge": 2,
+    "receptor_pdb": "5LGD_CD36_clean.pdb"
+  },
+  {
+    "name": "5LGD_Naringenin",
+    "sdf": "5LGD_Naringenin_pH74.sdf",
+    "heavy_atoms": 20,
+    "total_atoms": 32,
+    "formal_charge": 0,
+    "receptor_pdb": "5LGD_CD36_clean.pdb"
+  }
+]

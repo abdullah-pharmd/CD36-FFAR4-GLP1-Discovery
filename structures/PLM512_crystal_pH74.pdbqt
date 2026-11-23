@@ -1,0 +1,60 @@
+REMARK  Name = C:\Users\Abdullah\Documents\Projects\CD36 FFAR4 GLP1 Discovery\structures\PLM512_crystal.pdb
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_4
+REMARK    2  A    between atoms: C_4  and  C_5
+REMARK    3  A    between atoms: C_5  and  C_6
+REMARK    4  A    between atoms: C_6  and  C_7
+REMARK    5  A    between atoms: C_8  and  C_9
+REMARK    6  A    between atoms: C_10  and  C_11
+REMARK    7  A    between atoms: C_11  and  C_12
+REMARK    8  A    between atoms: C_12  and  C_13
+REMARK    9  A    between atoms: C_13  and  C_14
+REMARK   10  A    between atoms: C_15  and  C_16
+REMARK   11  A    between atoms: C_16  and  C_17
+REMARK   12  A    between atoms: C_17  and  C_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -39.904 -33.416  37.070  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1     -40.926 -32.895  36.068  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   4
+ATOM      3  C   UNL     1     -40.422 -33.928  39.612  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1     -40.396 -34.439  38.139  0.00  0.00    +0.000 C 
+BRANCH   3   5
+ATOM      5  C   UNL     1     -40.776 -34.911  40.745  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  C   UNL     1     -42.228 -35.415  40.963  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  C   UNL     1     -42.688 -35.508  42.428  0.00  0.00    +0.000 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -44.173 -35.411  42.701  0.00  0.00    +0.000 C 
+ATOM      9  O   UNL     1     -44.655 -35.489  43.826  0.00  0.00    +0.000 OA
+ATOM     10  O   UNL     1     -44.926 -35.228  41.643  0.00  0.00    +0.000 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+ENDBRANCH   1   4
+BRANCH   2  11
+ATOM     11  C   UNL     1     -40.352 -32.094  34.890  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  C   UNL     1     -41.210 -32.169  33.606  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1     -40.785 -31.284  32.413  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1     -41.896 -31.061  31.335  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1     -41.611 -30.023  30.249  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  C   UNL     1     -42.568 -30.038  29.046  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C   UNL     1     -42.081 -29.189  27.880  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1     -41.345 -29.966  26.816  0.00  0.00    +0.000 C 
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   2  11
+TORSDOF 11

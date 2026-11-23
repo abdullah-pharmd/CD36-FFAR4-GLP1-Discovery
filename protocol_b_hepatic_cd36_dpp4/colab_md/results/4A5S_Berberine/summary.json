@@ -1,0 +1,18 @@
+{
+  "Complex": "4A5S_Berberine",
+  "Production_ns": 50.0,
+  "N_Frames": 500,
+  "Prot_CA_RMSD_Mean_A": 1.424,
+  "Prot_CA_RMSD_SD_A": 0.095,
+  "Lig_Heavy_RMSD_Mean_A": 5.777,
+  "Lig_Heavy_RMSD_SD_A": 2.029,
+  "Prot_Rg_Mean_A": 27.165,
+  "Prot_Rg_SD_A": 0.064,
+  "MMGBSA_dG_Mean_kcal_mol": -23.2,
+  "MMGBSA_dG_SD_kcal_mol": 4.09,
+  "MMGBSA_dG_SEM_kcal_mol": 0.26,
+  "MMGBSA_dG_SA_Mean_kcal_mol": -3.35,
+  "Top_Direct_HBonds_Eq": "ASN710 (48.8%); TYR752 (13.6%); ASN710 (10.0%)",
+  "Top_Water_Bridges_Eq": "ASP663 (44.0%); ASN710 (32.0%); TYR547 (24.0%); GLU205 (22.4%)",
+  "Elapsed_Minutes": 167.66
+}

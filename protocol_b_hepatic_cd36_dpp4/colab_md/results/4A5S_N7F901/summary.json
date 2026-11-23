@@ -1,0 +1,18 @@
+{
+  "Complex": "4A5S_N7F901",
+  "Production_ns": 50.0,
+  "N_Frames": 500,
+  "Prot_CA_RMSD_Mean_A": 1.942,
+  "Prot_CA_RMSD_SD_A": 0.195,
+  "Lig_Heavy_RMSD_Mean_A": 3.284,
+  "Lig_Heavy_RMSD_SD_A": 0.417,
+  "Prot_Rg_Mean_A": 27.366,
+  "Prot_Rg_SD_A": 0.088,
+  "MMGBSA_dG_Mean_kcal_mol": -61.66,
+  "MMGBSA_dG_SD_kcal_mol": 5.95,
+  "MMGBSA_dG_SEM_kcal_mol": 0.38,
+  "MMGBSA_dG_SA_Mean_kcal_mol": -4.8,
+  "Top_Direct_HBonds_Eq": "TYR547 (85.2%); TYR631 (9.2%); ARG125 (5.6%)",
+  "Top_Water_Bridges_Eq": "ASN710 (91.2%); ASP663 (86.4%); GLU205 (61.6%); ARG125 (56.0%)",
+  "Elapsed_Minutes": 447.87
+}

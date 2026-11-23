@@ -1,0 +1,18 @@
+Receptor,Chain,Residue,ResName,ResNum,Is_Pocket_Focus,Model_pKa,PROPKA_pKa,Delta_pKa,Buried_Pct,State_at_pH74_Model,State_at_pH74_PROPKA,Protonation_Flip_vs_Model
+4A5S_DPP4,A,ARG125,ARG,125,True,12.5,15.1,2.6,65.7,Protonated (+1),Protonated (+1),False
+4A5S_DPP4,A,GLU205,GLU,205,True,4.5,3.9,-0.6,87.9,Deprotonated (-1),Deprotonated (-1),False
+4A5S_DPP4,A,GLU206,GLU,206,True,4.5,6.23,1.73,100.0,Deprotonated (-1),Deprotonated (-1),False
+4A5S_DPP4,A,TYR547,TYR,547,True,10.0,13.11,3.11,98.2,"Protonated (0, Neutral)","Protonated (0, Neutral)",False
+4A5S_DPP4,A,TYR631,TYR,631,True,10.0,19.6,9.6,100.0,"Protonated (0, Neutral)","Protonated (0, Neutral)",False
+4A5S_DPP4,A,TYR662,TYR,662,True,10.0,20.36,10.36,100.0,"Protonated (0, Neutral)","Protonated (0, Neutral)",False
+4A5S_DPP4,A,ASP708,ASP,708,True,3.8,0.87,-2.93,100.0,Deprotonated (-1),Deprotonated (-1),False
+4A5S_DPP4,A,HIS740,HIS,740,True,6.5,8.0,1.5,100.0,"Deprotonated (0, Neutral)",Protonated (+1),True
+4A5S_DPP4,A,TYR752,TYR,752,True,10.0,14.11,4.11,91.8,"Protonated (0, Neutral)","Protonated (0, Neutral)",False
+5LGD_CD36,A,ARG63,ARG,63,True,12.5,13.97,1.47,100.0,Protonated (+1),Protonated (+1),False
+5LGD_CD36,A,LYS164,LYS,164,True,10.5,10.42,-0.08,0.0,Protonated (+1),Protonated (+1),False
+5LGD_CD36,A,LYS231,LYS,231,True,10.5,10.26,-0.24,28.9,Protonated (+1),Protonated (+1),False
+5LGD_CD36,A,ASP270,ASP,270,True,3.8,2.07,-1.73,100.0,Deprotonated (-1),Deprotonated (-1),False
+5LGD_CD36,A,LYS334,LYS,334,True,10.5,9.23,-1.27,81.8,Protonated (+1),Protonated (+1),False
+5LGD_CD36,A,GLU335,GLU,335,True,4.5,4.4,-0.1,15.0,Deprotonated (-1),Deprotonated (-1),False
+5LGD_CD36,A,ARG337,ARG,337,True,12.5,11.7,-0.8,60.4,Protonated (+1),Protonated (+1),False
+5LGD_CD36,A,LYS385,LYS,385,True,10.5,10.76,0.26,100.0,Protonated (+1),Protonated (+1),False

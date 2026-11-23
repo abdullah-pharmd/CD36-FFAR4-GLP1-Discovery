@@ -1,6 +1,15 @@
 {
   "N7F_901_4A5S_dG": -10.71,
   "N7F_901_Hungarian_RMSD_A": 0.78,
-  "N7F_Polar_HBonds": "GLU206 (2.76 \u00c5), GLU205 (2.80 \u00c5), TYR662 (2.88 \u00c5), TYR631 (3.17 \u00c5), TYR547 (3.36 \u00c5)",
-  "N7F_Contacts": "GLU206 (2.76 \u00c5), GLU205 (2.80 \u00c5), TYR662 (2.88 \u00c5), SER630 (3.04 \u00c5), TYR631 (3.17 \u00c5), TYR547 (3.36 \u00c5), TYR666 (3.47 \u00c5)"
+  "N7F_901_Conv_RMSD_A": 0.0,
+  "N7F_Polar_HBonds": "GLU206 (2.76 \u00c5, sc), GLU205 (2.80 \u00c5, sc), TYR662 (2.88 \u00c5, sc), TYR631 (3.17 \u00c5, bb-NH)",
+  "N7F_Contacts": "SER630 (3.04 \u00c5), TYR547 (3.36 \u00c5), TYR666 (3.47 \u00c5), TRP629 (3.54 \u00c5), LYS554 (3.58 \u00c5), TRP627 (3.59 \u00c5), ASP545 (3.63 \u00c5)",
+  "PLM_512_5LGD_dG": -6.132,
+  "PLM_512_Hungarian_RMSD_A": 3.098,
+  "PLM_512_Conv_RMSD_A": 8.281,
+  "PLM_Polar_HBonds": "THR195 (2.98 \u00c5, bb-NH)",
+  "PLM_Contacts": "VAL198 (3.00 \u00c5), LEU200 (3.43 \u00c5), ARG337 (3.43 \u00c5), LEU140 (3.44 \u00c5), ALA141 (3.51 \u00c5), ALA144 (3.52 \u00c5), ILE341 (3.52 \u00c5)",
+  "N7F_901_CoM_Err_A": 0.329,
+  "PLM_512_Axis_Perp_Err_A": 0.156,
+  "PLM_512_XY_Radial_Err_A": 1.104
 }

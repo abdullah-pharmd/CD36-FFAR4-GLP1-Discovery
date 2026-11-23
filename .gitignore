@@ -10,8 +10,10 @@ private_reference_archive/
 GEMINI.md
 AGENTS.md
 PROJECT_HANDOFF.md
+handoff.md
 PROGRESS_SO_FAR.md
 .agents/
+.licenses/
 __pycache__/
 *.pyc
 .DS_Store
